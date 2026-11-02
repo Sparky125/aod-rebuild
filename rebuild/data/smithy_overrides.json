@@ -1,0 +1,11 @@
+{
+	"_how_to": "Written by the in-game bg editor (--bgeditor --sandbox), R14-22. Offsets ADDED to the shipped seats in main.gd — dx right, dy DOWN. \"smithy\" moves the blacksmith NPC off SMITHY_SEAT (smithy mapdata post + (43, 58), the R14-22(b) prefill included); \"sparks\" adds a residual to the anvil-spark emitter on top of the npc's dragged seat (base (30, -20) npc-relative). Missing key = that shipped seat. Delete this file (or zero the values) to restore the shipped seats. Guide: work/tmp_final14/BG_EDITOR_HOWTO.md.",
+	"smithy": {
+		"dx": 4.0,
+		"dy": 8.0
+	},
+	"sparks": {
+		"dx": 5.06,
+		"dy": -5.0
+	}
+}

@@ -1,0 +1,132 @@
+{
+	"gold_coin": {
+		"level_stat": [],
+		"texture": "texture/UI/game/coin",
+		"title": "gold_coin"
+	},
+	"horseman_shield": {
+		"level_stat": [],
+		"model": "mesh/objects/items/knight_shield.obj",
+		"texture": "texture/objects/items/swordsman_shield",
+		"title": "Horseman Shield"
+	},
+	"iron_bar": {
+		"level_stat": [],
+		"texture": "texture/UI/game/iron_bar",
+		"title": "iron_bar"
+	},
+	"skeleton_crossbow_head1": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_crossbow_head.obj",
+		"texture": "texture/objects/items/skeleton_head01",
+		"title": "Skeleton Crossbow Head 1"
+	},
+	"skeleton_crossbow_head2": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_crossbow_head.obj",
+		"texture": "texture/objects/items/skeleton_head02",
+		"title": "Skeleton Crossbow Head 2"
+	},
+	"skeleton_crossbow_head3": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_crossbow_head.obj",
+		"texture": "texture/objects/items/skeleton_head03",
+		"title": "Skeleton Crossbow Head 3"
+	},
+	"skeleton_crossbow_head4": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_crossbow_head.obj",
+		"texture": "texture/objects/items/skeleton_head04",
+		"title": "Skeleton Crossbow Head 4"
+	},
+	"skeleton_head1": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_head.obj",
+		"texture": "texture/objects/items/skeleton_head01",
+		"title": "Skeleton Head 1"
+	},
+	"skeleton_head2": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_head.obj",
+		"texture": "texture/objects/items/skeleton_head02",
+		"title": "Skeleton Head 2"
+	},
+	"skeleton_head3": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_head.obj",
+		"texture": "texture/objects/items/skeleton_head03",
+		"title": "Skeleton Head 3"
+	},
+	"skeleton_head4": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_head.obj",
+		"texture": "texture/objects/items/skeleton_head04",
+		"title": "Skeleton Head 4"
+	},
+	"skeleton_head5": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_head.obj",
+		"texture": "texture/objects/items/skeleton_head05",
+		"title": "Skeleton Head 5"
+	},
+	"skeleton_head6": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_head.obj",
+		"texture": "texture/objects/items/skeleton_head06",
+		"title": "Skeleton Head 6"
+	},
+	"skeleton_knight_shield": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_shield.obj",
+		"texture": "texture/objects/items/skeleton_shield06",
+		"title": "Skeleton Knight Shield"
+	},
+	"skeleton_shield1": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_shield.obj",
+		"texture": "texture/objects/items/skeleton_shield01",
+		"title": "Skeleton Shield 1"
+	},
+	"skeleton_shield2": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_shield.obj",
+		"texture": "texture/objects/items/skeleton_shield02",
+		"title": "Skeleton Shield 2"
+	},
+	"skeleton_shield3": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_shield.obj",
+		"texture": "texture/objects/items/skeleton_shield03",
+		"title": "Skeleton Shield 3"
+	},
+	"skeleton_shield4": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_shield.obj",
+		"texture": "texture/objects/items/skeleton_shield04",
+		"title": "Skeleton Shield 4"
+	},
+	"skeleton_shield5": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_shield.obj",
+		"texture": "texture/objects/items/skeleton_shield05",
+		"title": "Skeleton Shield 5"
+	},
+	"skeleton_shield6": {
+		"level_stat": [],
+		"model": "mesh/objects/items/skeleton_warrior_shield.obj",
+		"texture": "texture/objects/items/skeleton_shield06",
+		"title": "Skeleton Shield 6"
+	},
+	"swordsman_shield": {
+		"level_stat": [],
+		"model": "mesh/objects/items/swordsman_shield.obj",
+		"texture": "texture/objects/items/swordsman_shield",
+		"title": "Swordsman Shield"
+	},
+	"torchboy_fire_shield": {
+		"level_stat": [],
+		"scale": 0.9,
+		"texture": "texture/objects/units/effects/fire_sprite",
+		"title": "Torchboy Fire Shield"
+	}
+}

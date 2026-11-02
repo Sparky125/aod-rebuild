@@ -1,0 +1,2422 @@
+{
+ "archer_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell1.ogg",
+  "uri": "objects/units/death/soldier_yell1"
+ },
+ "archer_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell2.ogg",
+  "uri": "objects/units/death/soldier_yell2"
+ },
+ "archer_on_spawn": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_soldier_ill_bend_my_bow_to_your_will.ogg",
+  "uri": "objects/units/spawn/soldier_ill_bend_my_bow_to_your_will"
+ },
+ "armored_guard_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell1.ogg",
+  "uri": "objects/units/death/soldier_yell1"
+ },
+ "armored_guard_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell2.ogg",
+  "uri": "objects/units/death/soldier_yell2"
+ },
+ "armored_guard_on_spawn": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_soldier_what_a_piece_of_armor.ogg",
+  "uri": "objects/units/spawn/soldier_what_a_piece_of_armor"
+ },
+ "arrow_volley": {
+  "category": "spell",
+  "path": "res://assets/audio/arrow_volley.ogg",
+  "uri": "sound/fx/arrow_volley"
+ },
+ "arrows_fired_0": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow1.ogg",
+  "uri": "sound/fx/shoot_arrow1"
+ },
+ "arrows_fired_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow2.ogg",
+  "uri": "sound/fx/shoot_arrow2"
+ },
+ "arrows_fired_2": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow3.ogg",
+  "uri": "sound/fx/shoot_arrow3"
+ },
+ "arthur_on_death": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_arthur_yell.ogg",
+  "uri": "objects/units/death/arthur_yell"
+ },
+ "arthur_on_spawn_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_arthur_halt.ogg",
+  "uri": "objects/units/spawn/arthur_halt"
+ },
+ "arthur_on_spawn_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_arthur_protect_the_book.ogg",
+  "uri": "objects/units/spawn/arthur_protect_the_book"
+ },
+ "arthur_sword_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_1.ogg",
+  "uri": "sound/fx/hit_cannonball_1"
+ },
+ "arthur_sword_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_2.ogg",
+  "uri": "sound/fx/hit_cannonball_2"
+ },
+ "arthur_sword_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_3.ogg",
+  "uri": "sound/fx/hit_cannonball_3"
+ },
+ "ash_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_ash_lousy_little.ogg",
+  "uri": "objects/level/loose/ash_lousy_little"
+ },
+ "ash_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_ash_what_a_horrible_nightmare.ogg",
+  "uri": "objects/level/loose/ash_what_a_horrible_nightmare"
+ },
+ "ash_on_death_2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_ash_youve_got_the_wrong_guy.ogg",
+  "uri": "objects/level/loose/ash_youve_got_the_wrong_guy"
+ },
+ "ash_on_death_3": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_wiseman_doomed_us_all.ogg",
+  "uri": "objects/level/loose/wiseman_doomed_us_all"
+ },
+ "ash_on_death_4": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_wiseman_now_wilt_thou_quest.ogg",
+  "uri": "objects/level/loose/wiseman_now_wilt_thou_quest"
+ },
+ "ash_on_spawn_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_arthur_how_will_we_fight.ogg",
+  "uri": "objects/level/intros/arthur_how_will_we_fight"
+ },
+ "ash_on_spawn_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_arthur_there_is_an_evil_awakened.ogg",
+  "uri": "objects/level/intros/arthur_there_is_an_evil_awakened"
+ },
+ "ash_on_spawn_10": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_wiseman_consumed_by_this_evil.ogg",
+  "uri": "objects/level/intros/wiseman_consumed_by_this_evil"
+ },
+ "ash_on_spawn_11": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_wiseman_the_evil_has_a_terrible_hunger.ogg",
+  "uri": "objects/level/intros/wiseman_the_evil_has_a_terrible_hunger"
+ },
+ "ash_on_spawn_12": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_wiseman_when_thou_mispoke_the_words.ogg",
+  "uri": "objects/level/intros/wiseman_when_thou_mispoke_the_words"
+ },
+ "ash_on_spawn_13": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_witch_we_shall_feast_upon_your_souls.ogg",
+  "uri": "objects/level/intros/witch_we_shall_feast_upon_your_souls"
+ },
+ "ash_on_spawn_14": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_arthur_for_that_arrogance.ogg",
+  "uri": "objects/level/intros/arthur_for_that_arrogance"
+ },
+ "ash_on_spawn_2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_arthur_we_will_hold.ogg",
+  "uri": "objects/level/intros/arthur_we_will_hold"
+ },
+ "ash_on_spawn_3": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_ash_battle_stations.ogg",
+  "uri": "objects/level/intros/ash_battle_stations"
+ },
+ "ash_on_spawn_4": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_ash_by_god_lets_give_them.ogg",
+  "uri": "objects/level/intros/ash_by_god_lets_give_them"
+ },
+ "ash_on_spawn_5": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_ash_lets_go.ogg",
+  "uri": "objects/level/intros/ash_lets_go"
+ },
+ "ash_on_spawn_6": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_ash_stay_and_fight.ogg",
+  "uri": "objects/level/intros/ash_stay_and_fight"
+ },
+ "ash_on_spawn_7": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_ash_whos_with_me.ogg",
+  "uri": "objects/level/intros/ash_whos_with_me"
+ },
+ "ash_on_spawn_8": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_soldier_the_deadites_approach.ogg",
+  "uri": "objects/level/intros/soldier_the_deadites_approach"
+ },
+ "ash_on_spawn_9": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_soldier_theyre_coming.ogg",
+  "uri": "objects/level/intros/soldier_theyre_coming"
+ },
+ "bolts_fired": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_crossbow_1.ogg",
+  "uri": "sound/fx/shoot_crossbow_1"
+ },
+ "boomstick_hit": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_shotgun_normal_blast_01.ogg",
+  "uri": "sound/fx/shotgun_normal_blast_01"
+ },
+ "chainsaw_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_01.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_01"
+ },
+ "chainsaw_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_02.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_02"
+ },
+ "chainsaw_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_03.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_03"
+ },
+ "chainsaw_hit_3": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_04.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_04"
+ },
+ "chainsaw_hit_4": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_05.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_05"
+ },
+ "chainsaw_hit_5": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_06.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_06"
+ },
+ "chainsaw_hit_6": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_07.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_07"
+ },
+ "chainsaw_hit_7": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_08.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_08"
+ },
+ "coin_pickup": {
+  "category": "gameplay",
+  "path": "res://assets/audio/coin_pickup.ogg",
+  "uri": "sound/fx/pickup_gold"
+ },
+ "crossbow_skeleton_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell0.ogg",
+  "uri": "objects/units/death/deadite_yell0"
+ },
+ "crossbow_skeleton_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell1.ogg",
+  "uri": "objects/units/death/deadite_yell1"
+ },
+ "crossbow_skeleton_on_death_10": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell11.ogg",
+  "uri": "objects/units/death/deadite_yell11"
+ },
+ "crossbow_skeleton_on_death_11": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell12.ogg",
+  "uri": "objects/units/death/deadite_yell12"
+ },
+ "crossbow_skeleton_on_death_12": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell13.ogg",
+  "uri": "objects/units/death/deadite_yell13"
+ },
+ "crossbow_skeleton_on_death_13": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell14.ogg",
+  "uri": "objects/units/death/deadite_yell14"
+ },
+ "crossbow_skeleton_on_death_14": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell15.ogg",
+  "uri": "objects/units/death/deadite_yell15"
+ },
+ "crossbow_skeleton_on_death_15": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell16.ogg",
+  "uri": "objects/units/death/deadite_yell16"
+ },
+ "crossbow_skeleton_on_death_16": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell17.ogg",
+  "uri": "objects/units/death/deadite_yell17"
+ },
+ "crossbow_skeleton_on_death_17": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell18.ogg",
+  "uri": "objects/units/death/deadite_yell18"
+ },
+ "crossbow_skeleton_on_death_18": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell19.ogg",
+  "uri": "objects/units/death/deadite_yell19"
+ },
+ "crossbow_skeleton_on_death_19": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell20.ogg",
+  "uri": "objects/units/death/deadite_yell20"
+ },
+ "crossbow_skeleton_on_death_2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell2.ogg",
+  "uri": "objects/units/death/deadite_yell2"
+ },
+ "crossbow_skeleton_on_death_3": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell3.ogg",
+  "uri": "objects/units/death/deadite_yell3"
+ },
+ "crossbow_skeleton_on_death_4": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell4.ogg",
+  "uri": "objects/units/death/deadite_yell4"
+ },
+ "crossbow_skeleton_on_death_5": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell5.ogg",
+  "uri": "objects/units/death/deadite_yell5"
+ },
+ "crossbow_skeleton_on_death_6": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell6.ogg",
+  "uri": "objects/units/death/deadite_yell6"
+ },
+ "crossbow_skeleton_on_death_7": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell8.ogg",
+  "uri": "objects/units/death/deadite_yell8"
+ },
+ "crossbow_skeleton_on_death_8": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell9.ogg",
+  "uri": "objects/units/death/deadite_yell9"
+ },
+ "crossbow_skeleton_on_death_9": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell10.ogg",
+  "uri": "objects/units/death/deadite_yell10"
+ },
+ "drummer_skeleton_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell0.ogg",
+  "uri": "objects/units/death/deadite_yell0"
+ },
+ "drummer_skeleton_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell1.ogg",
+  "uri": "objects/units/death/deadite_yell1"
+ },
+ "drummer_skeleton_on_death_10": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell11.ogg",
+  "uri": "objects/units/death/deadite_yell11"
+ },
+ "drummer_skeleton_on_death_11": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell12.ogg",
+  "uri": "objects/units/death/deadite_yell12"
+ },
+ "drummer_skeleton_on_death_12": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell13.ogg",
+  "uri": "objects/units/death/deadite_yell13"
+ },
+ "drummer_skeleton_on_death_13": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell14.ogg",
+  "uri": "objects/units/death/deadite_yell14"
+ },
+ "drummer_skeleton_on_death_14": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell15.ogg",
+  "uri": "objects/units/death/deadite_yell15"
+ },
+ "drummer_skeleton_on_death_15": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell16.ogg",
+  "uri": "objects/units/death/deadite_yell16"
+ },
+ "drummer_skeleton_on_death_16": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell17.ogg",
+  "uri": "objects/units/death/deadite_yell17"
+ },
+ "drummer_skeleton_on_death_17": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell18.ogg",
+  "uri": "objects/units/death/deadite_yell18"
+ },
+ "drummer_skeleton_on_death_18": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell19.ogg",
+  "uri": "objects/units/death/deadite_yell19"
+ },
+ "drummer_skeleton_on_death_19": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell20.ogg",
+  "uri": "objects/units/death/deadite_yell20"
+ },
+ "drummer_skeleton_on_death_2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell2.ogg",
+  "uri": "objects/units/death/deadite_yell2"
+ },
+ "drummer_skeleton_on_death_3": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell3.ogg",
+  "uri": "objects/units/death/deadite_yell3"
+ },
+ "drummer_skeleton_on_death_4": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell4.ogg",
+  "uri": "objects/units/death/deadite_yell4"
+ },
+ "drummer_skeleton_on_death_5": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell5.ogg",
+  "uri": "objects/units/death/deadite_yell5"
+ },
+ "drummer_skeleton_on_death_6": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell6.ogg",
+  "uri": "objects/units/death/deadite_yell6"
+ },
+ "drummer_skeleton_on_death_7": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell8.ogg",
+  "uri": "objects/units/death/deadite_yell8"
+ },
+ "drummer_skeleton_on_death_8": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell9.ogg",
+  "uri": "objects/units/death/deadite_yell9"
+ },
+ "drummer_skeleton_on_death_9": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell10.ogg",
+  "uri": "objects/units/death/deadite_yell10"
+ },
+ "dryad_claws_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_1.ogg",
+  "uri": "sound/fx/Generic_Hit_1"
+ },
+ "dryad_claws_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_2.ogg",
+  "uri": "sound/fx/Generic_Hit_2"
+ },
+ "dryad_claws_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_3.ogg",
+  "uri": "sound/fx/Generic_Hit_3"
+ },
+ "dryad_claws_hit_3": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_4.ogg",
+  "uri": "sound/fx/Generic_Hit_4"
+ },
+ "dryad_on_death": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_dryad_yell.ogg",
+  "uri": "objects/units/death/deadite_dryad_yell"
+ },
+ "evil_ash_on_death": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_evilash_yell2.ogg",
+  "uri": "objects/units/death/evilash_yell2"
+ },
+ "evil_ash_on_spawn_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_evilash_now_ill_have_my_vengeance.ogg",
+  "uri": "objects/units/spawn/evilash_now_ill_have_my_vengeance"
+ },
+ "evil_ash_on_spawn_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_evilash_the_book_is_mine.ogg",
+  "uri": "objects/units/spawn/evilash_the_book_is_mine"
+ },
+ "evil_sheila_on_death": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_sheila_yell.ogg",
+  "uri": "objects/units/death/sheila_yell"
+ },
+ "evil_sheila_on_spawn_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_sheila_may_be_bad.ogg",
+  "uri": "objects/units/spawn/sheila_may_be_bad"
+ },
+ "evil_sheila_on_spawn_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_sheila_you_found_me_beautiful_once.ogg",
+  "uri": "objects/units/spawn/sheila_you_found_me_beautiful_once"
+ },
+ "evilash_sword_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_1.ogg",
+  "uri": "sound/fx/hit_cannonball_1"
+ },
+ "evilash_sword_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_2.ogg",
+  "uri": "sound/fx/hit_cannonball_2"
+ },
+ "evilash_sword_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_3.ogg",
+  "uri": "sound/fx/hit_cannonball_3"
+ },
+ "explosive_arrows_fired_0": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow1.ogg",
+  "uri": "sound/fx/shoot_arrow1"
+ },
+ "explosive_arrows_fired_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow2.ogg",
+  "uri": "sound/fx/shoot_arrow2"
+ },
+ "explosive_arrows_fired_2": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow3.ogg",
+  "uri": "sound/fx/shoot_arrow3"
+ },
+ "explosive_arrows_impact_0": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_rock_crash_01.ogg",
+  "uri": "sound/fx/rock_crash_01"
+ },
+ "explosive_arrows_impact_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_rock_crash_02.ogg",
+  "uri": "sound/fx/rock_crash_02"
+ },
+ "explosive_rocks_fired_0": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow1.ogg",
+  "uri": "sound/fx/shoot_arrow1"
+ },
+ "explosive_rocks_fired_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow2.ogg",
+  "uri": "sound/fx/shoot_arrow2"
+ },
+ "explosive_rocks_fired_2": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow3.ogg",
+  "uri": "sound/fx/shoot_arrow3"
+ },
+ "explosive_rocks_impact_0": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_explosive_boulder_01.ogg",
+  "uri": "sound/fx/explosive_boulder_01"
+ },
+ "explosive_rocks_impact_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_explosive_boulder_02.ogg",
+  "uri": "sound/fx/explosive_boulder_02"
+ },
+ "explosive_rocks_impact_2": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_explosive_boulder_03.ogg",
+  "uri": "sound/fx/explosive_boulder_03"
+ },
+ "flaming_arrows_fired_0": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow1.ogg",
+  "uri": "sound/fx/shoot_arrow1"
+ },
+ "flaming_arrows_fired_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow2.ogg",
+  "uri": "sound/fx/shoot_arrow2"
+ },
+ "flaming_arrows_fired_2": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow3.ogg",
+  "uri": "sound/fx/shoot_arrow3"
+ },
+ "flaming_rocks_fired_0": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow1.ogg",
+  "uri": "sound/fx/shoot_arrow1"
+ },
+ "flaming_rocks_fired_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow2.ogg",
+  "uri": "sound/fx/shoot_arrow2"
+ },
+ "flaming_rocks_fired_2": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow3.ogg",
+  "uri": "sound/fx/shoot_arrow3"
+ },
+ "flaming_rocks_impact_0": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_rock_crash_01.ogg",
+  "uri": "sound/fx/rock_crash_01"
+ },
+ "flaming_rocks_impact_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_rock_crash_02.ogg",
+  "uri": "sound/fx/rock_crash_02"
+ },
+ "flute_skeleton_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell0.ogg",
+  "uri": "objects/units/death/deadite_yell0"
+ },
+ "flute_skeleton_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell1.ogg",
+  "uri": "objects/units/death/deadite_yell1"
+ },
+ "flute_skeleton_on_death_10": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell11.ogg",
+  "uri": "objects/units/death/deadite_yell11"
+ },
+ "flute_skeleton_on_death_11": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell12.ogg",
+  "uri": "objects/units/death/deadite_yell12"
+ },
+ "flute_skeleton_on_death_12": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell13.ogg",
+  "uri": "objects/units/death/deadite_yell13"
+ },
+ "flute_skeleton_on_death_13": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell14.ogg",
+  "uri": "objects/units/death/deadite_yell14"
+ },
+ "flute_skeleton_on_death_14": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell15.ogg",
+  "uri": "objects/units/death/deadite_yell15"
+ },
+ "flute_skeleton_on_death_15": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell16.ogg",
+  "uri": "objects/units/death/deadite_yell16"
+ },
+ "flute_skeleton_on_death_16": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell17.ogg",
+  "uri": "objects/units/death/deadite_yell17"
+ },
+ "flute_skeleton_on_death_17": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell18.ogg",
+  "uri": "objects/units/death/deadite_yell18"
+ },
+ "flute_skeleton_on_death_18": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell19.ogg",
+  "uri": "objects/units/death/deadite_yell19"
+ },
+ "flute_skeleton_on_death_19": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell20.ogg",
+  "uri": "objects/units/death/deadite_yell20"
+ },
+ "flute_skeleton_on_death_2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell2.ogg",
+  "uri": "objects/units/death/deadite_yell2"
+ },
+ "flute_skeleton_on_death_3": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell3.ogg",
+  "uri": "objects/units/death/deadite_yell3"
+ },
+ "flute_skeleton_on_death_4": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell4.ogg",
+  "uri": "objects/units/death/deadite_yell4"
+ },
+ "flute_skeleton_on_death_5": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell5.ogg",
+  "uri": "objects/units/death/deadite_yell5"
+ },
+ "flute_skeleton_on_death_6": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell6.ogg",
+  "uri": "objects/units/death/deadite_yell6"
+ },
+ "flute_skeleton_on_death_7": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell8.ogg",
+  "uri": "objects/units/death/deadite_yell8"
+ },
+ "flute_skeleton_on_death_8": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell9.ogg",
+  "uri": "objects/units/death/deadite_yell9"
+ },
+ "flute_skeleton_on_death_9": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell10.ogg",
+  "uri": "objects/units/death/deadite_yell10"
+ },
+ "flying_book_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_book_yell0.ogg",
+  "uri": "objects/units/death/deadite_book_yell0"
+ },
+ "flying_book_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_book_yell1.ogg",
+  "uri": "objects/units/death/deadite_book_yell1"
+ },
+ "fork_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_1.ogg",
+  "uri": "sound/fx/hit_dart_1"
+ },
+ "fork_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_2.ogg",
+  "uri": "sound/fx/hit_dart_2"
+ },
+ "fork_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_3.ogg",
+  "uri": "sound/fx/hit_dart_3"
+ },
+ "fx_catapult_volley": {
+  "category": "spell",
+  "path": "res://assets/audio/fx_catapult_volley.ogg",
+  "uri": "sound/fx/catapult_volley"
+ },
+ "fx_chainsaw_cut_very_short_01": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_01.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_01"
+ },
+ "fx_chainsaw_cut_very_short_02": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_02.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_02"
+ },
+ "fx_chainsaw_cut_very_short_03": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_03.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_03"
+ },
+ "fx_chainsaw_cut_very_short_04": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_04.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_04"
+ },
+ "fx_chainsaw_cut_very_short_05": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_05.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_05"
+ },
+ "fx_chainsaw_cut_very_short_06": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_06.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_06"
+ },
+ "fx_chainsaw_cut_very_short_07": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_07.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_07"
+ },
+ "fx_chainsaw_cut_very_short_08": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_chainsaw_cut_very_short_08.ogg",
+  "uri": "sound/fx/chainsaw_cut_very_short_08"
+ },
+ "fx_deathcoaster_special_attack_loop": {
+  "category": "gameplay",
+  "path": "res://assets/audio/fx_deathcoaster_special_attack_loop.ogg",
+  "uri": "sound/fx/deathcoaster_special_attack_loop"
+ },
+ "fx_explosive_boulder_01": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_explosive_boulder_01.ogg",
+  "uri": "sound/fx/explosive_boulder_01"
+ },
+ "fx_explosive_boulder_02": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_explosive_boulder_02.ogg",
+  "uri": "sound/fx/explosive_boulder_02"
+ },
+ "fx_explosive_boulder_03": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_explosive_boulder_03.ogg",
+  "uri": "sound/fx/explosive_boulder_03"
+ },
+ "fx_gallop_1": {
+  "category": "gameplay",
+  "path": "res://assets/audio/fx_gallop_1.ogg",
+  "uri": "sound/fx/gallop-1"
+ },
+ "fx_generic_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_1.ogg",
+  "uri": "sound/fx/Generic_Hit_1"
+ },
+ "fx_generic_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_2.ogg",
+  "uri": "sound/fx/Generic_Hit_2"
+ },
+ "fx_generic_hit_3": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_3.ogg",
+  "uri": "sound/fx/Generic_Hit_3"
+ },
+ "fx_generic_hit_4": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_4.ogg",
+  "uri": "sound/fx/Generic_Hit_4"
+ },
+ "fx_hit_cannonball_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_1.ogg",
+  "uri": "sound/fx/hit_cannonball_1"
+ },
+ "fx_hit_cannonball_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_2.ogg",
+  "uri": "sound/fx/hit_cannonball_2"
+ },
+ "fx_hit_cannonball_3": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_3.ogg",
+  "uri": "sound/fx/hit_cannonball_3"
+ },
+ "fx_hit_dart_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_1.ogg",
+  "uri": "sound/fx/hit_dart_1"
+ },
+ "fx_hit_dart_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_2.ogg",
+  "uri": "sound/fx/hit_dart_2"
+ },
+ "fx_hit_dart_3": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_3.ogg",
+  "uri": "sound/fx/hit_dart_3"
+ },
+ "fx_magic_heal_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_magic_heal_1.ogg",
+  "uri": "sound/fx/Magic_Heal_1"
+ },
+ "fx_pit_splash_03": {
+  "category": "gameplay",
+  "path": "res://assets/audio/fx_pit_splash_03.ogg",
+  "uri": "sound/fx/pit_splash_03"
+ },
+ "fx_rock_crash_01": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_rock_crash_01.ogg",
+  "uri": "sound/fx/rock_crash_01"
+ },
+ "fx_rock_crash_02": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_rock_crash_02.ogg",
+  "uri": "sound/fx/rock_crash_02"
+ },
+ "fx_shoot_arrow1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow1.ogg",
+  "uri": "sound/fx/shoot_arrow1"
+ },
+ "fx_shoot_arrow2": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow2.ogg",
+  "uri": "sound/fx/shoot_arrow2"
+ },
+ "fx_shoot_arrow3": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow3.ogg",
+  "uri": "sound/fx/shoot_arrow3"
+ },
+ "fx_shoot_crossbow_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_crossbow_1.ogg",
+  "uri": "sound/fx/shoot_crossbow_1"
+ },
+ "fx_shotgun_blast_01": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_shotgun_blast_01.ogg",
+  "uri": "sound/fx/shotgun_blast_01"
+ },
+ "fx_shotgun_normal_blast_01": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_shotgun_normal_blast_01.ogg",
+  "uri": "sound/fx/shotgun_normal_blast_01"
+ },
+ "fx_the_wrong_book_special_attack": {
+  "category": "spell",
+  "path": "res://assets/audio/fx_the_wrong_book_special_attack.ogg",
+  "uri": "sound/fx/the_wrong_book_special_attack"
+ },
+ "fx_vortex_03": {
+  "category": "gameplay",
+  "path": "res://assets/audio/fx_vortex_03.ogg",
+  "uri": "sound/fx/vortex_03"
+ },
+ "fx_whinny_3": {
+  "category": "unit",
+  "path": "res://assets/audio/fx_whinny_3.ogg",
+  "uri": "fx/whinny-3"
+ },
+ "fx_whinny_5": {
+  "category": "unit",
+  "path": "res://assets/audio/fx_whinny_5.ogg",
+  "uri": "fx/whinny-5"
+ },
+ "heal_magic_fired": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_magic_heal_1.ogg",
+  "uri": "sound/fx/Magic_Heal_1"
+ },
+ "heavy_sword_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_1.ogg",
+  "uri": "sound/fx/hit_cannonball_1"
+ },
+ "heavy_sword_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_2.ogg",
+  "uri": "sound/fx/hit_cannonball_2"
+ },
+ "heavy_sword_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_3.ogg",
+  "uri": "sound/fx/hit_cannonball_3"
+ },
+ "henry_mace_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_1.ogg",
+  "uri": "sound/fx/hit_cannonball_1"
+ },
+ "henry_mace_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_2.ogg",
+  "uri": "sound/fx/hit_cannonball_2"
+ },
+ "henry_mace_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_3.ogg",
+  "uri": "sound/fx/hit_cannonball_3"
+ },
+ "henry_on_death": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_henry_yell.ogg",
+  "uri": "objects/units/death/henry_yell"
+ },
+ "henry_on_spawn_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_henry_blows_blood_and_death.ogg",
+  "uri": "objects/units/spawn/henry_blows_blood_and_death"
+ },
+ "henry_on_spawn_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_henry_thank_you_generous_hosts.ogg",
+  "uri": "objects/units/spawn/henry_thank_you_generous_hosts"
+ },
+ "henry_on_spawn_2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_soldier_duke_henry_and_his_men_have_come.ogg",
+  "uri": "objects/units/spawn/soldier_duke_henry_and_his_men_have_come"
+ },
+ "horseback_skeleton_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell0.ogg",
+  "uri": "objects/units/death/deadite_yell0"
+ },
+ "horseback_skeleton_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell1.ogg",
+  "uri": "objects/units/death/deadite_yell1"
+ },
+ "horseback_skeleton_on_death_10": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell11.ogg",
+  "uri": "objects/units/death/deadite_yell11"
+ },
+ "horseback_skeleton_on_death_11": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell12.ogg",
+  "uri": "objects/units/death/deadite_yell12"
+ },
+ "horseback_skeleton_on_death_12": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell13.ogg",
+  "uri": "objects/units/death/deadite_yell13"
+ },
+ "horseback_skeleton_on_death_13": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell14.ogg",
+  "uri": "objects/units/death/deadite_yell14"
+ },
+ "horseback_skeleton_on_death_14": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell15.ogg",
+  "uri": "objects/units/death/deadite_yell15"
+ },
+ "horseback_skeleton_on_death_15": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell16.ogg",
+  "uri": "objects/units/death/deadite_yell16"
+ },
+ "horseback_skeleton_on_death_16": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell17.ogg",
+  "uri": "objects/units/death/deadite_yell17"
+ },
+ "horseback_skeleton_on_death_17": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell18.ogg",
+  "uri": "objects/units/death/deadite_yell18"
+ },
+ "horseback_skeleton_on_death_18": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell19.ogg",
+  "uri": "objects/units/death/deadite_yell19"
+ },
+ "horseback_skeleton_on_death_19": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell20.ogg",
+  "uri": "objects/units/death/deadite_yell20"
+ },
+ "horseback_skeleton_on_death_2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell2.ogg",
+  "uri": "objects/units/death/deadite_yell2"
+ },
+ "horseback_skeleton_on_death_3": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell3.ogg",
+  "uri": "objects/units/death/deadite_yell3"
+ },
+ "horseback_skeleton_on_death_4": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell4.ogg",
+  "uri": "objects/units/death/deadite_yell4"
+ },
+ "horseback_skeleton_on_death_5": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell5.ogg",
+  "uri": "objects/units/death/deadite_yell5"
+ },
+ "horseback_skeleton_on_death_6": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell6.ogg",
+  "uri": "objects/units/death/deadite_yell6"
+ },
+ "horseback_skeleton_on_death_7": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell8.ogg",
+  "uri": "objects/units/death/deadite_yell8"
+ },
+ "horseback_skeleton_on_death_8": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell9.ogg",
+  "uri": "objects/units/death/deadite_yell9"
+ },
+ "horseback_skeleton_on_death_9": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell10.ogg",
+  "uri": "objects/units/death/deadite_yell10"
+ },
+ "horseman_on_death": {
+  "category": "unit",
+  "path": "res://assets/audio/fx_whinny_5.ogg",
+  "uri": "fx/whinny-5"
+ },
+ "horseman_on_spawn": {
+  "category": "unit",
+  "path": "res://assets/audio/fx_whinny_3.ogg",
+  "uri": "fx/whinny-3"
+ },
+ "iron_fist_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_1.ogg",
+  "uri": "sound/fx/Generic_Hit_1"
+ },
+ "iron_fist_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_2.ogg",
+  "uri": "sound/fx/Generic_Hit_2"
+ },
+ "iron_fist_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_3.ogg",
+  "uri": "sound/fx/Generic_Hit_3"
+ },
+ "iron_fist_hit_3": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_4.ogg",
+  "uri": "sound/fx/Generic_Hit_4"
+ },
+ "iron_pickup": {
+  "category": "gameplay",
+  "path": "res://assets/audio/iron_pickup.ogg",
+  "uri": "sound/fx/pickup_iron_03"
+ },
+ "mini_ash_on_death": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_ash_miniash_yell.ogg",
+  "uri": "objects/units/death/ash_miniash_yell"
+ },
+ "mini_ash_on_spawn": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_ash_miniash_laugh.ogg",
+  "uri": "objects/units/spawn/ash_miniash_laugh"
+ },
+ "monster_claws_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_1.ogg",
+  "uri": "sound/fx/Generic_Hit_1"
+ },
+ "monster_claws_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_2.ogg",
+  "uri": "sound/fx/Generic_Hit_2"
+ },
+ "monster_claws_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_3.ogg",
+  "uri": "sound/fx/Generic_Hit_3"
+ },
+ "monster_claws_hit_3": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_4.ogg",
+  "uri": "sound/fx/Generic_Hit_4"
+ },
+ "music_in_game_1": {
+  "category": "music",
+  "path": "res://assets/audio/music_in_game_1.ogg",
+  "uri": "music/in_game_1"
+ },
+ "music_in_game_2": {
+  "category": "music",
+  "path": "res://assets/audio/music_in_game_2.ogg",
+  "uri": "music/in_game_2"
+ },
+ "music_loop": {
+  "category": "music",
+  "path": "res://assets/audio/music_loop.ogg",
+  "uri": "music/loop"
+ },
+ "music_prologue": {
+  "category": "music",
+  "path": "res://assets/audio/music_prologue.ogg",
+  "uri": "music/prologue"
+ },
+ "necronomicon_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_evilash_i_posess_the_necronomicon.ogg",
+  "uri": "objects/level/loose/evilash_i_posess_the_necronomicon"
+ },
+ "necronomicon_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_evilash_ive_crushed_your_pathetic_army.ogg",
+  "uri": "objects/level/loose/evilash_ive_crushed_your_pathetic_army"
+ },
+ "necronomicon_on_death_2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_arthur_stay_with_the_book.ogg",
+  "uri": "objects/level/loose/arthur_stay_with_the_book"
+ },
+ "objects_effects_arthur_catapults_off": {
+  "category": "gameplay",
+  "path": "res://assets/audio/objects_effects_arthur_catapults_off.ogg",
+  "uri": "sound/objects/effects/arthur_catapults_off"
+ },
+ "objects_effects_arthur_to_the_pit_with_him": {
+  "category": "gameplay",
+  "path": "res://assets/audio/objects_effects_arthur_to_the_pit_with_him.ogg",
+  "uri": "sound/objects/effects/arthur_to_the_pit_with_him"
+ },
+ "objects_effects_peasant_into_the_pit_with_those_bloodthirsy_sons_of_boars": {
+  "category": "gameplay",
+  "path": "res://assets/audio/objects_effects_peasant_into_the_pit_with_those_bloodthirsy_sons_of_boars.ogg",
+  "uri": "sound/objects/effects/peasant_into_the_pit_with_those_bloodthirsy_sons_of_boars"
+ },
+ "objects_effects_soldier_a_scout_approaches": {
+  "category": "gameplay",
+  "path": "res://assets/audio/objects_effects_soldier_a_scout_approaches.ogg",
+  "uri": "sound/objects/effects/soldier_a_scout_approaches"
+ },
+ "objects_level_big_wave_deadite_death_to_the_mortals": {
+  "category": "gameplay",
+  "path": "res://assets/audio/objects_level_big_wave_deadite_death_to_the_mortals.ogg",
+  "uri": "sound/objects/level/big_wave/deadite_death_to_the_mortals"
+ },
+ "objects_level_big_wave_deadite_kill_the_mortals": {
+  "category": "gameplay",
+  "path": "res://assets/audio/objects_level_big_wave_deadite_kill_the_mortals.ogg",
+  "uri": "sound/objects/level/big_wave/deadite_kill_the_mortals"
+ },
+ "objects_level_intros_arthur_for_that_arrogance": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_arthur_for_that_arrogance.ogg",
+  "uri": "objects/level/intros/arthur_for_that_arrogance"
+ },
+ "objects_level_intros_arthur_how_will_we_fight": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_arthur_how_will_we_fight.ogg",
+  "uri": "objects/level/intros/arthur_how_will_we_fight"
+ },
+ "objects_level_intros_arthur_there_is_an_evil_awakened": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_arthur_there_is_an_evil_awakened.ogg",
+  "uri": "objects/level/intros/arthur_there_is_an_evil_awakened"
+ },
+ "objects_level_intros_arthur_we_will_hold": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_arthur_we_will_hold.ogg",
+  "uri": "objects/level/intros/arthur_we_will_hold"
+ },
+ "objects_level_intros_ash_battle_stations": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_ash_battle_stations.ogg",
+  "uri": "objects/level/intros/ash_battle_stations"
+ },
+ "objects_level_intros_ash_by_god_lets_give_them": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_ash_by_god_lets_give_them.ogg",
+  "uri": "objects/level/intros/ash_by_god_lets_give_them"
+ },
+ "objects_level_intros_ash_lets_go": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_ash_lets_go.ogg",
+  "uri": "objects/level/intros/ash_lets_go"
+ },
+ "objects_level_intros_ash_stay_and_fight": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_ash_stay_and_fight.ogg",
+  "uri": "objects/level/intros/ash_stay_and_fight"
+ },
+ "objects_level_intros_ash_whos_with_me": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_ash_whos_with_me.ogg",
+  "uri": "objects/level/intros/ash_whos_with_me"
+ },
+ "objects_level_intros_soldier_the_deadites_approach": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_soldier_the_deadites_approach.ogg",
+  "uri": "objects/level/intros/soldier_the_deadites_approach"
+ },
+ "objects_level_intros_soldier_theyre_coming": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_soldier_theyre_coming.ogg",
+  "uri": "objects/level/intros/soldier_theyre_coming"
+ },
+ "objects_level_intros_wiseman_consumed_by_this_evil": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_wiseman_consumed_by_this_evil.ogg",
+  "uri": "objects/level/intros/wiseman_consumed_by_this_evil"
+ },
+ "objects_level_intros_wiseman_the_evil_has_a_terrible_hunger": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_wiseman_the_evil_has_a_terrible_hunger.ogg",
+  "uri": "objects/level/intros/wiseman_the_evil_has_a_terrible_hunger"
+ },
+ "objects_level_intros_wiseman_when_thou_mispoke_the_words": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_wiseman_when_thou_mispoke_the_words.ogg",
+  "uri": "objects/level/intros/wiseman_when_thou_mispoke_the_words"
+ },
+ "objects_level_intros_witch_we_shall_feast_upon_your_souls": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_intros_witch_we_shall_feast_upon_your_souls.ogg",
+  "uri": "objects/level/intros/witch_we_shall_feast_upon_your_souls"
+ },
+ "objects_level_loose_arthur_stay_with_the_book": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_arthur_stay_with_the_book.ogg",
+  "uri": "objects/level/loose/arthur_stay_with_the_book"
+ },
+ "objects_level_loose_ash_lousy_little": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_ash_lousy_little.ogg",
+  "uri": "objects/level/loose/ash_lousy_little"
+ },
+ "objects_level_loose_ash_what_a_horrible_nightmare": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_ash_what_a_horrible_nightmare.ogg",
+  "uri": "objects/level/loose/ash_what_a_horrible_nightmare"
+ },
+ "objects_level_loose_ash_youve_got_the_wrong_guy": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_ash_youve_got_the_wrong_guy.ogg",
+  "uri": "objects/level/loose/ash_youve_got_the_wrong_guy"
+ },
+ "objects_level_loose_evilash_i_posess_the_necronomicon": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_evilash_i_posess_the_necronomicon.ogg",
+  "uri": "objects/level/loose/evilash_i_posess_the_necronomicon"
+ },
+ "objects_level_loose_evilash_ive_crushed_your_pathetic_army": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_evilash_ive_crushed_your_pathetic_army.ogg",
+  "uri": "objects/level/loose/evilash_ive_crushed_your_pathetic_army"
+ },
+ "objects_level_loose_wiseman_doomed_us_all": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_wiseman_doomed_us_all.ogg",
+  "uri": "objects/level/loose/wiseman_doomed_us_all"
+ },
+ "objects_level_loose_wiseman_now_wilt_thou_quest": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_level_loose_wiseman_now_wilt_thou_quest.ogg",
+  "uri": "objects/level/loose/wiseman_now_wilt_thou_quest"
+ },
+ "objects_level_outros_ash_boomstick": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_boomstick.ogg",
+  "uri": "sound/objects/level/outros/ash_boomstick"
+ },
+ "objects_level_outros_ash_buckle_up_bonehead": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_buckle_up_bonehead.ogg",
+  "uri": "sound/objects/level/outros/ash_buckle_up_bonehead"
+ },
+ "objects_level_outros_ash_cry_to_mama": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_cry_to_mama.ogg",
+  "uri": "sound/objects/level/outros/ash_cry_to_mama"
+ },
+ "objects_level_outros_ash_give_me_some_sugar_baby": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_give_me_some_sugar_baby.ogg",
+  "uri": "sound/objects/level/outros/ash_give_me_some_sugar_baby"
+ },
+ "objects_level_outros_ash_guy_with_the_gun": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_guy_with_the_gun.ogg",
+  "uri": "sound/objects/level/outros/ash_guy_with_the_gun"
+ },
+ "objects_level_outros_ash_hail_to_the_king_baby": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_hail_to_the_king_baby.ogg",
+  "uri": "sound/objects/level/outros/ash_hail_to_the_king_baby"
+ },
+ "objects_level_outros_ash_hello_mr_fancy_pants": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_hello_mr_fancy_pants.ogg",
+  "uri": "sound/objects/level/outros/ash_hello_mr_fancy_pants"
+ },
+ "objects_level_outros_ash_london_bridge": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_london_bridge.ogg",
+  "uri": "sound/objects/level/outros/ash_london_bridge"
+ },
+ "objects_level_outros_ash_names_ash_housewares": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_names_ash_housewares.ogg",
+  "uri": "sound/objects/level/outros/ash_names_ash_housewares"
+ },
+ "objects_level_outros_ash_next_one_of_you_primates": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_next_one_of_you_primates.ogg",
+  "uri": "sound/objects/level/outros/ash_next_one_of_you_primates"
+ },
+ "objects_level_outros_ash_pillow_talk": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_pillow_talk.ogg",
+  "uri": "sound/objects/level/outros/ash_pillow_talk"
+ },
+ "objects_level_outros_ash_thats_right_shop_smart": {
+  "category": "victory",
+  "path": "res://assets/audio/objects_level_outros_ash_thats_right_shop_smart.ogg",
+  "uri": "sound/objects/level/outros/ash_thats_right_shop_smart"
+ },
+ "objects_skills_ash_arrows": {
+  "category": "spell",
+  "path": "res://assets/audio/objects_skills_ash_arrows.ogg",
+  "uri": "sound/objects/skills/ash_arrows"
+ },
+ "objects_skills_ash_bye_bye": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_bye_bye.ogg",
+  "uri": "sound/objects/skills/ash_bye_bye"
+ },
+ "objects_skills_ash_catapults": {
+  "category": "spell",
+  "path": "res://assets/audio/objects_skills_ash_catapults.ogg",
+  "uri": "sound/objects/skills/ash_catapults"
+ },
+ "objects_skills_ash_come_get_some": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_come_get_some.ogg",
+  "uri": "sound/objects/skills/ash_come_get_some"
+ },
+ "objects_skills_ash_come_to_papa": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_come_to_papa.ogg",
+  "uri": "sound/objects/skills/ash_come_to_papa"
+ },
+ "objects_skills_ash_groovy": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_groovy.ogg",
+  "uri": "sound/objects/skills/ash_groovy"
+ },
+ "objects_skills_ash_howd_you_like_the_taste_of_that": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_howd_you_like_the_taste_of_that.ogg",
+  "uri": "sound/objects/skills/ash_howd_you_like_the_taste_of_that"
+ },
+ "objects_skills_ash_ready_the_catapults": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_ready_the_catapults.ogg",
+  "uri": "sound/objects/skills/ash_ready_the_catapults"
+ },
+ "objects_skills_ash_say_hello_to_the_21st_century": {
+  "category": "spell",
+  "path": "res://assets/audio/objects_skills_ash_say_hello_to_the_21st_century.ogg",
+  "uri": "sound/objects/skills/ash_say_hello_to_the_21st_century"
+ },
+ "objects_skills_ash_shoelace": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_shoelace.ogg",
+  "uri": "sound/objects/skills/ash_shoelace"
+ },
+ "objects_skills_ash_that_will_teach_you": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_that_will_teach_you.ogg",
+  "uri": "sound/objects/skills/ash_that_will_teach_you"
+ },
+ "objects_skills_ash_thats_gotta_hurt": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_thats_gotta_hurt.ogg",
+  "uri": "sound/objects/skills/ash_thats_gotta_hurt"
+ },
+ "objects_skills_ash_whats_that_you_got_on_your_face": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_whats_that_you_got_on_your_face.ogg",
+  "uri": "sound/objects/skills/ash_whats_that_you_got_on_your_face"
+ },
+ "objects_skills_ash_who_wants_some": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_who_wants_some.ogg",
+  "uri": "sound/objects/skills/ash_who_wants_some"
+ },
+ "objects_skills_ash_whos_next": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_whos_next.ogg",
+  "uri": "sound/objects/skills/ash_whos_next"
+ },
+ "objects_skills_ash_words_cough": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_words_cough.ogg",
+  "uri": "sound/objects/skills/ash_words_cough"
+ },
+ "objects_skills_ash_words_necktie_short": {
+  "category": "voice",
+  "path": "res://assets/audio/objects_skills_ash_words_necktie_short.ogg",
+  "uri": "sound/objects/skills/ash_words_necktie_short"
+ },
+ "objects_skills_ash_wrong_book": {
+  "category": "spell",
+  "path": "res://assets/audio/objects_skills_ash_wrong_book.wav",
+  "uri": "sound/objects/skills/ash_wrong_book"
+ },
+ "objects_units_death_arthur_yell": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_arthur_yell.ogg",
+  "uri": "objects/units/death/arthur_yell"
+ },
+ "objects_units_death_ash_miniash_yell": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_ash_miniash_yell.ogg",
+  "uri": "objects/units/death/ash_miniash_yell"
+ },
+ "objects_units_death_ash_yell1": {
+  "category": "gameplay",
+  "path": "res://assets/audio/objects_units_death_ash_yell1.ogg",
+  "uri": "sound/objects/units/death/ash_yell1"
+ },
+ "objects_units_death_ash_yell2": {
+  "category": "gameplay",
+  "path": "res://assets/audio/objects_units_death_ash_yell2.ogg",
+  "uri": "sound/objects/units/death/ash_yell2"
+ },
+ "objects_units_death_blacksmith_yell": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_blacksmith_yell.ogg",
+  "uri": "objects/units/death/blacksmith_yell"
+ },
+ "objects_units_death_deadite_book_yell0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_book_yell0.ogg",
+  "uri": "objects/units/death/deadite_book_yell0"
+ },
+ "objects_units_death_deadite_book_yell1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_book_yell1.ogg",
+  "uri": "objects/units/death/deadite_book_yell1"
+ },
+ "objects_units_death_deadite_dryad_yell": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_dryad_yell.ogg",
+  "uri": "objects/units/death/deadite_dryad_yell"
+ },
+ "objects_units_death_deadite_pitmonster_yell": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_pitmonster_yell.ogg",
+  "uri": "objects/units/death/deadite_pitmonster_yell"
+ },
+ "objects_units_death_deadite_yell0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell0.ogg",
+  "uri": "objects/units/death/deadite_yell0"
+ },
+ "objects_units_death_deadite_yell1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell1.ogg",
+  "uri": "objects/units/death/deadite_yell1"
+ },
+ "objects_units_death_deadite_yell10": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell10.ogg",
+  "uri": "objects/units/death/deadite_yell10"
+ },
+ "objects_units_death_deadite_yell11": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell11.ogg",
+  "uri": "objects/units/death/deadite_yell11"
+ },
+ "objects_units_death_deadite_yell12": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell12.ogg",
+  "uri": "objects/units/death/deadite_yell12"
+ },
+ "objects_units_death_deadite_yell13": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell13.ogg",
+  "uri": "objects/units/death/deadite_yell13"
+ },
+ "objects_units_death_deadite_yell14": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell14.ogg",
+  "uri": "objects/units/death/deadite_yell14"
+ },
+ "objects_units_death_deadite_yell15": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell15.ogg",
+  "uri": "objects/units/death/deadite_yell15"
+ },
+ "objects_units_death_deadite_yell16": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell16.ogg",
+  "uri": "objects/units/death/deadite_yell16"
+ },
+ "objects_units_death_deadite_yell17": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell17.ogg",
+  "uri": "objects/units/death/deadite_yell17"
+ },
+ "objects_units_death_deadite_yell18": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell18.ogg",
+  "uri": "objects/units/death/deadite_yell18"
+ },
+ "objects_units_death_deadite_yell19": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell19.ogg",
+  "uri": "objects/units/death/deadite_yell19"
+ },
+ "objects_units_death_deadite_yell2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell2.ogg",
+  "uri": "objects/units/death/deadite_yell2"
+ },
+ "objects_units_death_deadite_yell20": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell20.ogg",
+  "uri": "objects/units/death/deadite_yell20"
+ },
+ "objects_units_death_deadite_yell3": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell3.ogg",
+  "uri": "objects/units/death/deadite_yell3"
+ },
+ "objects_units_death_deadite_yell4": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell4.ogg",
+  "uri": "objects/units/death/deadite_yell4"
+ },
+ "objects_units_death_deadite_yell5": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell5.ogg",
+  "uri": "objects/units/death/deadite_yell5"
+ },
+ "objects_units_death_deadite_yell6": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell6.ogg",
+  "uri": "objects/units/death/deadite_yell6"
+ },
+ "objects_units_death_deadite_yell7": {
+  "category": "gameplay",
+  "path": "res://assets/audio/objects_units_death_deadite_yell7.ogg",
+  "uri": "sound/objects/units/death/deadite_yell7"
+ },
+ "objects_units_death_deadite_yell8": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell8.ogg",
+  "uri": "objects/units/death/deadite_yell8"
+ },
+ "objects_units_death_deadite_yell9": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell9.ogg",
+  "uri": "objects/units/death/deadite_yell9"
+ },
+ "objects_units_death_evilash_yell2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_evilash_yell2.ogg",
+  "uri": "objects/units/death/evilash_yell2"
+ },
+ "objects_units_death_henry_yell": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_henry_yell.ogg",
+  "uri": "objects/units/death/henry_yell"
+ },
+ "objects_units_death_sheila_yell": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_sheila_yell.ogg",
+  "uri": "objects/units/death/sheila_yell"
+ },
+ "objects_units_death_soldier_yell1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell1.ogg",
+  "uri": "objects/units/death/soldier_yell1"
+ },
+ "objects_units_death_soldier_yell2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell2.ogg",
+  "uri": "objects/units/death/soldier_yell2"
+ },
+ "objects_units_death_wiseman_dung_eating_fool": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_wiseman_dung_eating_fool.ogg",
+  "uri": "objects/units/death/wiseman_dung_eating_fool"
+ },
+ "objects_units_death_witch_yell": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_witch_yell.ogg",
+  "uri": "objects/units/death/witch_yell"
+ },
+ "objects_units_spawn_arthur_halt": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_arthur_halt.ogg",
+  "uri": "objects/units/spawn/arthur_halt"
+ },
+ "objects_units_spawn_arthur_protect_the_book": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_arthur_protect_the_book.ogg",
+  "uri": "objects/units/spawn/arthur_protect_the_book"
+ },
+ "objects_units_spawn_arthur_sword_boy": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_arthur_sword_boy.ogg",
+  "uri": "objects/units/spawn/arthur_sword_boy"
+ },
+ "objects_units_spawn_arthur_torchboy": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_arthur_torchboy.ogg",
+  "uri": "objects/units/spawn/arthur_torchboy"
+ },
+ "objects_units_spawn_ash_miniash_laugh": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_ash_miniash_laugh.ogg",
+  "uri": "objects/units/spawn/ash_miniash_laugh"
+ },
+ "objects_units_spawn_blacksmith_ill_stand_by_ya": {
+  "category": "gameplay",
+  "path": "res://assets/audio/objects_units_spawn_blacksmith_ill_stand_by_ya.ogg",
+  "uri": "sound/objects/units/spawn/blacksmith_ill_stand_by_ya"
+ },
+ "objects_units_spawn_evilash_now_ill_have_my_vengeance": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_evilash_now_ill_have_my_vengeance.ogg",
+  "uri": "objects/units/spawn/evilash_now_ill_have_my_vengeance"
+ },
+ "objects_units_spawn_evilash_the_book_is_mine": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_evilash_the_book_is_mine.ogg",
+  "uri": "objects/units/spawn/evilash_the_book_is_mine"
+ },
+ "objects_units_spawn_goldtooth_my_sword_is_by_your_side": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_goldtooth_my_sword_is_by_your_side.ogg",
+  "uri": "objects/units/spawn/goldtooth_my_sword_is_by_your_side"
+ },
+ "objects_units_spawn_henry_blows_blood_and_death": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_henry_blows_blood_and_death.ogg",
+  "uri": "objects/units/spawn/henry_blows_blood_and_death"
+ },
+ "objects_units_spawn_henry_thank_you_generous_hosts": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_henry_thank_you_generous_hosts.ogg",
+  "uri": "objects/units/spawn/henry_thank_you_generous_hosts"
+ },
+ "objects_units_spawn_peasant_your_gonna_have_a_bit_of_fun": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_peasant_your_gonna_have_a_bit_of_fun.ogg",
+  "uri": "objects/units/spawn/peasant_your_gonna_have_a_bit_of_fun"
+ },
+ "objects_units_spawn_sheila_may_be_bad": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_sheila_may_be_bad.ogg",
+  "uri": "objects/units/spawn/sheila_may_be_bad"
+ },
+ "objects_units_spawn_sheila_you_found_me_beautiful_once": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_sheila_you_found_me_beautiful_once.ogg",
+  "uri": "objects/units/spawn/sheila_you_found_me_beautiful_once"
+ },
+ "objects_units_spawn_soldier_duke_henry_and_his_men_have_come": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_soldier_duke_henry_and_his_men_have_come.ogg",
+  "uri": "objects/units/spawn/soldier_duke_henry_and_his_men_have_come"
+ },
+ "objects_units_spawn_soldier_ill_bend_my_bow_to_your_will": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_soldier_ill_bend_my_bow_to_your_will.ogg",
+  "uri": "objects/units/spawn/soldier_ill_bend_my_bow_to_your_will"
+ },
+ "objects_units_spawn_soldier_ill_offer_up_my_courage": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_soldier_ill_offer_up_my_courage.ogg",
+  "uri": "objects/units/spawn/soldier_ill_offer_up_my_courage"
+ },
+ "objects_units_spawn_soldier_im_with_you": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_soldier_im_with_you.ogg",
+  "uri": "objects/units/spawn/soldier_im_with_you"
+ },
+ "objects_units_spawn_soldier_what_a_piece_of_armor": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_soldier_what_a_piece_of_armor.ogg",
+  "uri": "objects/units/spawn/soldier_what_a_piece_of_armor"
+ },
+ "objects_units_spawn_villager_count_on_my_steel": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_villager_count_on_my_steel.ogg",
+  "uri": "objects/units/spawn/villager_count_on_my_steel"
+ },
+ "objects_units_spawn_wiseman_strange_one": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_wiseman_strange_one.ogg",
+  "uri": "objects/units/spawn/wiseman_strange_one"
+ },
+ "objects_units_spawn_witch_you_shall_die": {
+  "category": "gameplay",
+  "path": "res://assets/audio/objects_units_spawn_witch_you_shall_die.ogg",
+  "uri": "sound/objects/units/spawn/witch_you_shall_die"
+ },
+ "objects_units_take_damage_ash_pain_10": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_take_damage_ash_pain_10.ogg",
+  "uri": "sound/objects/units/take_damage/Ash_Pain_10"
+ },
+ "objects_units_take_damage_ash_pain_17": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_take_damage_ash_pain_17.ogg",
+  "uri": "sound/objects/units/take_damage/Ash_Pain_17"
+ },
+ "objects_units_take_damage_ash_pain_18": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_take_damage_ash_pain_18.ogg",
+  "uri": "sound/objects/units/take_damage/Ash_Pain_18"
+ },
+ "objects_units_take_damage_ash_pain_26": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_take_damage_ash_pain_26.ogg",
+  "uri": "sound/objects/units/take_damage/Ash_Pain_26"
+ },
+ "objects_units_take_damage_ash_pain_29": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_take_damage_ash_pain_29.ogg",
+  "uri": "sound/objects/units/take_damage/Ash_Pain_29"
+ },
+ "objects_units_take_damage_ash_pain_37": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_take_damage_ash_pain_37.ogg",
+  "uri": "sound/objects/units/take_damage/Ash_Pain_37"
+ },
+ "objects_units_take_damage_ash_pain_47": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_take_damage_ash_pain_47.ogg",
+  "uri": "sound/objects/units/take_damage/Ash_Pain_47"
+ },
+ "objects_units_take_damage_ash_pain_48": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_take_damage_ash_pain_48.ogg",
+  "uri": "sound/objects/units/take_damage/Ash_Pain_48"
+ },
+ "objects_units_take_damage_ash_pain_49": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_take_damage_ash_pain_49.ogg",
+  "uri": "sound/objects/units/take_damage/Ash_Pain_49"
+ },
+ "objects_units_take_damage_ash_pain_8": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_take_damage_ash_pain_8.ogg",
+  "uri": "sound/objects/units/take_damage/Ash_Pain_8"
+ },
+ "pages_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_1.ogg",
+  "uri": "sound/fx/Generic_Hit_1"
+ },
+ "pages_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_2.ogg",
+  "uri": "sound/fx/Generic_Hit_2"
+ },
+ "pages_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_3.ogg",
+  "uri": "sound/fx/Generic_Hit_3"
+ },
+ "pages_hit_3": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_4.ogg",
+  "uri": "sound/fx/Generic_Hit_4"
+ },
+ "peasant_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell1.ogg",
+  "uri": "objects/units/death/soldier_yell1"
+ },
+ "peasant_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell2.ogg",
+  "uri": "objects/units/death/soldier_yell2"
+ },
+ "peasant_on_spawn_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_peasant_your_gonna_have_a_bit_of_fun.ogg",
+  "uri": "objects/units/spawn/peasant_your_gonna_have_a_bit_of_fun"
+ },
+ "peasant_on_spawn_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_soldier_ill_offer_up_my_courage.ogg",
+  "uri": "objects/units/spawn/soldier_ill_offer_up_my_courage"
+ },
+ "peasant_weapon_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_1.ogg",
+  "uri": "sound/fx/hit_dart_1"
+ },
+ "peasant_weapon_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_2.ogg",
+  "uri": "sound/fx/hit_dart_2"
+ },
+ "peasant_weapon_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_3.ogg",
+  "uri": "sound/fx/hit_dart_3"
+ },
+ "pit_monster_on_death": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_pitmonster_yell.ogg",
+  "uri": "objects/units/death/deadite_pitmonster_yell"
+ },
+ "rocks_fired_0": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow1.ogg",
+  "uri": "sound/fx/shoot_arrow1"
+ },
+ "rocks_fired_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow2.ogg",
+  "uri": "sound/fx/shoot_arrow2"
+ },
+ "rocks_fired_2": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow3.ogg",
+  "uri": "sound/fx/shoot_arrow3"
+ },
+ "rocks_impact_0": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_rock_crash_01.ogg",
+  "uri": "sound/fx/rock_crash_01"
+ },
+ "rocks_impact_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_rock_crash_02.ogg",
+  "uri": "sound/fx/rock_crash_02"
+ },
+ "shield_skeleton_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell0.ogg",
+  "uri": "objects/units/death/deadite_yell0"
+ },
+ "shield_skeleton_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell1.ogg",
+  "uri": "objects/units/death/deadite_yell1"
+ },
+ "shield_skeleton_on_death_10": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell11.ogg",
+  "uri": "objects/units/death/deadite_yell11"
+ },
+ "shield_skeleton_on_death_11": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell12.ogg",
+  "uri": "objects/units/death/deadite_yell12"
+ },
+ "shield_skeleton_on_death_12": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell13.ogg",
+  "uri": "objects/units/death/deadite_yell13"
+ },
+ "shield_skeleton_on_death_13": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell14.ogg",
+  "uri": "objects/units/death/deadite_yell14"
+ },
+ "shield_skeleton_on_death_14": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell15.ogg",
+  "uri": "objects/units/death/deadite_yell15"
+ },
+ "shield_skeleton_on_death_15": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell16.ogg",
+  "uri": "objects/units/death/deadite_yell16"
+ },
+ "shield_skeleton_on_death_16": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell17.ogg",
+  "uri": "objects/units/death/deadite_yell17"
+ },
+ "shield_skeleton_on_death_17": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell18.ogg",
+  "uri": "objects/units/death/deadite_yell18"
+ },
+ "shield_skeleton_on_death_18": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell19.ogg",
+  "uri": "objects/units/death/deadite_yell19"
+ },
+ "shield_skeleton_on_death_19": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell20.ogg",
+  "uri": "objects/units/death/deadite_yell20"
+ },
+ "shield_skeleton_on_death_2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell2.ogg",
+  "uri": "objects/units/death/deadite_yell2"
+ },
+ "shield_skeleton_on_death_3": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell3.ogg",
+  "uri": "objects/units/death/deadite_yell3"
+ },
+ "shield_skeleton_on_death_4": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell4.ogg",
+  "uri": "objects/units/death/deadite_yell4"
+ },
+ "shield_skeleton_on_death_5": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell5.ogg",
+  "uri": "objects/units/death/deadite_yell5"
+ },
+ "shield_skeleton_on_death_6": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell6.ogg",
+  "uri": "objects/units/death/deadite_yell6"
+ },
+ "shield_skeleton_on_death_7": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell8.ogg",
+  "uri": "objects/units/death/deadite_yell8"
+ },
+ "shield_skeleton_on_death_8": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell9.ogg",
+  "uri": "objects/units/death/deadite_yell9"
+ },
+ "shield_skeleton_on_death_9": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell10.ogg",
+  "uri": "objects/units/death/deadite_yell10"
+ },
+ "smithy_on_death": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_blacksmith_yell.ogg",
+  "uri": "objects/units/death/blacksmith_yell"
+ },
+ "spear_skeleton_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell0.ogg",
+  "uri": "objects/units/death/deadite_yell0"
+ },
+ "spear_skeleton_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell1.ogg",
+  "uri": "objects/units/death/deadite_yell1"
+ },
+ "spear_skeleton_on_death_10": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell11.ogg",
+  "uri": "objects/units/death/deadite_yell11"
+ },
+ "spear_skeleton_on_death_11": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell12.ogg",
+  "uri": "objects/units/death/deadite_yell12"
+ },
+ "spear_skeleton_on_death_12": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell13.ogg",
+  "uri": "objects/units/death/deadite_yell13"
+ },
+ "spear_skeleton_on_death_13": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell14.ogg",
+  "uri": "objects/units/death/deadite_yell14"
+ },
+ "spear_skeleton_on_death_14": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell15.ogg",
+  "uri": "objects/units/death/deadite_yell15"
+ },
+ "spear_skeleton_on_death_15": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell16.ogg",
+  "uri": "objects/units/death/deadite_yell16"
+ },
+ "spear_skeleton_on_death_16": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell17.ogg",
+  "uri": "objects/units/death/deadite_yell17"
+ },
+ "spear_skeleton_on_death_17": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell18.ogg",
+  "uri": "objects/units/death/deadite_yell18"
+ },
+ "spear_skeleton_on_death_18": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell19.ogg",
+  "uri": "objects/units/death/deadite_yell19"
+ },
+ "spear_skeleton_on_death_19": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell20.ogg",
+  "uri": "objects/units/death/deadite_yell20"
+ },
+ "spear_skeleton_on_death_2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell2.ogg",
+  "uri": "objects/units/death/deadite_yell2"
+ },
+ "spear_skeleton_on_death_3": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell3.ogg",
+  "uri": "objects/units/death/deadite_yell3"
+ },
+ "spear_skeleton_on_death_4": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell4.ogg",
+  "uri": "objects/units/death/deadite_yell4"
+ },
+ "spear_skeleton_on_death_5": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell5.ogg",
+  "uri": "objects/units/death/deadite_yell5"
+ },
+ "spear_skeleton_on_death_6": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell6.ogg",
+  "uri": "objects/units/death/deadite_yell6"
+ },
+ "spear_skeleton_on_death_7": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell8.ogg",
+  "uri": "objects/units/death/deadite_yell8"
+ },
+ "spear_skeleton_on_death_8": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell9.ogg",
+  "uri": "objects/units/death/deadite_yell9"
+ },
+ "spear_skeleton_on_death_9": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell10.ogg",
+  "uri": "objects/units/death/deadite_yell10"
+ },
+ "spearman_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell1.ogg",
+  "uri": "objects/units/death/soldier_yell1"
+ },
+ "spearman_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell2.ogg",
+  "uri": "objects/units/death/soldier_yell2"
+ },
+ "spearman_on_spawn_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_soldier_im_with_you.ogg",
+  "uri": "objects/units/spawn/soldier_im_with_you"
+ },
+ "spearman_on_spawn_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_villager_count_on_my_steel.ogg",
+  "uri": "objects/units/spawn/villager_count_on_my_steel"
+ },
+ "spell_arrow_volley_cast": {
+  "category": "spell",
+  "path": "res://assets/audio/arrow_volley.ogg",
+  "uri": "sound/fx/arrow_volley"
+ },
+ "spell_arrow_volley_voice": {
+  "category": "spell",
+  "path": "res://assets/audio/objects_skills_ash_arrows.ogg",
+  "uri": "sound/objects/skills/ash_arrows"
+ },
+ "spell_catapults_spell_cast": {
+  "category": "spell",
+  "path": "res://assets/audio/fx_catapult_volley.ogg",
+  "uri": "sound/fx/catapult_volley"
+ },
+ "spell_catapults_spell_voice": {
+  "category": "spell",
+  "path": "res://assets/audio/objects_skills_ash_catapults.ogg",
+  "uri": "sound/objects/skills/ash_catapults"
+ },
+ "spell_deathcoaster_spell_voice": {
+  "category": "spell",
+  "path": "res://assets/audio/objects_skills_ash_say_hello_to_the_21st_century.ogg",
+  "uri": "sound/objects/skills/ash_say_hello_to_the_21st_century"
+ },
+ "spell_vortex_cast": {
+  "category": "spell",
+  "path": "res://assets/audio/fx_the_wrong_book_special_attack.ogg",
+  "uri": "sound/fx/the_wrong_book_special_attack"
+ },
+ "spell_vortex_voice": {
+  "category": "spell",
+  "path": "res://assets/audio/objects_skills_ash_wrong_book.wav",
+  "uri": "sound/objects/skills/ash_wrong_book"
+ },
+ "standard_sword_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_1.ogg",
+  "uri": "sound/fx/hit_cannonball_1"
+ },
+ "standard_sword_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_2.ogg",
+  "uri": "sound/fx/hit_cannonball_2"
+ },
+ "standard_sword_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_cannonball_3.ogg",
+  "uri": "sound/fx/hit_cannonball_3"
+ },
+ "super_boomstick_hit": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_shotgun_blast_01.ogg",
+  "uri": "sound/fx/shotgun_blast_01"
+ },
+ "sword_boy_weapon_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_1.ogg",
+  "uri": "sound/fx/hit_dart_1"
+ },
+ "sword_boy_weapon_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_2.ogg",
+  "uri": "sound/fx/hit_dart_2"
+ },
+ "sword_boy_weapon_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_hit_dart_3.ogg",
+  "uri": "sound/fx/hit_dart_3"
+ },
+ "sword_skeleton_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell0.ogg",
+  "uri": "objects/units/death/deadite_yell0"
+ },
+ "sword_skeleton_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell1.ogg",
+  "uri": "objects/units/death/deadite_yell1"
+ },
+ "sword_skeleton_on_death_10": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell11.ogg",
+  "uri": "objects/units/death/deadite_yell11"
+ },
+ "sword_skeleton_on_death_11": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell12.ogg",
+  "uri": "objects/units/death/deadite_yell12"
+ },
+ "sword_skeleton_on_death_12": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell13.ogg",
+  "uri": "objects/units/death/deadite_yell13"
+ },
+ "sword_skeleton_on_death_13": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell14.ogg",
+  "uri": "objects/units/death/deadite_yell14"
+ },
+ "sword_skeleton_on_death_14": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell15.ogg",
+  "uri": "objects/units/death/deadite_yell15"
+ },
+ "sword_skeleton_on_death_15": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell16.ogg",
+  "uri": "objects/units/death/deadite_yell16"
+ },
+ "sword_skeleton_on_death_16": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell17.ogg",
+  "uri": "objects/units/death/deadite_yell17"
+ },
+ "sword_skeleton_on_death_17": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell18.ogg",
+  "uri": "objects/units/death/deadite_yell18"
+ },
+ "sword_skeleton_on_death_18": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell19.ogg",
+  "uri": "objects/units/death/deadite_yell19"
+ },
+ "sword_skeleton_on_death_19": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell20.ogg",
+  "uri": "objects/units/death/deadite_yell20"
+ },
+ "sword_skeleton_on_death_2": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell2.ogg",
+  "uri": "objects/units/death/deadite_yell2"
+ },
+ "sword_skeleton_on_death_3": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell3.ogg",
+  "uri": "objects/units/death/deadite_yell3"
+ },
+ "sword_skeleton_on_death_4": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell4.ogg",
+  "uri": "objects/units/death/deadite_yell4"
+ },
+ "sword_skeleton_on_death_5": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell5.ogg",
+  "uri": "objects/units/death/deadite_yell5"
+ },
+ "sword_skeleton_on_death_6": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell6.ogg",
+  "uri": "objects/units/death/deadite_yell6"
+ },
+ "sword_skeleton_on_death_7": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell8.ogg",
+  "uri": "objects/units/death/deadite_yell8"
+ },
+ "sword_skeleton_on_death_8": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell9.ogg",
+  "uri": "objects/units/death/deadite_yell9"
+ },
+ "sword_skeleton_on_death_9": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_deadite_yell10.ogg",
+  "uri": "objects/units/death/deadite_yell10"
+ },
+ "swordboy_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell1.ogg",
+  "uri": "objects/units/death/soldier_yell1"
+ },
+ "swordboy_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell2.ogg",
+  "uri": "objects/units/death/soldier_yell2"
+ },
+ "swordboy_on_spawn": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_arthur_sword_boy.ogg",
+  "uri": "objects/units/spawn/arthur_sword_boy"
+ },
+ "swordsman_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell1.ogg",
+  "uri": "objects/units/death/soldier_yell1"
+ },
+ "swordsman_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell2.ogg",
+  "uri": "objects/units/death/soldier_yell2"
+ },
+ "swordsman_on_spawn_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_soldier_im_with_you.ogg",
+  "uri": "objects/units/spawn/soldier_im_with_you"
+ },
+ "swordsman_on_spawn_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_goldtooth_my_sword_is_by_your_side.ogg",
+  "uri": "objects/units/spawn/goldtooth_my_sword_is_by_your_side"
+ },
+ "torch_hit_0": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_1.ogg",
+  "uri": "sound/fx/Generic_Hit_1"
+ },
+ "torch_hit_1": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_2.ogg",
+  "uri": "sound/fx/Generic_Hit_2"
+ },
+ "torch_hit_2": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_3.ogg",
+  "uri": "sound/fx/Generic_Hit_3"
+ },
+ "torch_hit_3": {
+  "category": "weapon",
+  "path": "res://assets/audio/fx_generic_hit_4.ogg",
+  "uri": "sound/fx/Generic_Hit_4"
+ },
+ "torchboy_on_death_0": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell1.ogg",
+  "uri": "objects/units/death/soldier_yell1"
+ },
+ "torchboy_on_death_1": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_soldier_yell2.ogg",
+  "uri": "objects/units/death/soldier_yell2"
+ },
+ "torchboy_on_spawn": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_arthur_torchboy.ogg",
+  "uri": "objects/units/spawn/arthur_torchboy"
+ },
+ "ui_button_02": {
+  "category": "ui",
+  "path": "res://assets/audio/ui_button_02.ogg",
+  "uri": "sound/ui/button_02"
+ },
+ "ui_disabled_click_02": {
+  "category": "ui",
+  "path": "res://assets/audio/ui_disabled_click_02.ogg",
+  "uri": "sound/ui/disabled_click_02"
+ },
+ "ui_upgrade_01": {
+  "category": "ui",
+  "path": "res://assets/audio/ui_upgrade_01.ogg",
+  "uri": "sound/ui/upgrade_01"
+ },
+ "ui_upgrade_05": {
+  "category": "ui",
+  "path": "res://assets/audio/ui_upgrade_05.ogg",
+  "uri": "sound/ui/upgrade_05"
+ },
+ "victory_cheer": {
+  "category": "gameplay",
+  "path": "res://assets/audio/victory_cheer.ogg",
+  "uri": "sound/objects/effects/group_cheer"
+ },
+ "wall_arrows_fired_0": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow1.ogg",
+  "uri": "sound/fx/shoot_arrow1"
+ },
+ "wall_arrows_fired_1": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow2.ogg",
+  "uri": "sound/fx/shoot_arrow2"
+ },
+ "wall_arrows_fired_2": {
+  "category": "ammo",
+  "path": "res://assets/audio/fx_shoot_arrow3.ogg",
+  "uri": "sound/fx/shoot_arrow3"
+ },
+ "wave_push_stinger": {
+  "category": "gameplay",
+  "path": "res://assets/audio/wave_push_stinger.ogg",
+  "uri": "sound/objects/level/big_wave/deadite_weve_broken_through"
+ },
+ "wiseman_on_death": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_wiseman_dung_eating_fool.ogg",
+  "uri": "objects/units/death/wiseman_dung_eating_fool"
+ },
+ "wiseman_on_spawn": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_spawn_wiseman_strange_one.ogg",
+  "uri": "objects/units/spawn/wiseman_strange_one"
+ },
+ "witch_on_death": {
+  "category": "unit",
+  "path": "res://assets/audio/objects_units_death_witch_yell.ogg",
+  "uri": "objects/units/death/witch_yell"
+ }
+}

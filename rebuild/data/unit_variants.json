@@ -1,0 +1,276 @@
+{
+ "ash": {
+  "levels": {
+   "1": "ash",
+   "10": "ash",
+   "2": "ash",
+   "3": "ash",
+   "4": "ash",
+   "5": "ash",
+   "6": "ash",
+   "7": "ash",
+   "8": "ash",
+   "9": "ash"
+  },
+  "variants": {
+   "ash": {
+    "helmet": null,
+    "shield": null,
+    "texture": "texture/objects/units/ash"
+   },
+   "ash__saw": {
+    "helmet": null,
+    "shield": null,
+    "texture": "texture/objects/units/ash"
+   },
+   "ash__fist": {
+    "helmet": null,
+    "shield": null,
+    "texture": "texture/objects/units/ash"
+   }
+  }
+ },
+ "crossbow_skeleton": {
+  "levels": {
+   "1": "crossbow_skeleton__he1",
+   "2": "crossbow_skeleton__he2",
+   "3": "crossbow_skeleton__he3"
+  },
+  "variants": {
+   "crossbow_skeleton__he1": {
+    "helmet": "skeleton_crossbow_head1",
+    "shield": null,
+    "texture": "texture/objects/units/skeleton_archer"
+   },
+   "crossbow_skeleton__he2": {
+    "helmet": "skeleton_crossbow_head2",
+    "shield": null,
+    "texture": "texture/objects/units/skeleton_archer"
+   },
+   "crossbow_skeleton__he3": {
+    "helmet": "skeleton_crossbow_head3",
+    "shield": null,
+    "texture": "texture/objects/units/skeleton_archer"
+   }
+  }
+ },
+ "flying_book": {
+  "levels": {
+   "1": "flying_book",
+   "2": "flying_book__evil_book_02",
+   "3": "flying_book"
+  },
+  "variants": {
+   "flying_book": {
+    "helmet": null,
+    "shield": null,
+    "texture": "texture/objects/units/evil_book_01"
+   },
+   "flying_book__evil_book_02": {
+    "helmet": null,
+    "shield": null,
+    "texture": "texture/objects/units/evil_book_02"
+   }
+  }
+ },
+ "horseback_skeleton": {
+  "levels": {
+   "1": "horseback_skeleton",
+   "2": "horseback_skeleton__skeleton_knight_02"
+  },
+  "variants": {
+   "horseback_skeleton": {
+    "helmet": null,
+    "shield": "skeleton_knight_shield",
+    "texture": "texture/objects/units/skeleton_knight"
+   },
+   "horseback_skeleton__skeleton_knight_02": {
+    "helmet": null,
+    "shield": "skeleton_knight_shield",
+    "texture": "texture/objects/units/skeleton_knight_02"
+   }
+  }
+ },
+ "horseman": {
+  "levels": {
+   "1": "horseman",
+   "10": "horseman",
+   "2": "horseman",
+   "3": "horseman",
+   "4": "horseman",
+   "5": "horseman",
+   "6": "horseman",
+   "7": "horseman",
+   "8": "horseman",
+   "9": "horseman"
+  },
+  "variants": {
+   "horseman": {
+    "helmet": null,
+    "shield": "horseman_shield",
+    "texture": "texture/objects/units/knight"
+   }
+  }
+ },
+ "peasant": {
+  "levels": {
+   "1": "peasant",
+   "10": "peasant",
+   "11": "peasant",
+   "2": "peasant",
+   "3": "peasant",
+   "4": "peasant",
+   "5": "peasant",
+   "6": "peasant",
+   "7": "peasant",
+   "8": "peasant",
+   "9": "peasant"
+  },
+  "variants": {
+   "peasant": {
+    "helmet": null,
+    "shield": null,
+    "texture": "texture/objects/units/peasant"
+   }
+  }
+ },
+ "shield_skeleton": {
+  "levels": {
+   "1": "shield_skeleton",
+   "2": "shield_skeleton__skeleton_siege_shield_02",
+   "3": "shield_skeleton__skeleton_siege_shield_03"
+  },
+  "variants": {
+   "shield_skeleton": {
+    "helmet": null,
+    "shield": null,
+    "texture": "texture/objects/units/skeleton_siege_shield_01"
+   },
+   "shield_skeleton__skeleton_siege_shield_02": {
+    "helmet": null,
+    "shield": null,
+    "texture": "texture/objects/units/skeleton_siege_shield_02"
+   },
+   "shield_skeleton__skeleton_siege_shield_03": {
+    "helmet": null,
+    "shield": null,
+    "texture": "texture/objects/units/skeleton_siege_shield_03"
+   }
+  }
+ },
+ "spear_skeleton": {
+  "levels": {
+   "1": "spear_skeleton__he1",
+   "2": "spear_skeleton__he2",
+   "3": "spear_skeleton__he3",
+   "4": "spear_skeleton__he4"
+  },
+  "variants": {
+   "spear_skeleton__he1": {
+    "helmet": "skeleton_head1",
+    "shield": null,
+    "texture": "texture/objects/units/skeleton_spearman"
+   },
+   "spear_skeleton__he2": {
+    "helmet": "skeleton_head2",
+    "shield": null,
+    "texture": "texture/objects/units/skeleton_spearman"
+   },
+   "spear_skeleton__he3": {
+    "helmet": "skeleton_head3",
+    "shield": null,
+    "texture": "texture/objects/units/skeleton_spearman"
+   },
+   "spear_skeleton__he4": {
+    "helmet": "skeleton_head4",
+    "shield": null,
+    "texture": "texture/objects/units/skeleton_spearman"
+   }
+  }
+ },
+ "spearman": {
+  "levels": {
+   "1": "spearman",
+   "10": "spearman",
+   "2": "spearman",
+   "3": "spearman",
+   "4": "spearman",
+   "5": "spearman",
+   "6": "spearman",
+   "7": "spearman",
+   "8": "spearman",
+   "9": "spearman"
+  },
+  "variants": {
+   "spearman": {
+    "helmet": null,
+    "shield": null,
+    "texture": "texture/objects/units/spearman"
+   }
+  }
+ },
+ "sword_skeleton": {
+  "levels": {
+   "1": "sword_skeleton__he1_sh1",
+   "2": "sword_skeleton__he2_sh2",
+   "3": "sword_skeleton__he3_sh3",
+   "4": "sword_skeleton__he4_sh4",
+   "5": "sword_skeleton__he5_sh5",
+   "6": "sword_skeleton__he6_sh6",
+   "7": "sword_skeleton__he1_sh1"
+  },
+  "variants": {
+   "sword_skeleton__he1_sh1": {
+    "helmet": "skeleton_head1",
+    "shield": "skeleton_shield1",
+    "texture": "texture/objects/units/skeleton01"
+   },
+   "sword_skeleton__he2_sh2": {
+    "helmet": "skeleton_head2",
+    "shield": "skeleton_shield2",
+    "texture": "texture/objects/units/skeleton01"
+   },
+   "sword_skeleton__he3_sh3": {
+    "helmet": "skeleton_head3",
+    "shield": "skeleton_shield3",
+    "texture": "texture/objects/units/skeleton01"
+   },
+   "sword_skeleton__he4_sh4": {
+    "helmet": "skeleton_head4",
+    "shield": "skeleton_shield4",
+    "texture": "texture/objects/units/skeleton01"
+   },
+   "sword_skeleton__he5_sh5": {
+    "helmet": "skeleton_head5",
+    "shield": "skeleton_shield5",
+    "texture": "texture/objects/units/skeleton01"
+   },
+   "sword_skeleton__he6_sh6": {
+    "helmet": "skeleton_head6",
+    "shield": "skeleton_shield6",
+    "texture": "texture/objects/units/skeleton01"
+   }
+  }
+ },
+ "swordsman": {
+  "levels": {
+   "1": "swordsman",
+   "10": "swordsman",
+   "2": "swordsman",
+   "3": "swordsman",
+   "4": "swordsman",
+   "5": "swordsman",
+   "6": "swordsman",
+   "7": "swordsman",
+   "8": "swordsman",
+   "9": "swordsman"
+  },
+  "variants": {
+   "swordsman": {
+    "helmet": null,
+    "shield": "swordsman_shield",
+    "texture": "texture/objects/units/swordsman"
+   }
+  }
+ }
+}

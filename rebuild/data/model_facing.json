@@ -1,0 +1,42 @@
+{
+ "_comment": "Authored facing of the BAKED art per model: +1 = art faces right, -1 = art faces left. unit.gd flips with facing*authored < 0 (allies must render facing right, enemies left). Determined 2026-10-11 from attack-peak pixel-mass asymmetry + visual audit of the union-AABB strips (work/analysis/facing_sheet_*.png, closeup_*.png). '_u' marks low-confidence entries to re-check against gameplay footage when available. 2026-10-13 (T40/T41): pit_monster corrected 1 -> -1 (bake clearly faces left: snout/arms/feet; the old entry mirrored it into a backwards walk) and mini_ash added as -1 after its GLB Y-mirror fix (art faces left in the atlas). 2026-10-16 (FINAL-05): crossbow_skeleton corrected 1 -> -1 — walk AND attack_a clips natively face left (reaching arm + boots point left; contact sheets work/tmp_final05/xbow_*_sheet.png), so the old entry mirrored enemies into a backwards advance. Same staged model as the gr2 leaf 'skeleton_archer' (GrannyActor3D.MODEL_RENAMES), so this one entry covers both names. 2026-10-16 (FINAL-06): catapults corrected -1 -> 1 — it is a Team.ALLY siege engine and the art faces right like the other ally machines (spoon cocked toward the left/back, throw arc toward the enemies on the right per the original footage); the old entry rendered it mirrored, boulder spoon pointing the wrong way. 2026-10-16 (FINAL-07): dryad corrected 1 -> -1 and witch confirmed -1 from bind-pose render evidence (work/tmp_final07/dryad_bind_mirror_close.png — dryad's mirrored bind pose flies with head/muzzle/claws pointing LEFT; work/tmp_final07/witch_bind_close.png — witch crouches over her cauldron facing LEFT); both audited and removed from _uncertain. A Y-mirror does not change horizontal facing, so dryad's facing is -1 before and after its Y_MIRROR_MODELS fix. 2026-10-18 (FINAL-09): deathcoaster corrected -1 -> 1 — the baked art natively faces RIGHT (front grille/headlight/hood + the forward blade boom at model +x, AABB x extent +201.5; rear boiler + flag at -x; work/tmp_final09/dc_zoom_left.png / dc_zoom_right.png, corroborated by the staged spell icon assets/ui/deathcoaster_button.png showing the car charging blade-forward). The old entry mirrored the ally cart into driving nose-LEFT. Matches the FINAL-06 catapults correction (ally siege art faces right).",
+ "authored": {
+  "peasant": 1,
+  "swordsman": 1,
+  "archer": 1,
+  "inner_wall_archer": 1,
+  "armored_guard": 1,
+  "arthur": 1,
+  "ash": 1,
+  "swordboy": 1,
+  "torchboy": 1,
+  "wiseman": 1,
+  "smithy": -1,
+  "spearman": 1,
+  "henry": 1,
+  "horseman": 1,
+  "crossbow_skeleton": -1,
+  "pit_monster": -1,
+  "flying_book": 1,
+  "evil_ash": -1,
+  "evil_sheila": -1,
+  "spear_skeleton": -1,
+  "sword_skeleton": -1,
+  "deathcoaster": 1,
+  "catapults": 1,
+  "horseback_skeleton": -1,
+  "shield_skeleton": -1,
+  "flute_skeleton": -1,
+  "drummer_skeleton": -1,
+  "witch": -1,
+  "dryad": -1,
+  "mini_ash": -1
+ },
+ "_uncertain": [
+  "flute_skeleton",
+  "drummer_skeleton",
+  "flying_book",
+  "shield_skeleton",
+  "horseback_skeleton"
+ ]
+}

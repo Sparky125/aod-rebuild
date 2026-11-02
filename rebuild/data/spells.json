@@ -1,0 +1,453 @@
+{
+ "arrow_volley": {
+  "auto_target_offset": -65,
+  "description": "Shoots flaming arrows in front of Ash",
+  "flavor_text": "At your signal, archers will rain fire upon the enemies who stand before you.",
+  "icon_texture": "texture/UI/game/spells/arrow_volley_button",
+  "level_stat": [
+   {
+    "ammo": "volley_arrows",
+    "cooldown": 20,
+    "cost": 0,
+    "range": 80
+   },
+   {
+    "ammo": "volley_arrows",
+    "cooldown": 20,
+    "cost": 440,
+    "range": 100
+   },
+   {
+    "ammo": "volley_arrows",
+    "cooldown": 19,
+    "cost": 1120,
+    "range": 120
+   },
+   {
+    "ammo": "volley_arrows",
+    "cooldown": 19,
+    "cost": 2120,
+    "range": 140
+   },
+   {
+    "ammo": "volley_arrows",
+    "cooldown": 18,
+    "cost": 3450,
+    "range": 160
+   },
+   {
+    "ammo": "volley_arrows",
+    "cooldown": 18,
+    "cost": 5100,
+    "range": 180
+   },
+   {
+    "ammo": "volley_arrows",
+    "cooldown": 17,
+    "cost": 7090,
+    "range": 200
+   },
+   {
+    "ammo": "volley_arrows",
+    "cooldown": 17,
+    "cost": 9390,
+    "range": 120
+   },
+   {
+    "ammo": "volley_arrows",
+    "cooldown": 16,
+    "cost": 12030,
+    "range": 240
+   },
+   {
+    "ammo": "volley_arrows",
+    "cooldown": 16,
+    "cost": 15000,
+    "range": 250
+   }
+  ],
+  "on_button_press_sound": "sound/objects/skills/ash_arrows",
+  "on_cast_event_sound": "sound/fx/arrow_volley",
+  "script": "arrows_spell",
+  "title": "Arrow Volley",
+  "unlock_wave": 8,
+  "upgrade_icon_texture": "texture/UI/menu/upgrade/arrow_volly_upgrade",
+  "user_targets": false
+ },
+ "catapults_spell": {
+  "auto_target_offset": -65,
+  "description": "Launch catapult boulders in front of Ash: damage is spread across enemies",
+  "flavor_text": "One rock hurts a lot, so it's safe to guess that many rocks hurt a lot more.",
+  "icon_texture": "texture/UI/game/spells/catapult_volley_button",
+  "level_stat": [
+   {
+    "ammo": "volley_rocks",
+    "cooldown": 30,
+    "cost": 0,
+    "range": 80
+   },
+   {
+    "ammo": "volley_rocks",
+    "cooldown": 29,
+    "cost": 3060,
+    "range": 100
+   },
+   {
+    "ammo": "volley_rocks",
+    "cooldown": 28,
+    "cost": 4050,
+    "range": 120
+   },
+   {
+    "ammo": "volley_rocks",
+    "cooldown": 27,
+    "cost": 5190,
+    "range": 140
+   },
+   {
+    "ammo": "volley_rocks",
+    "cooldown": 26,
+    "cost": 6470,
+    "range": 160
+   },
+   {
+    "ammo": "volley_rocks",
+    "cooldown": 25,
+    "cost": 7890,
+    "range": 180
+   },
+   {
+    "ammo": "volley_rocks",
+    "cooldown": 24,
+    "cost": 9460,
+    "range": 200
+   },
+   {
+    "ammo": "volley_rocks",
+    "cooldown": 23,
+    "cost": 11160,
+    "range": 120
+   },
+   {
+    "ammo": "volley_rocks",
+    "cooldown": 22,
+    "cost": 13010,
+    "range": 240
+   },
+   {
+    "ammo": "volley_rocks",
+    "cooldown": 21,
+    "cost": 15000,
+    "range": 250
+   }
+  ],
+  "on_button_press_sound": "sound/objects/skills/ash_catapults",
+  "on_cast_event_sound": "sound/fx/catapult_volley",
+  "script": "catapult_spell",
+  "title": "Catapult Volley",
+  "unlock_wave": 22,
+  "upgrade_icon_texture": "texture/UI/menu/upgrade/catapult_volley_upgrade",
+  "user_targets": false
+ },
+ "deathcoaster_spell": {
+  "description": "Summon the Deathcoaster to attack all enemies",
+  "flavor_text": "A 1973 Oldsmobile Delta 88, retrofitted with the latest in steam and Deadite demolishing technology. The crowning achievement in Ash's long history in science.",
+  "icon_texture": "texture/UI/game/spells/deathcoster_button",
+  "level_stat": [
+   {
+    "cooldown": 45,
+    "cost": 0,
+    "damage": 4000
+   },
+   {
+    "cooldown": 45,
+    "cost": 10000,
+    "damage": 6000
+   },
+   {
+    "cooldown": 45,
+    "cost": 15000,
+    "damage": 9000
+   },
+   {
+    "cooldown": 45,
+    "cost": 20000,
+    "damage": 13000
+   },
+   {
+    "cooldown": 45,
+    "cost": 30000,
+    "damage": 18000
+   }
+  ],
+  "on_button_press_sound": "sound/objects/skills/ash_say_hello_to_the_21st_century",
+  "script": "deathcoaster_spell",
+  "title": "Deathcoaster",
+  "unlock_wave": 40,
+  "upgrade_icon_texture": "texture/UI/menu/upgrade/deathcoster_upgrade",
+  "user_targets": false
+ },
+ "magic_words": {
+  "description": "Summon random allies, just don't forget the words",
+  "flavor_text": "Clatto Verata N... Necktie? Nectar? Nickel? Noodle?",
+  "icon_texture": "texture/UI/game/spells/words_button",
+  "info_icon": "texture/UI/menu/upgrade/troop_icon",
+  "level_stat": [
+   {
+    "ammo": "magic_staff",
+    "cooldown": 23,
+    "cost": 0,
+    "heal_percent": 0.25,
+    "info_text": "50%",
+    "necktie_chance": 0.5,
+    "spawn_num": "1;2;2;1;1;1;1",
+    "spawn_unit": "peasant;peasant;peasant;swordsman;spearman;archer;armored_guard",
+    "summon_level": 1
+   },
+   {
+    "ammo": "magic_staff",
+    "cooldown": 23,
+    "cost": 940,
+    "heal_percent": 0.25,
+    "info_text": "55%",
+    "necktie_chance": 0.45,
+    "spawn_num": "1;2;2;2;1;2;1",
+    "spawn_unit": "peasant;peasant;peasant;swordsman;spearman;archer;armored_guard",
+    "summon_level": 2
+   },
+   {
+    "ammo": "magic_staff",
+    "cooldown": 23,
+    "cost": 1770,
+    "heal_percent": 0.25,
+    "info_text": "60%",
+    "necktie_chance": 0.4,
+    "spawn_num": "3;2;2;2;2;1;1;1",
+    "spawn_unit": "peasant;peasant;swordsman;spearman;archer;archer;armored_guard;armored_guard",
+    "summon_level": 3
+   },
+   {
+    "ammo": "magic_staff",
+    "cooldown": 24,
+    "cost": 2860,
+    "heal_percent": 0.25,
+    "info_text": "65%",
+    "necktie_chance": 0.35,
+    "spawn_num": "3;3;2;2;2;2;1;1;1",
+    "spawn_unit": "peasant;peasant;swordsman;spearman;archer;archer;armored_guard;armored_guard;horseman",
+    "summon_level": 4
+   },
+   {
+    "ammo": "magic_staff",
+    "cooldown": 24,
+    "cost": 4210,
+    "heal_percent": 0.25,
+    "info_text": "70%",
+    "necktie_chance": 0.3,
+    "spawn_num": "3;2;2;2;3;1;1;1",
+    "spawn_unit": "peasant;swordsman;spearman;archer;archer;armored_guard;armored_guard;horseman",
+    "summon_level": 5
+   },
+   {
+    "ammo": "magic_staff",
+    "cooldown": 24,
+    "cost": 5840,
+    "heal_percent": 0.25,
+    "info_text": "75%",
+    "necktie_chance": 0.25,
+    "spawn_num": "4;2;2;3;1;1;1",
+    "spawn_unit": "peasant;swordsman;spearman;archer;archer;armored_guard;armored_guard;horseman",
+    "summon_level": 6
+   },
+   {
+    "ammo": "magic_staff",
+    "cooldown": 25,
+    "cost": 7730,
+    "heal_percent": 0.25,
+    "info_text": "80%",
+    "necktie_chance": 0.2,
+    "spawn_num": "3;2;3;2;1;2;1;1",
+    "spawn_unit": "swordsman;spearman;archer;archer;armored_guard;armored_guard;horseman;horseman",
+    "summon_level": 7
+   },
+   {
+    "ammo": "magic_staff",
+    "cooldown": 25,
+    "cost": 9880,
+    "heal_percent": 0.25,
+    "info_text": "85%",
+    "necktie_chance": 0.15,
+    "spawn_num": "3;3;3;2;2;1;1",
+    "spawn_unit": "swordsman;spearman;archer;armored_guard;armored_guard;horseman;horseman",
+    "summon_level": 8
+   },
+   {
+    "ammo": "magic_staff",
+    "cooldown": 25,
+    "cost": 12310,
+    "heal_percent": 0.25,
+    "info_text": "90%",
+    "necktie_chance": 0.1,
+    "spawn_num": "3;3;3;1;2;1;2",
+    "spawn_unit": "spearman;spearman;archer;armored_guard;armored_guard;horseman;horseman",
+    "summon_level": 9
+   },
+   {
+    "ammo": "magic_staff",
+    "cooldown": 25,
+    "cost": 15000,
+    "heal_percent": 0.25,
+    "info_text": "95%",
+    "necktie_chance": 0.05,
+    "spawn_num": "4;3;4;2;2;1;2",
+    "spawn_unit": "spearman;spearman;archer;armored_guard;armored_guard;horseman;horseman",
+    "summon_level": 10
+   }
+  ],
+  "script": "magic_words_spell",
+  "spawn_num": "2;4;3",
+  "spawn_unit": "armored_guard;swordsman;archer",
+  "title": "Magic Words",
+  "unlock_wave": 12,
+  "upgrade_icon_texture": "texture/UI/menu/upgrade/icon_words_upgrade",
+  "user_targets": false
+ },
+ "super_boomstick_blast": {
+  "animation": "attack_a",
+  "description": "A powerful shotgun blast",
+  "flavor_text": "A twelve-gauge double-barreled Remington. S-Mart's top of the line. This sweet baby was made in Grand Rapids, Michigan. Retails for about a $109.95. It's got a walnut stock, cobalt blue steel, and a hair trigger.",
+  "icon_texture": "texture/UI/game/spells/super_boomstick_button",
+  "level_stat": [
+   {
+    "cooldown": 8,
+    "cost": 0,
+    "info_text": 35,
+    "weapon": "super_boomstick"
+   },
+   {
+    "cooldown": 8,
+    "cost": 50,
+    "info_text": 53,
+    "weapon": "super_boomstick"
+   },
+   {
+    "cooldown": 8,
+    "cost": 350,
+    "info_text": 80,
+    "weapon": "super_boomstick"
+   },
+   {
+    "cooldown": 8,
+    "cost": 1100,
+    "info_text": 112,
+    "weapon": "super_boomstick"
+   },
+   {
+    "cooldown": 8,
+    "cost": 2290,
+    "info_text": 157,
+    "weapon": "super_boomstick"
+   },
+   {
+    "cooldown": 8,
+    "cost": 3940,
+    "info_text": 204,
+    "weapon": "super_boomstick"
+   },
+   {
+    "cooldown": 8,
+    "cost": 6030,
+    "info_text": 265,
+    "weapon": "super_boomstick"
+   },
+   {
+    "cooldown": 8,
+    "cost": 8570,
+    "info_text": 345,
+    "weapon": "super_boomstick"
+   },
+   {
+    "cooldown": 8,
+    "cost": 11560,
+    "info_text": 414,
+    "weapon": "super_boomstick"
+   },
+   {
+    "cooldown": 8,
+    "cost": 15000,
+    "info_text": 497,
+    "weapon": "super_boomstick"
+   }
+  ],
+  "script": "super_boomstick_blast_spell",
+  "title": "Super Boomstick",
+  "unlock_wave": 1,
+  "upgrade_icon_texture": "texture/UI/menu/upgrade/icon_boomstick_blast_upgrade",
+  "user_targets": false
+ },
+ "vortex": {
+  "auto_target_offset": -70,
+  "description": "Absorbs some enemies, based on their remaining health",
+  "flavor_text": "This fake Necronomicon sucks... but maybe you can turn this to your advantage when pointed at a deadite horde.",
+  "icon_texture": "texture/UI/game/spells/vortex_button",
+  "level_stat": [
+   {
+    "cooldown": 27,
+    "cost": 0,
+    "damage": 55
+   },
+   {
+    "cooldown": 27,
+    "cost": 100,
+    "damage": 77
+   },
+   {
+    "cooldown": 27,
+    "cost": 520,
+    "damage": 108
+   },
+   {
+    "cooldown": 27,
+    "cost": 1350,
+    "damage": 151
+   },
+   {
+    "cooldown": 26,
+    "cost": 2600,
+    "damage": 211
+   },
+   {
+    "cooldown": 26,
+    "cost": 4250,
+    "damage": 295
+   },
+   {
+    "cooldown": 26,
+    "cost": 6320,
+    "damage": 413
+   },
+   {
+    "cooldown": 25,
+    "cost": 8800,
+    "damage": 578
+   },
+   {
+    "cooldown": 25,
+    "cost": 11690,
+    "damage": 809
+   },
+   {
+    "cooldown": 25,
+    "cost": 15000,
+    "damage": 1133
+   }
+  ],
+  "on_button_press_sound": "sound/objects/skills/ash_wrong_book",
+  "on_cast_event_sound": "sound/fx/the_wrong_book_special_attack",
+  "script": "vortex_spell",
+  "title": "The Wrong Book",
+  "unlock_wave": 3,
+  "upgrade_icon_texture": "texture/UI/menu/upgrade/icon_vortex_upgrade",
+  "user_targets": false
+ }
+}

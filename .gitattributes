@@ -1,0 +1,14 @@
+* text=auto eol=lf
+*.png binary
+*.webp binary
+*.ogg binary
+*.ogv binary
+*.glb binary
+*.obj binary
+*.ttf binary
+*.ico binary
+*.ctex binary
+*.sample binary
+*.res binary
+*.scn binary
+*.mesh binary

@@ -1,0 +1,1479 @@
+{
+ "archer": {
+  "ally": true,
+  "can_be_knocked_back": true,
+  "description": "Long range\nLow damage\nLow health",
+  "enflames": false,
+  "flavor_text": "A person becomes an archer for two reasons: first, they can't stand all that heavy armor, and second, because they hate getting hit.",
+  "height": 63,
+  "icon_texture": "texture/UI/game/units/icon_archer",
+  "iron_cost": 10,
+  "level_stat": [
+   {
+    "cooldown": 3,
+    "cost": 0,
+    "health": 30
+   },
+   {
+    "cooldown": 3,
+    "cost": 350,
+    "health": 42
+   },
+   {
+    "cooldown": 3,
+    "cost": 850,
+    "health": 59
+   },
+   {
+    "cooldown": 3,
+    "cost": 1930,
+    "health": 83
+   },
+   {
+    "cooldown": 3,
+    "cost": 3510,
+    "health": 116
+   },
+   {
+    "cooldown": 3,
+    "cost": 5640,
+    "health": 162
+   },
+   {
+    "cooldown": 3,
+    "cost": 8340,
+    "health": 227
+   },
+   {
+    "cooldown": 3,
+    "cost": 11610,
+    "health": 318
+   },
+   {
+    "cooldown": 3,
+    "cost": 15500,
+    "health": 477
+   },
+   {
+    "cooldown": 3,
+    "cost": 20000,
+    "health": 716
+   }
+  ],
+  "model": "mesh/objects/units/archer.gr2",
+  "on_death_sound": "objects/units/death/soldier_yell1;objects/units/death/soldier_yell2",
+  "on_spawn_sound": "objects/units/spawn/soldier_ill_bend_my_bow_to_your_will",
+  "script": "allyunit",
+  "speed": 50,
+  "texture": "texture/objects/units/archer",
+  "title": "Archer",
+  "unique": false,
+  "unit_type": "Troop",
+  "unlock_wave": 6,
+  "weapon": "archer_bow"
+ },
+ "armored_guard": {
+  "ally": true,
+  "can_be_knocked_back": true,
+  "description": "Slow attack\nHigh health",
+  "enflames": false,
+  "flavor_text": "This guy is armored so heavily that he almost can't swing his gigantic sword! But, all of that armor takes a while for the enemies to break through.",
+  "height": 73,
+  "icon_texture": "texture/UI/game/units/icon_heavy_swordsman",
+  "iron_cost": 30,
+  "level_stat": [
+   {
+    "cooldown": 5,
+    "cost": 0,
+    "health": 800
+   },
+   {
+    "cooldown": 5,
+    "cost": 1290,
+    "health": 1040
+   },
+   {
+    "cooldown": 5,
+    "cost": 1950,
+    "health": 1352
+   },
+   {
+    "cooldown": 5,
+    "cost": 3770,
+    "health": 1758
+   },
+   {
+    "cooldown": 5,
+    "cost": 6270,
+    "health": 2285
+   },
+   {
+    "cooldown": 5,
+    "cost": 9490,
+    "health": 2971
+   },
+   {
+    "cooldown": 5,
+    "cost": 13450,
+    "health": 3862
+   },
+   {
+    "cooldown": 5,
+    "cost": 18170,
+    "health": 4634
+   },
+   {
+    "cooldown": 5,
+    "cost": 23680,
+    "health": 5561
+   },
+   {
+    "cooldown": 5,
+    "cost": 30000,
+    "health": 6673
+   }
+  ],
+  "model": "mesh/objects/units/heavy_swordsman.gr2",
+  "on_death_sound": "objects/units/death/soldier_yell1;objects/units/death/soldier_yell2",
+  "on_spawn_sound": "objects/units/spawn/soldier_what_a_piece_of_armor",
+  "script": "allyunit",
+  "speed": 50,
+  "texture": "texture/objects/units/heavy_swordsman",
+  "title": "Armored Guard",
+  "unit_type": "Troop",
+  "unlock_wave": 14,
+  "weapon": "heavy_sword"
+ },
+ "arthur": {
+  "ally": true,
+  "can_be_knocked_back": true,
+  "description": "Comes with archers\nMedium damage\nHigh health",
+  "enflames": false,
+  "flavor_text": "Untrusting at first, but he commands the loyalty of his subjects. Once you convince him to fight for you, he should prove to be a valuable ally indeed.",
+  "height": 115,
+  "icon_texture": "texture/UI/game/units/icon_arthur",
+  "iron_cost": 55,
+  "level_stat": [
+   {
+    "cost": 0,
+    "health": 2500,
+    "scale": 0.8
+   },
+   {
+    "cost": 4550,
+    "health": 3250,
+    "scale": 0.8
+   },
+   {
+    "cost": 6500,
+    "health": 4225,
+    "scale": 0.8
+   },
+   {
+    "cost": 8800,
+    "health": 5493,
+    "scale": 0.8
+   },
+   {
+    "cost": 11460,
+    "health": 7141,
+    "scale": 0.8
+   },
+   {
+    "cost": 14460,
+    "health": 9283,
+    "scale": 0.8
+   },
+   {
+    "cost": 17820,
+    "health": 12068,
+    "scale": 0.8
+   },
+   {
+    "cost": 21530,
+    "health": 14482,
+    "scale": 0.8
+   },
+   {
+    "cost": 25590,
+    "health": 17378,
+    "scale": 0.8
+   },
+   {
+    "cost": 30000,
+    "health": 20854,
+    "scale": 0.8
+   }
+  ],
+  "model": "mesh/objects/units/arthur.gr2",
+  "on_death_sound": "objects/units/death/arthur_yell",
+  "on_spawn_sound": "objects/units/spawn/arthur_halt;objects/units/spawn/arthur_protect_the_book",
+  "script": "allyunit",
+  "speed": 50,
+  "subordinate": "archer",
+  "subordinate_count": 2,
+  "texture": "texture/objects/units/arthur",
+  "title": "Arthur",
+  "unique": true,
+  "unit_type": "Unique Troop",
+  "unlock_wave": 19,
+  "weapon": "arthur_sword"
+ },
+ "ash": {
+  "ally": true,
+  "can_be_knocked_back": false,
+  "description": "Medium damage\nMedium health",
+  "enflames": false,
+  "flavor_text": "Ashley J. 'Ash' Williams: Housewares. Sent back in time by the Necronomicon to lead the resistance against the Army of Darkness.",
+  "height": 82,
+  "icon_texture": "texture/UI/game/units/icon_ash_upgrade",
+  "info_icon": "texture/UI/menu/upgrade/boomstick_icon",
+  "level_stat": [
+   {
+    "cost": 0,
+    "health": 100,
+    "regen_rate": 1
+   },
+   {
+    "cost": 50,
+    "health": 160,
+    "regen_rate": 2
+   },
+   {
+    "cost": 250,
+    "health": 256,
+    "regen_rate": 4
+   },
+   {
+    "cost": 850,
+    "health": 384,
+    "regen_rate": 7
+   },
+   {
+    "cost": 1900,
+    "health": 576,
+    "regen_rate": 10
+   },
+   {
+    "cost": 3450,
+    "health": 864,
+    "regen_rate": 15
+   },
+   {
+    "cost": 5510,
+    "health": 1210,
+    "regen_rate": 20
+   },
+   {
+    "cost": 8100,
+    "health": 1694,
+    "regen_rate": 30
+   },
+   {
+    "cost": 11260,
+    "health": 2202,
+    "regen_rate": 50
+   },
+   {
+    "cost": 15000,
+    "health": 2863,
+    "regen_rate": 100
+   }
+  ],
+  "model": "mesh/objects/units/ash.gr2",
+  "on_death_sound": "objects/level/loose/ash_lousy_little;objects/level/loose/ash_what_a_horrible_nightmare;objects/level/loose/ash_youve_got_the_wrong_guy;objects/level/loose/wiseman_doomed_us_all;objects/level/loose/wiseman_now_wilt_thou_quest",
+  "on_spawn_sound": "objects/level/intros/arthur_how_will_we_fight;objects/level/intros/arthur_there_is_an_evil_awakened;objects/level/intros/arthur_we_will_hold;objects/level/intros/ash_battle_stations;objects/level/intros/ash_by_god_lets_give_them;objects/level/intros/ash_lets_go;objects/level/intros/ash_stay_and_fight;objects/level/intros/ash_whos_with_me;objects/level/intros/soldier_the_deadites_approach;objects/level/intros/soldier_theyre_coming;objects/level/intros/wiseman_consumed_by_this_evil;objects/level/intros/wiseman_the_evil_has_a_terrible_hunger;objects/level/intros/wiseman_when_thou_mispoke_the_words;objects/level/intros/witch_we_shall_feast_upon_your_souls;objects/level/intros/arthur_for_that_arrogance",
+  "script": "ash",
+  "secondary_weapon": "boomstick",
+  "speed": 220,
+  "texture": "texture/objects/units/ash",
+  "title": "Ash",
+  "unique": true,
+  "unit_type": "Hero",
+  "weapon": "ash_stump"
+ },
+ "catapults": {
+  "ally": true,
+  "description": "Adds catapults to castle walls: boulders will knock back enemies",
+  "flavor_text": "\"Sticks and stones will break your bones\" is a great motto when fighting skeletons. This takes care of the \"stones\" part. Plus, the more you invest, the more you get.",
+  "height": 90,
+  "icon_texture": "texture/UI/menu/upgrade/icon_wall_catapult_upgrade",
+  "level_stat": [
+   {
+    "cost": 5550,
+    "count": 1,
+    "delay": 2
+   },
+   {
+    "cost": 9820,
+    "count": 2,
+    "delay": 2
+   },
+   {
+    "cost": 15330,
+    "count": 3,
+    "delay": 2
+   },
+   {
+    "cost": 22050,
+    "count": 3,
+    "delay": 2
+   },
+   {
+    "cost": 30000,
+    "count": 3,
+    "delay": 2
+   }
+  ],
+  "model": "mesh/objects/units/catapult.gr2",
+  "script": "allyunit",
+  "texture": "texture/objects/units/catapult",
+  "title": "Wall Catapults",
+  "unit_type": "Castle Upgrade",
+  "unlock_wave": 21,
+  "weapon": "catapults_weapon"
+ },
+ "crossbow_skeleton": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "height": 63,
+  "level_stat": [
+   {
+    "gold_drop": 2,
+    "health": 80,
+    "helmet": "skeleton_crossbow_head1",
+    "iron_chance": 0.6,
+    "iron_drop": 1,
+    "scale": 1.05
+   },
+   {
+    "gold_drop": 2,
+    "health": 240,
+    "helmet": "skeleton_crossbow_head2",
+    "iron_chance": 0.8,
+    "iron_drop": 2,
+    "scale": 1.15
+   },
+   {
+    "gold_drop": 3,
+    "health": 720,
+    "helmet": "skeleton_crossbow_head3",
+    "iron_chance": 1,
+    "iron_drop": 3,
+    "scale": 1.2
+   }
+  ],
+  "model": "mesh/objects/units/skeleton_archer.gr2",
+  "on_death_sound": "objects/units/death/deadite_yell0;objects/units/death/deadite_yell1;objects/units/death/deadite_yell2;objects/units/death/deadite_yell3;objects/units/death/deadite_yell4;objects/units/death/deadite_yell5;objects/units/death/deadite_yell6;objects/units/death/deadite_yell8;objects/units/death/deadite_yell9;objects/units/death/deadite_yell10;objects/units/death/deadite_yell11;objects/units/death/deadite_yell12;objects/units/death/deadite_yell13;objects/units/death/deadite_yell14;objects/units/death/deadite_yell15;objects/units/death/deadite_yell16;objects/units/death/deadite_yell17;objects/units/death/deadite_yell18;objects/units/death/deadite_yell19;objects/units/death/deadite_yell20",
+  "script": "enemyunit",
+  "speed": 50,
+  "texture": "texture/objects/units/skeleton_archer",
+  "title": "Crossbow Skeletons",
+  "weapon": "crossbow"
+ },
+ "deathcoaster": {
+  "ally": true,
+  "can_be_knocked_back": false,
+  "enflames": false,
+  "height": 130,
+  "level_stat": {},
+  "model": "mesh/objects/units/deathcoaster.gr2",
+  "scale": 0.8,
+  "script": "deathcoaster",
+  "speed": 250,
+  "texture": "texture/objects/units/deathcoaster",
+  "title": "Deathcoaster"
+ },
+ "drummer_skeleton": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "height": 59,
+  "level_stat": [
+   {
+    "damage_buff_factor": 1.15,
+    "gold_drop": 2,
+    "health": 200,
+    "iron_chance": 0.6,
+    "iron_drop": 1,
+    "scale": 1.2
+   }
+  ],
+  "model": "mesh/objects/units/drummer_skeleton.gr2",
+  "on_death_sound": "objects/units/death/deadite_yell0;objects/units/death/deadite_yell1;objects/units/death/deadite_yell2;objects/units/death/deadite_yell3;objects/units/death/deadite_yell4;objects/units/death/deadite_yell5;objects/units/death/deadite_yell6;objects/units/death/deadite_yell8;objects/units/death/deadite_yell9;objects/units/death/deadite_yell10;objects/units/death/deadite_yell11;objects/units/death/deadite_yell12;objects/units/death/deadite_yell13;objects/units/death/deadite_yell14;objects/units/death/deadite_yell15;objects/units/death/deadite_yell16;objects/units/death/deadite_yell17;objects/units/death/deadite_yell18;objects/units/death/deadite_yell19;objects/units/death/deadite_yell20",
+  "script": "torch_sword_boy",
+  "speed": 50,
+  "texture": "texture/objects/units/drummer_skeleton",
+  "title": "Drummer Skeleton",
+  "weapon": "flute"
+ },
+ "dryad": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "flammable": false,
+  "height": 115,
+  "level_stat": [
+   {
+    "gold_drop": 3,
+    "health": 1000,
+    "iron_chance": 1,
+    "iron_drop": 3,
+    "scale": 0.85
+   }
+  ],
+  "model": "mesh/objects/units/dryad.gr2",
+  "on_death_sound": "objects/units/death/deadite_dryad_yell",
+  "script": "enemyunit",
+  "speed": 50,
+  "texture": "texture/objects/units/dryad",
+  "title": "Dryads",
+  "weapon": "dryad_claws"
+ },
+ "evil_ash": {
+  "ally": false,
+  "can_be_knocked_back": false,
+  "enflames": false,
+  "height": 73,
+  "level_stat": [
+   {
+    "gold_drop": 9,
+    "health": 100000,
+    "iron_chance": 1,
+    "iron_drop": 0,
+    "scale": 1.4
+   }
+  ],
+  "model": "mesh/objects/units/evil_ash.gr2",
+  "on_death_sound": "objects/units/death/evilash_yell2",
+  "on_spawn_sound": "objects/units/spawn/evilash_now_ill_have_my_vengeance;objects/units/spawn/evilash_the_book_is_mine",
+  "script": "evil_ash",
+  "speed": 50,
+  "texture": "texture/objects/units/evil_ash",
+  "title": "Evil Ash",
+  "unique": true,
+  "weapon": "evilash_sword"
+ },
+ "evil_sheila": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "height": 100,
+  "level_stat": [
+   {
+    "gold_drop": 5,
+    "health": 20000,
+    "iron_chance": 1,
+    "iron_drop": 10,
+    "scale": 0.9
+   }
+  ],
+  "model": "mesh/objects/units/evil_sheila.gr2",
+  "on_death_sound": "objects/units/death/sheila_yell",
+  "on_spawn_sound": "objects/units/spawn/sheila_may_be_bad;objects/units/spawn/sheila_you_found_me_beautiful_once",
+  "scale": 0.9,
+  "script": "enemyunit",
+  "speed": 30,
+  "texture": "texture/objects/units/evil_sheila",
+  "title": "Evil Sheila",
+  "unique": true,
+  "weapon": "sheila_spear"
+ },
+ "flute_skeleton": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "height": 63,
+  "level_stat": [
+   {
+    "damage_buff_factor": 1.1,
+    "gold_drop": 2,
+    "health": 100,
+    "iron_chance": 0.6,
+    "iron_drop": 1,
+    "scale": 1.15
+   }
+  ],
+  "model": "mesh/objects/units/flute_skeleton.gr2",
+  "on_death_sound": "objects/units/death/deadite_yell0;objects/units/death/deadite_yell1;objects/units/death/deadite_yell2;objects/units/death/deadite_yell3;objects/units/death/deadite_yell4;objects/units/death/deadite_yell5;objects/units/death/deadite_yell6;objects/units/death/deadite_yell8;objects/units/death/deadite_yell9;objects/units/death/deadite_yell10;objects/units/death/deadite_yell11;objects/units/death/deadite_yell12;objects/units/death/deadite_yell13;objects/units/death/deadite_yell14;objects/units/death/deadite_yell15;objects/units/death/deadite_yell16;objects/units/death/deadite_yell17;objects/units/death/deadite_yell18;objects/units/death/deadite_yell19;objects/units/death/deadite_yell20",
+  "script": "torch_sword_boy",
+  "speed": 50,
+  "texture": "texture/objects/units/flute_skeleton",
+  "title": "Flute Skeleton",
+  "weapon": "flute"
+ },
+ "flying_book": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "flammable": false,
+  "height": 100,
+  "level_stat": [
+   {
+    "gold_drop": 1,
+    "health": 25,
+    "iron_chance": 0.3,
+    "iron_drop": 0,
+    "scale": 0.9,
+    "texture": "texture/objects/units/evil_book_01"
+   },
+   {
+    "gold_drop": 2,
+    "health": 100,
+    "iron_chance": 0.5,
+    "iron_drop": 0,
+    "scale": 1.1,
+    "texture": "texture/objects/units/evil_book_02"
+   },
+   {
+    "gold_drop": 0,
+    "health": 25,
+    "iron_chance": 0,
+    "iron_drop": 0,
+    "scale": 0.9,
+    "texture": "texture/objects/units/evil_book_01"
+   }
+  ],
+  "model": "mesh/objects/units/evil_book.gr2",
+  "on_death_sound": "objects/units/death/deadite_book_yell0;objects/units/death/deadite_book_yell1",
+  "script": "enemyunit",
+  "speed": 50,
+  "texture": "texture/objects/units/evil_book_01",
+  "title": "Flying Necronomicon",
+  "weapon": "pages"
+ },
+ "henry": {
+  "ally": true,
+  "can_be_knocked_back": true,
+  "description": "Moves fast\nHigh damage\nHigh health",
+  "enflames": false,
+  "flavor_text": "Henry the Red, Lord of the Northlands and leader of its people.",
+  "height": 92,
+  "icon_texture": "texture/UI/game/units/icon_duke_henry",
+  "iron_cost": 65,
+  "level_stat": [
+   {
+    "cost": 0,
+    "health": 1800,
+    "scale": 1.12
+   },
+   {
+    "cost": 3430,
+    "health": 1962,
+    "scale": 1.12
+   },
+   {
+    "cost": 4220,
+    "health": 2139,
+    "scale": 1.12
+   },
+   {
+    "cost": 6360,
+    "health": 2353,
+    "scale": 1.12
+   },
+   {
+    "cost": 8990,
+    "health": 2588,
+    "scale": 1.12
+   },
+   {
+    "cost": 12120,
+    "health": 2847,
+    "scale": 1.12
+   },
+   {
+    "cost": 15780,
+    "health": 3132,
+    "scale": 1.12
+   },
+   {
+    "cost": 19970,
+    "health": 3445,
+    "scale": 1.12
+   },
+   {
+    "cost": 24710,
+    "health": 4134,
+    "scale": 1.12
+   },
+   {
+    "cost": 30000,
+    "health": 4961,
+    "scale": 1.12
+   }
+  ],
+  "model": "mesh/objects/units/duke_henry.gr2",
+  "on_death_sound": "objects/units/death/henry_yell",
+  "on_spawn_sound": "objects/units/spawn/henry_blows_blood_and_death;objects/units/spawn/henry_thank_you_generous_hosts;objects/units/spawn/soldier_duke_henry_and_his_men_have_come",
+  "script": "allyunit",
+  "speed": 100,
+  "texture": "texture/objects/units/duke_henry",
+  "title": "Henry",
+  "unique": true,
+  "unit_type": "Unique Troop",
+  "unlock_wave": 30,
+  "weapon": "henry_mace"
+ },
+ "horseback_skeleton": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "flammable": false,
+  "height": 93,
+  "level_stat": [
+   {
+    "gold_drop": 4,
+    "health": 600,
+    "iron_chance": 0.7,
+    "iron_drop": 3,
+    "shield": "skeleton_knight_shield",
+    "texture": "texture/objects/units/skeleton_knight"
+   },
+   {
+    "gold_drop": 4,
+    "health": 1200,
+    "iron_chance": 0.5,
+    "iron_drop": 8,
+    "shield": "skeleton_knight_shield",
+    "texture": "texture/objects/units/skeleton_knight_02"
+   }
+  ],
+  "model": "mesh/objects/units/skeleton_knight.gr2",
+  "on_death_sound": "objects/units/death/deadite_yell0;objects/units/death/deadite_yell1;objects/units/death/deadite_yell2;objects/units/death/deadite_yell3;objects/units/death/deadite_yell4;objects/units/death/deadite_yell5;objects/units/death/deadite_yell6;objects/units/death/deadite_yell8;objects/units/death/deadite_yell9;objects/units/death/deadite_yell10;objects/units/death/deadite_yell11;objects/units/death/deadite_yell12;objects/units/death/deadite_yell13;objects/units/death/deadite_yell14;objects/units/death/deadite_yell15;objects/units/death/deadite_yell16;objects/units/death/deadite_yell17;objects/units/death/deadite_yell18;objects/units/death/deadite_yell19;objects/units/death/deadite_yell20",
+  "script": "enemyunit",
+  "speed": 100,
+  "texture": "texture/objects/units/skeleton_knight",
+  "title": "Horseback Skeletons",
+  "weapon": "heavy_spear"
+ },
+ "horseman": {
+  "ally": true,
+  "can_be_knocked_back": true,
+  "description": "Moves fast\nHigh damage\nLow health",
+  "enflames": false,
+  "flavor_text": "Speak softly and carry a big stick. Riding an armored horse helps, too.",
+  "height": 92,
+  "icon_texture": "texture/UI/game/units/icon_knight",
+  "iron_cost": 45,
+  "level_stat": [
+   {
+    "cooldown": 8,
+    "cost": 0,
+    "health": 350,
+    "shield": "horseman_shield"
+   },
+   {
+    "cooldown": 4,
+    "cost": 2870,
+    "health": 420,
+    "shield": "horseman_shield"
+   },
+   {
+    "cooldown": 4,
+    "cost": 3560,
+    "health": 504,
+    "shield": "horseman_shield"
+   },
+   {
+    "cooldown": 4,
+    "cost": 4310,
+    "health": 655,
+    "shield": "horseman_shield"
+   },
+   {
+    "cooldown": 4,
+    "cost": 5110,
+    "health": 852,
+    "shield": "horseman_shield"
+   },
+   {
+    "cooldown": 4,
+    "cost": 6270,
+    "health": 1022,
+    "shield": "horseman_shield"
+   },
+   {
+    "cooldown": 4,
+    "cost": 10410,
+    "health": 1226,
+    "shield": "horseman_shield"
+   },
+   {
+    "cooldown": 4,
+    "cost": 15710,
+    "health": 1471,
+    "shield": "horseman_shield"
+   },
+   {
+    "cooldown": 4,
+    "cost": 22230,
+    "health": 1618,
+    "shield": "horseman_shield"
+   },
+   {
+    "cooldown": 4,
+    "cost": 30000,
+    "health": 1780,
+    "shield": "horseman_shield"
+   }
+  ],
+  "model": "mesh/objects/units/knight.gr2",
+  "on_death_sound": "fx/whinny-5",
+  "on_spawn_sound": "fx/whinny-3",
+  "script": "allyunit",
+  "speed": 100,
+  "texture": "texture/objects/units/knight",
+  "title": "Horseman",
+  "unit_type": "Troop",
+  "unlock_wave": 23,
+  "weapon": "heavy_spear"
+ },
+ "inner_wall_archer": {
+  "ally": true,
+  "can_be_knocked_back": false,
+  "description": "Adds archers to the castle walls",
+  "enflames": false,
+  "flavor_text": "Wouldn't you love to stand on the castle walls, safe from harm, raining death upon the Deadites below? So would these guys. With enough funding, they may even be able to afford flaming arrows.",
+  "height": 63,
+  "icon_texture": "texture/UI/menu/upgrade/icon_wall_archers_upgrade",
+  "level_stat": [
+   {
+    "cost": 250,
+    "count": 1,
+    "delay": 1
+   },
+   {
+    "cost": 850,
+    "count": 2,
+    "delay": 1
+   },
+   {
+    "cost": 1900,
+    "count": 3,
+    "delay": 1
+   },
+   {
+    "cost": 3450,
+    "count": 3,
+    "delay": 1
+   },
+   {
+    "cost": 5510,
+    "count": 4,
+    "delay": 1
+   },
+   {
+    "cost": 8100,
+    "count": 5,
+    "delay": 1
+   },
+   {
+    "cost": 11260,
+    "count": 6,
+    "delay": 1
+   },
+   {
+    "cost": 15000,
+    "count": 6,
+    "delay": 1
+   }
+  ],
+  "model": "mesh/objects/units/archer.gr2",
+  "script": "allyunit",
+  "texture": "texture/objects/units/archer",
+  "title": "Wall Archers",
+  "unit_type": "Castle Upgrade",
+  "unlock_wave": 7,
+  "weapon": "wall_bow"
+ },
+ "mini_ash": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "flammable": false,
+  "height": 45,
+  "level_stat": [
+   {
+    "gold_drop": 1,
+    "health": 400,
+    "iron_chance": 1,
+    "iron_drop": 2
+   }
+  ],
+  "model": "mesh/objects/units/mini_ashes.gr2",
+  "on_death_sound": "objects/units/death/ash_miniash_yell",
+  "on_spawn_sound": "objects/units/spawn/ash_miniash_laugh",
+  "script": "enemyunit",
+  "spawns_near_center": true,
+  "speed": 50,
+  "texture": "texture/objects/units/mini_ashes_packed",
+  "title": "Mini Ashes",
+  "unique": true,
+  "weapon": "fork"
+ },
+ "necronomicon": {
+  "ally": true,
+  "can_be_knocked_back": false,
+  "description": "Increase health of the gate protecting the Necronomicon",
+  "enflames": false,
+  "flavor_text": "You spent all that time getting the book, and you kind of need it to get back to your own time, so you may as well spend a little coin to beef up the gate protecting it, right?",
+  "height": 55,
+  "icon_texture": "texture/UI/menu/upgrade/icon_book_gate_upgrade",
+  "level_stat": [
+   {
+    "cost": 0,
+    "health": 250
+   },
+   {
+    "cost": 1000,
+    "health": 1000
+   },
+   {
+    "cost": 10000,
+    "health": 5000
+   },
+   {
+    "cost": 30000,
+    "health": 10000
+   }
+  ],
+  "on_death_sound": "objects/level/loose/evilash_i_posess_the_necronomicon;objects/level/loose/evilash_ive_crushed_your_pathetic_army;objects/level/loose/arthur_stay_with_the_book",
+  "script": "necronomicon",
+  "texture": "texture/objects/units/gate",
+  "title": "Necronomicon",
+  "unique": true,
+  "unit_type": "Castle Upgrade",
+  "unlock_wave": 1
+ },
+ "peasant": {
+  "ally": true,
+  "can_be_knocked_back": true,
+  "description": "Low damage\nLow health",
+  "enflames": false,
+  "flavor_text": "Primitive minds, incapable of understanding molecular compounds and alloys, make great fodder for slowing down the hordes.",
+  "height": 50,
+  "icon_texture": "texture/UI/game/units/icon_peasant",
+  "iron_cost": 5,
+  "level_stat": [
+   {
+    "cooldown": 1.2,
+    "cost": 0,
+    "health": 35
+   },
+   {
+    "cooldown": 1.2,
+    "cost": 50,
+    "health": 49
+   },
+   {
+    "cooldown": 1.2,
+    "cost": 290,
+    "health": 69
+   },
+   {
+    "cooldown": 1.2,
+    "cost": 890,
+    "health": 97
+   },
+   {
+    "cooldown": 1.2,
+    "cost": 1840,
+    "health": 136
+   },
+   {
+    "cooldown": 1.2,
+    "cost": 3150,
+    "health": 190
+   },
+   {
+    "cooldown": 1.2,
+    "cost": 4810,
+    "health": 266
+   },
+   {
+    "cooldown": 1.2,
+    "cost": 6830,
+    "health": 372
+   },
+   {
+    "cooldown": 1.2,
+    "cost": 9190,
+    "health": 558
+   },
+   {
+    "cooldown": 1.2,
+    "cost": 11920,
+    "health": 837
+   },
+   {
+    "cooldown": 1.2,
+    "cost": 15000,
+    "health": 1337
+   }
+  ],
+  "model": "mesh/objects/units/peasant.gr2",
+  "on_death_sound": "objects/units/death/soldier_yell1;objects/units/death/soldier_yell2",
+  "on_spawn_sound": "objects/units/spawn/peasant_your_gonna_have_a_bit_of_fun;objects/units/spawn/soldier_ill_offer_up_my_courage",
+  "script": "allyunit",
+  "speed": 50,
+  "sword_boy_weapon": "peasant_sword",
+  "texture": "texture/objects/units/peasant",
+  "title": "Peasant",
+  "unit_type": "Troop",
+  "unlock_wave": 2,
+  "weapon": "peasant_weapon"
+ },
+ "pit_monster": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "height": 70,
+  "level_stat": [
+   {
+    "gold_drop": 1,
+    "health": 600,
+    "iron_chance": 1,
+    "iron_drop": 2,
+    "scale": 1.1
+   },
+   {
+    "gold_drop": 2,
+    "health": 1350,
+    "iron_chance": 1,
+    "iron_drop": 3,
+    "scale": 1.2
+   },
+   {
+    "gold_drop": 4,
+    "health": 3038,
+    "iron_chance": 1,
+    "iron_drop": 4,
+    "scale": 1.3
+   }
+  ],
+  "model": "mesh/objects/units/pit_monster.gr2",
+  "on_death_sound": "objects/units/death/deadite_pitmonster_yell",
+  "script": "enemyunit",
+  "speed": 50,
+  "texture": "texture/objects/units/pit_monster",
+  "title": "Pit Monsters",
+  "weapon": "monster_claws"
+ },
+ "shield_skeleton": {
+  "ally": false,
+  "can_be_knocked_back": false,
+  "enflames": false,
+  "height": 87,
+  "level_stat": [
+   {
+    "gold_drop": 1,
+    "health": 2000,
+    "iron_chance": 0.7,
+    "iron_drop": 2,
+    "scale": 0.8,
+    "texture": "texture/objects/units/skeleton_siege_shield_01"
+   },
+   {
+    "gold_drop": 2,
+    "health": 4000,
+    "iron_chance": 0.7,
+    "iron_drop": 2,
+    "scale": 1,
+    "texture": "texture/objects/units/skeleton_siege_shield_02"
+   },
+   {
+    "gold_drop": 3,
+    "health": 8000,
+    "iron_chance": 0.7,
+    "iron_drop": 3,
+    "scale": 1.2,
+    "texture": "texture/objects/units/skeleton_siege_shield_03"
+   }
+  ],
+  "model": "mesh/objects/units/skeleton_siege_shield.gr2",
+  "on_death_sound": "objects/units/death/deadite_yell0;objects/units/death/deadite_yell1;objects/units/death/deadite_yell2;objects/units/death/deadite_yell3;objects/units/death/deadite_yell4;objects/units/death/deadite_yell5;objects/units/death/deadite_yell6;objects/units/death/deadite_yell8;objects/units/death/deadite_yell9;objects/units/death/deadite_yell10;objects/units/death/deadite_yell11;objects/units/death/deadite_yell12;objects/units/death/deadite_yell13;objects/units/death/deadite_yell14;objects/units/death/deadite_yell15;objects/units/death/deadite_yell16;objects/units/death/deadite_yell17;objects/units/death/deadite_yell18;objects/units/death/deadite_yell19;objects/units/death/deadite_yell20",
+  "script": "enemyunit",
+  "speed": 50,
+  "texture": "texture/objects/units/skeleton_siege_shield_01",
+  "title": "Shield Skeleton",
+  "unique": true,
+  "weapon": "rolling_shield"
+ },
+ "smithy": {
+  "ally": true,
+  "can_be_knocked_back": false,
+  "description": "Start at higher smithy level",
+  "enflames": false,
+  "flavor_text": "The iron smith may never be your friend, but he knows the value of hard work. He also knows the value of quick work. If you pay him gold, he is sure to go the extra mile for you and get iron out more quickly.",
+  "height": 85,
+  "icon_texture": "texture/UI/menu/upgrade/icon_blacksmith_upgrade",
+  "level_stat": [
+   {
+    "cost": 0
+   },
+   {
+    "cost": 10000
+   },
+   {
+    "cost": 50000
+   }
+  ],
+  "model": "mesh/objects/units/blacksmith.gr2",
+  "on_death_sound": "objects/units/death/blacksmith_yell",
+  "script": "smithy",
+  "texture": "texture/objects/units/Blacksmith",
+  "title": "Smithy",
+  "unique": true,
+  "unit_type": "Castle Upgrade",
+  "unlock_wave": 33
+ },
+ "spear_skeleton": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "height": 63,
+  "level_stat": [
+   {
+    "gold_drop": 2,
+    "health": 20,
+    "helmet": "skeleton_head1",
+    "iron_chance": 0.7,
+    "iron_drop": 1,
+    "scale": 1
+   },
+   {
+    "gold_drop": 2,
+    "health": 40,
+    "helmet": "skeleton_head2",
+    "iron_chance": 0.7,
+    "iron_drop": 2,
+    "scale": 1.15
+   },
+   {
+    "gold_drop": 3,
+    "health": 100,
+    "helmet": "skeleton_head3",
+    "iron_chance": 0.8,
+    "iron_drop": 2,
+    "scale": 1.2
+   },
+   {
+    "gold_drop": 3,
+    "health": 300,
+    "helmet": "skeleton_head4",
+    "iron_chance": 1,
+    "iron_drop": 3,
+    "scale": 1.23
+   }
+  ],
+  "model": "mesh/objects/units/skeleton_spearman.gr2",
+  "on_death_sound": "objects/units/death/deadite_yell0;objects/units/death/deadite_yell1;objects/units/death/deadite_yell2;objects/units/death/deadite_yell3;objects/units/death/deadite_yell4;objects/units/death/deadite_yell5;objects/units/death/deadite_yell6;objects/units/death/deadite_yell8;objects/units/death/deadite_yell9;objects/units/death/deadite_yell10;objects/units/death/deadite_yell11;objects/units/death/deadite_yell12;objects/units/death/deadite_yell13;objects/units/death/deadite_yell14;objects/units/death/deadite_yell15;objects/units/death/deadite_yell16;objects/units/death/deadite_yell17;objects/units/death/deadite_yell18;objects/units/death/deadite_yell19;objects/units/death/deadite_yell20",
+  "script": "enemyunit",
+  "speed": 50,
+  "texture": "texture/objects/units/skeleton_spearman",
+  "title": "Spear Skeletons",
+  "weapon": "skeleton_spear"
+ },
+ "spearman": {
+  "ally": true,
+  "can_be_knocked_back": true,
+  "description": "Medium range\nHigh damage\nLow health",
+  "enflames": false,
+  "flavor_text": "They prefer to stand a bit behind the front lines, poking your enemies with spears.",
+  "height": 60,
+  "icon_texture": "texture/UI/game/units/icon_spearman",
+  "iron_cost": 15,
+  "level_stat": [
+   {
+    "cooldown": 3,
+    "cost": 0,
+    "health": 40
+   },
+   {
+    "cooldown": 3,
+    "cost": 180,
+    "health": 56
+   },
+   {
+    "cooldown": 3,
+    "cost": 720,
+    "health": 78
+   },
+   {
+    "cooldown": 3,
+    "cost": 1750,
+    "health": 109
+   },
+   {
+    "cooldown": 3,
+    "cost": 3300,
+    "health": 153
+   },
+   {
+    "cooldown": 3,
+    "cost": 5420,
+    "health": 214
+   },
+   {
+    "cooldown": 3,
+    "cost": 8130,
+    "health": 300
+   },
+   {
+    "cooldown": 3,
+    "cost": 11450,
+    "health": 420
+   },
+   {
+    "cooldown": 3,
+    "cost": 15400,
+    "health": 630
+   },
+   {
+    "cooldown": 3,
+    "cost": 20000,
+    "health": 945
+   }
+  ],
+  "model": "mesh/objects/units/spearman.gr2",
+  "on_death_sound": "objects/units/death/soldier_yell1;objects/units/death/soldier_yell2",
+  "on_spawn_sound": "objects/units/spawn/soldier_im_with_you;objects/units/spawn/villager_count_on_my_steel",
+  "script": "allyunit",
+  "speed": 50,
+  "texture": "texture/objects/units/spearman",
+  "title": "Spearman",
+  "unit_type": "Troop",
+  "unlock_wave": 5,
+  "weapon": "standard_spear"
+ },
+ "sword_skeleton": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "height": 63,
+  "level_stat": [
+   {
+    "gold_drop": 1,
+    "health": 75,
+    "helmet": "skeleton_head1",
+    "iron_chance": 0.6,
+    "iron_drop": 1,
+    "scale": 0.9,
+    "shield": "skeleton_shield1"
+   },
+   {
+    "gold_drop": 1,
+    "health": 169,
+    "helmet": "skeleton_head2",
+    "iron_chance": 0.7,
+    "iron_drop": 2,
+    "scale": 1.05,
+    "shield": "skeleton_shield2"
+   },
+   {
+    "gold_drop": 2,
+    "health": 380,
+    "helmet": "skeleton_head3",
+    "iron_chance": 0.7,
+    "iron_drop": 2,
+    "scale": 1.15,
+    "shield": "skeleton_shield3"
+   },
+   {
+    "gold_drop": 2,
+    "health": 855,
+    "helmet": "skeleton_head4",
+    "iron_chance": 0.8,
+    "iron_drop": 2,
+    "scale": 1.2,
+    "shield": "skeleton_shield4"
+   },
+   {
+    "gold_drop": 2,
+    "health": 1710,
+    "helmet": "skeleton_head5",
+    "iron_chance": 0.9,
+    "iron_drop": 2,
+    "scale": 1.23,
+    "shield": "skeleton_shield5"
+   },
+   {
+    "gold_drop": 3,
+    "health": 3420,
+    "helmet": "skeleton_head6",
+    "iron_chance": 1,
+    "iron_drop": 2,
+    "scale": 1.26,
+    "shield": "skeleton_shield6"
+   },
+   {
+    "health": 30,
+    "helmet": "skeleton_head1",
+    "iron_chance": 0,
+    "iron_drop": 0,
+    "scale": 0.9,
+    "shield": "skeleton_shield1"
+   }
+  ],
+  "model": "mesh/objects/units/skeleton_warrior.gr2",
+  "on_death_sound": "objects/units/death/deadite_yell0;objects/units/death/deadite_yell1;objects/units/death/deadite_yell2;objects/units/death/deadite_yell3;objects/units/death/deadite_yell4;objects/units/death/deadite_yell5;objects/units/death/deadite_yell6;objects/units/death/deadite_yell8;objects/units/death/deadite_yell9;objects/units/death/deadite_yell10;objects/units/death/deadite_yell11;objects/units/death/deadite_yell12;objects/units/death/deadite_yell13;objects/units/death/deadite_yell14;objects/units/death/deadite_yell15;objects/units/death/deadite_yell16;objects/units/death/deadite_yell17;objects/units/death/deadite_yell18;objects/units/death/deadite_yell19;objects/units/death/deadite_yell20",
+  "script": "enemyunit",
+  "speed": 50,
+  "texture": "texture/objects/units/skeleton01",
+  "title": "Sword Skeletons",
+  "weapon": "skeleton_sword_weapon"
+ },
+ "swordboy": {
+  "ally": true,
+  "can_be_knocked_back": true,
+  "description": "Gives swords to peasants\nMoves fast\nLow health",
+  "enflames": false,
+  "flavor_text": "Little guy with lots of swords, runs through the ranks outfitting your peasants with real weapons.",
+  "height": 60,
+  "icon_texture": "texture/UI/game/units/icon_swordboy",
+  "iron_cost": 10,
+  "level_stat": [
+   {
+    "cooldown": 20,
+    "cost": 0,
+    "health": 30
+   }
+  ],
+  "model": "mesh/objects/units/sword_boy.gr2",
+  "on_death_sound": "objects/units/death/soldier_yell1;objects/units/death/soldier_yell2",
+  "on_spawn_sound": "objects/units/spawn/arthur_sword_boy",
+  "script": "torch_sword_boy",
+  "speed": 150,
+  "texture": "texture/objects/units/sword_boy",
+  "title": "Sword-boy",
+  "unique": true,
+  "unit_type": "Troop",
+  "unlock_wave": 9,
+  "weapon": "sword_boy_weapon"
+ },
+ "swordsman": {
+  "ally": true,
+  "can_be_knocked_back": true,
+  "description": "Medium damage\nMedium health",
+  "enflames": false,
+  "flavor_text": "The bread and butter of medieval combat. One part armor, one part sword, two parts brute strength. A bit primitive, but a solid fighter ready to hold the line.",
+  "height": 55,
+  "icon_texture": "texture/UI/game/units/icon_swordsman",
+  "iron_cost": 10,
+  "level_stat": [
+   {
+    "cooldown": 2,
+    "cost": 0,
+    "health": 200,
+    "scale": 1.16,
+    "shield": "swordsman_shield"
+   },
+   {
+    "cooldown": 2,
+    "cost": 130,
+    "health": 280,
+    "scale": 1.16,
+    "shield": "swordsman_shield"
+   },
+   {
+    "cooldown": 2,
+    "cost": 600,
+    "health": 392,
+    "scale": 1.16,
+    "shield": "swordsman_shield"
+   },
+   {
+    "cooldown": 2,
+    "cost": 1580,
+    "health": 510,
+    "scale": 1.16,
+    "shield": "swordsman_shield"
+   },
+   {
+    "cooldown": 2,
+    "cost": 3100,
+    "health": 663,
+    "scale": 1.16,
+    "shield": "swordsman_shield"
+   },
+   {
+    "cooldown": 2,
+    "cost": 5210,
+    "health": 862,
+    "scale": 1.16,
+    "shield": "swordsman_shield"
+   },
+   {
+    "cooldown": 2,
+    "cost": 7930,
+    "health": 1121,
+    "scale": 1.16,
+    "shield": "swordsman_shield"
+   },
+   {
+    "cooldown": 2,
+    "cost": 11280,
+    "health": 1457,
+    "scale": 1.16,
+    "shield": "swordsman_shield"
+   },
+   {
+    "cooldown": 2,
+    "cost": 15300,
+    "health": 1748,
+    "scale": 1.16,
+    "shield": "swordsman_shield"
+   },
+   {
+    "cooldown": 2,
+    "cost": 20000,
+    "health": 2098,
+    "scale": 1.16,
+    "shield": "swordsman_shield"
+   }
+  ],
+  "model": "mesh/objects/units/swordsman.gr2",
+  "on_death_sound": "objects/units/death/soldier_yell1;objects/units/death/soldier_yell2",
+  "on_spawn_sound": "objects/units/spawn/soldier_im_with_you;objects/units/spawn/goldtooth_my_sword_is_by_your_side",
+  "script": "allyunit",
+  "speed": 50,
+  "texture": "texture/objects/units/swordsman",
+  "title": "Swordsman",
+  "unit_type": "Troop",
+  "unlock_wave": 4,
+  "weapon": "standard_sword"
+ },
+ "the_pit": {
+  "description": "Enemies who get knocked back may fall in",
+  "flavor_text": "The only person ever to escape the pit was Ashley Williams (you). So knocking Deadites in basically guarantees they won't be coming back. Unfortunately, not even a skeleton is stupid enough to fall in by accident.",
+  "icon_texture": "texture/UI/menu/upgrade/icon_pit_upgrade",
+  "level_stat": [
+   {
+    "cost": 15000,
+    "odds": 1
+   }
+  ],
+  "script": "pit",
+  "texture": "texture/objects/units/pit_overlay",
+  "title": "The Pit",
+  "unit_type": "Castle Upgrade",
+  "unlock_wave": 35
+ },
+ "torchboy": {
+  "ally": true,
+  "can_be_knocked_back": true,
+  "description": "Gives archers fire arrows\nMoves fast\nLow health",
+  "enflames": true,
+  "flavor_text": "Someone has to light the arrows on fire, right? This guy right here!",
+  "height": 60,
+  "icon_texture": "texture/UI/game/units/icon_torchboy",
+  "iron_cost": 30,
+  "level_stat": [
+   {
+    "cooldown": 20,
+    "cost": 0,
+    "health": 30
+   }
+  ],
+  "model": "mesh/objects/units/torch_boy.gr2",
+  "on_death_sound": "objects/units/death/soldier_yell1;objects/units/death/soldier_yell2",
+  "on_spawn_sound": "objects/units/spawn/arthur_torchboy",
+  "script": "torch_sword_boy",
+  "shield": "torchboy_fire_shield",
+  "speed": 150,
+  "texture": "texture/objects/units/torch_boy",
+  "title": "Torch-boy",
+  "unique": true,
+  "unit_type": "Troop",
+  "unlock_wave": 37,
+  "weapon": "torch"
+ },
+ "wiseman": {
+  "ally": true,
+  "can_be_knocked_back": true,
+  "description": "Heals allies\nLow health",
+  "enflames": false,
+  "flavor_text": "Sure, he tells you what to do and makes you memorize stupid words, but he heals your units, which isn't all bad.",
+  "height": 75,
+  "icon_texture": "texture/UI/game/units/icon_wise_man",
+  "iron_cost": 40,
+  "level_stat": [
+   {
+    "cooldown": 5,
+    "cost": 0,
+    "health": 200
+   },
+   {
+    "cost": 1520,
+    "health": 240
+   },
+   {
+    "cost": 2600,
+    "health": 288
+   },
+   {
+    "cost": 4010,
+    "health": 346
+   },
+   {
+    "cost": 5760,
+    "health": 415
+   },
+   {
+    "cost": 7860,
+    "health": 498
+   },
+   {
+    "cost": 10320,
+    "health": 598
+   },
+   {
+    "cost": 13160,
+    "health": 658
+   },
+   {
+    "cost": 16390,
+    "health": 724
+   },
+   {
+    "cost": 20000,
+    "health": 796
+   }
+  ],
+  "model": "mesh/objects/units/wise_man.gr2",
+  "on_death_sound": "objects/units/death/wiseman_dung_eating_fool",
+  "on_spawn_sound": "objects/units/spawn/wiseman_strange_one",
+  "script": "wiseman",
+  "speed": 50,
+  "texture": "texture/objects/units/wise_man",
+  "title": "Wiseman",
+  "unique": true,
+  "unit_type": "Unique Troop",
+  "unlock_wave": 15,
+  "weapon": "magic_staff"
+ },
+ "witch": {
+  "ally": false,
+  "can_be_knocked_back": true,
+  "enflames": false,
+  "height": 82,
+  "level_stat": [
+   {
+    "gold_drop": 2,
+    "health": 350,
+    "iron_chance": 0.8,
+    "iron_drop": 1
+   }
+  ],
+  "model": "mesh/objects/units/witch.gr2",
+  "on_death_sound": "objects/units/death/witch_yell",
+  "script": "wiseman",
+  "speed": 50,
+  "texture": "texture/objects/units/witch",
+  "title": "Deadite Witch",
+  "unique": true,
+  "weapon": "magic_staff"
+ }
+}

@@ -1,0 +1,3472 @@
+{
+  "archer": {
+    "aabb": {
+      "pos": [
+        -119.120475769043,
+        -15.866491317749,
+        -18.616870880127
+      ],
+      "size": [
+        166.448425292969,
+        114.303382873535,
+        17.1979713439941
+      ]
+    },
+    "atlas": "res://assets/units/archer.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/archer/attack_a.webp",
+        "fps": 18.0,
+        "frames": 29.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/archer/damage.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/archer/die.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/archer/idle.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/archer/walk.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/archer/win.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 241.0,
+    "frame_w": 345.0,
+    "ss": 2.0
+  },
+  "armored_guard": {
+    "aabb": {
+      "pos": [
+        -73.3645401000977,
+        -6.29517841339111,
+        -58.6257019042969
+      ],
+      "size": [
+        167.540817260742,
+        129.860290527344,
+        56.3692665100098
+      ]
+    },
+    "atlas": "res://assets/units/armored_guard.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/armored_guard/attack_a.webp",
+        "fps": 18.0,
+        "frames": 24.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/armored_guard/attack_b.webp",
+        "fps": 18.0,
+        "frames": 21.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/armored_guard/damage.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/armored_guard/die.webp",
+        "fps": 18.0,
+        "frames": 31.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/armored_guard/idle.webp",
+        "fps": 18.0,
+        "frames": 20.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/armored_guard/walk.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/armored_guard/win.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 272.0,
+    "frame_w": 348.0,
+    "ss": 2.0
+  },
+  "arthur": {
+    "aabb": {
+      "pos": [
+        -83.7088851928711,
+        -4.21316242218018,
+        -24.5644817352295
+      ],
+      "size": [
+        247.503387451172,
+        174.587905883789,
+        23.4690780639648
+      ]
+    },
+    "atlas": "res://assets/units/arthur.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/arthur/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/arthur/attack_b.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/arthur/damage.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/arthur/die.webp",
+        "fps": 18.0,
+        "frames": 31.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/arthur/idle.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/arthur/walk.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/arthur/win.webp",
+        "fps": 18.0,
+        "frames": 24.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 362.0,
+    "frame_w": 508.0,
+    "ss": 2.0
+  },
+  "ash": {
+    "aabb": {
+      "pos": [
+        -120.542907714844,
+        -71.2489395141602,
+        -79.7291717529297
+      ],
+      "size": [
+        263.203033447266,
+        261.746459960938,
+        149.412872314453
+      ]
+    },
+    "atlas": "res://assets/units/ash.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/ash/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "attack_b": {
+        "cols": 14.0,
+        "file": "res://assets/unit_frames/ash/attack_b.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "attack_c": {
+        "cols": 13.0,
+        "file": "res://assets/unit_frames/ash/attack_c.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "cast": {
+        "cols": 13.0,
+        "file": "res://assets/unit_frames/ash/cast.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "die": {
+        "cols": 30.0,
+        "file": "res://assets/unit_frames/ash/die.webp",
+        "fps": 18.0,
+        "frames": 32.0
+      },
+      "idle": {
+        "cols": 14.0,
+        "file": "res://assets/unit_frames/ash/idle.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "walk": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/ash/walk.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 536.0,
+    "frame_w": 539.0,
+    "ss": 2.0
+  },
+  "ash__fist": {
+    "aabb": {
+      "pos": [
+        -120.542907714844,
+        -71.2489395141602,
+        -79.7291717529297
+      ],
+      "size": [
+        263.203033447266,
+        261.746459960938,
+        149.412872314453
+      ]
+    },
+    "atlas": "res://assets/units/ash.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/ash__fist/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "attack_b": {
+        "cols": 14.0,
+        "file": "res://assets/unit_frames/ash__fist/attack_b.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "attack_c": {
+        "cols": 13.0,
+        "file": "res://assets/unit_frames/ash__fist/attack_c.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "cast": {
+        "cols": 13.0,
+        "file": "res://assets/unit_frames/ash__fist/cast.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "die": {
+        "cols": 30.0,
+        "file": "res://assets/unit_frames/ash__fist/die.webp",
+        "fps": 18.0,
+        "frames": 32.0
+      },
+      "idle": {
+        "cols": 14.0,
+        "file": "res://assets/unit_frames/ash__fist/idle.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "walk": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/ash__fist/walk.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 536.0,
+    "frame_w": 539.0,
+    "ss": 2.0
+  },
+  "ash__saw": {
+    "aabb": {
+      "pos": [
+        -120.542907714844,
+        -71.2489395141602,
+        -79.7291717529297
+      ],
+      "size": [
+        263.203033447266,
+        261.746459960938,
+        149.412872314453
+      ]
+    },
+    "atlas": "res://assets/units/ash.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/ash__saw/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "attack_b": {
+        "cols": 14.0,
+        "file": "res://assets/unit_frames/ash__saw/attack_b.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "attack_c": {
+        "cols": 13.0,
+        "file": "res://assets/unit_frames/ash__saw/attack_c.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "cast": {
+        "cols": 13.0,
+        "file": "res://assets/unit_frames/ash__saw/cast.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "die": {
+        "cols": 30.0,
+        "file": "res://assets/unit_frames/ash__saw/die.webp",
+        "fps": 18.0,
+        "frames": 32.0
+      },
+      "idle": {
+        "cols": 14.0,
+        "file": "res://assets/unit_frames/ash__saw/idle.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "walk": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/ash__saw/walk.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 536.0,
+    "frame_w": 539.0,
+    "ss": 2.0
+  },
+  "catapults": {
+    "aabb": {
+      "pos": [
+        -90.2560729980469,
+        -5.00785779953003,
+        -15.6016979217529
+      ],
+      "size": [
+        164.289993286133,
+        142.857360839844,
+        15.6022491455078
+      ]
+    },
+    "atlas": "res://assets/units/catapults.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/catapults/attack_a.webp",
+        "fps": 18.0,
+        "frames": 25.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/catapults/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 298.0,
+    "frame_w": 341.0,
+    "ss": 2.0
+  },
+  "crossbow_skeleton": {
+    "aabb": {
+      "pos": [
+        -34.0673408508301,
+        -7.7457013130188,
+        -25.7269058227539
+      ],
+      "size": [
+        76.2854461669922,
+        71.6170272827148,
+        21.7518501281738
+      ]
+    },
+    "atlas": "res://assets/units/crossbow_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 8,
+        "file": "res://assets/unit_frames/crossbow_skeleton/attack_a.webp",
+        "fps": 18.0,
+        "frames": 8
+      },
+      "damage": {
+        "cols": 9,
+        "file": "res://assets/unit_frames/crossbow_skeleton/damage.webp",
+        "fps": 18.0,
+        "frames": 9
+      },
+      "die": {
+        "cols": 12,
+        "file": "res://assets/unit_frames/crossbow_skeleton/die.webp",
+        "fps": 18.0,
+        "frames": 12
+      },
+      "idle": {
+        "cols": 2,
+        "file": "res://assets/unit_frames/crossbow_skeleton/idle.webp",
+        "fps": 18.0,
+        "frames": 2
+      },
+      "walk": {
+        "cols": 18,
+        "file": "res://assets/unit_frames/crossbow_skeleton/walk.webp",
+        "fps": 18.0,
+        "frames": 18
+      },
+      "win": {
+        "cols": 11,
+        "file": "res://assets/unit_frames/crossbow_skeleton/win.webp",
+        "fps": 18.0,
+        "frames": 11
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 156,
+    "frame_w": 165,
+    "ss": 2.0
+  },
+  "crossbow_skeleton__he1": {
+    "aabb": {
+      "pos": [
+        -82.4673461914063,
+        -56.1457023620605,
+        -74.1269073486328
+      ],
+      "size": [
+        173.08544921875,
+        168.417022705078,
+        118.551849365234
+      ]
+    },
+    "atlas": "res://assets/units/crossbow_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he1/attack_a.webp",
+        "fps": 18.0,
+        "frames": 8.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he1/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he1/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he1/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he1/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he1/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 349.0,
+    "frame_w": 359.0,
+    "ss": 2.0
+  },
+  "crossbow_skeleton__he1__nohead": {
+    "aabb": {
+      "pos": [
+        -82.4673461914063,
+        -56.1457023620605,
+        -74.1269073486328
+      ],
+      "size": [
+        173.08544921875,
+        168.417022705078,
+        118.551849365234
+      ]
+    },
+    "atlas": "res://assets/units/crossbow_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 8.0,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he1__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 8.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he1__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 2.0,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he1__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he1__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 11.0,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he1__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 349.0,
+    "frame_w": 359.0,
+    "ss": 2.0
+  },
+  "crossbow_skeleton__he2": {
+    "aabb": {
+      "pos": [
+        -82.4673461914063,
+        -56.1457023620605,
+        -74.1269073486328
+      ],
+      "size": [
+        173.08544921875,
+        168.417022705078,
+        118.551849365234
+      ]
+    },
+    "atlas": "res://assets/units/crossbow_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he2/attack_a.webp",
+        "fps": 18.0,
+        "frames": 8.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he2/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he2/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he2/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he2/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he2/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 349.0,
+    "frame_w": 359.0,
+    "ss": 2.0
+  },
+  "crossbow_skeleton__he2__nohead": {
+    "aabb": {
+      "pos": [
+        -82.4673461914063,
+        -56.1457023620605,
+        -74.1269073486328
+      ],
+      "size": [
+        173.08544921875,
+        168.417022705078,
+        118.551849365234
+      ]
+    },
+    "atlas": "res://assets/units/crossbow_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 8.0,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he2__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 8.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he2__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 2.0,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he2__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he2__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 11.0,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he2__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 349.0,
+    "frame_w": 359.0,
+    "ss": 2.0
+  },
+  "crossbow_skeleton__he3": {
+    "aabb": {
+      "pos": [
+        -82.4673461914063,
+        -56.1457023620605,
+        -74.1269073486328
+      ],
+      "size": [
+        173.08544921875,
+        168.417022705078,
+        118.551849365234
+      ]
+    },
+    "atlas": "res://assets/units/crossbow_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he3/attack_a.webp",
+        "fps": 18.0,
+        "frames": 8.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he3/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he3/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he3/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he3/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/crossbow_skeleton__he3/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 349.0,
+    "frame_w": 359.0,
+    "ss": 2.0
+  },
+  "crossbow_skeleton__he3__nohead": {
+    "aabb": {
+      "pos": [
+        -82.4673461914063,
+        -56.1457023620605,
+        -74.1269073486328
+      ],
+      "size": [
+        173.08544921875,
+        168.417022705078,
+        118.551849365234
+      ]
+    },
+    "atlas": "res://assets/units/crossbow_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 8,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he3__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 8
+      },
+      "damage": {
+        "cols": 9,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he3__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9
+      },
+      "idle": {
+        "cols": 2,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he3__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 2
+      },
+      "walk": {
+        "cols": 18,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he3__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18
+      },
+      "win": {
+        "cols": 11,
+        "file": "res://assets/unit_frames/crossbow_skeleton__he3__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 11
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 349,
+    "frame_w": 359,
+    "ss": 2.0
+  },
+  "deathcoaster": {
+    "aabb": {
+      "pos": [
+        -121.805702209473,
+        -8.35483932495117,
+        -32.5690040588379
+      ],
+      "size": [
+        323.319946289063,
+        228.979202270508,
+        31.3181629180908
+      ]
+    },
+    "atlas": "res://assets/units/deathcoaster.webp",
+    "clips": {
+      "bind": {
+        "cols": 1.0,
+        "file": "res://assets/unit_frames/deathcoaster/bind.webp",
+        "fps": 18.0,
+        "frames": 1.0
+      },
+      "die": {
+        "cols": 24.0,
+        "file": "res://assets/unit_frames/deathcoaster/die.webp",
+        "fps": 18.0,
+        "frames": 25.0
+      },
+      "walk": {
+        "cols": 5.0,
+        "file": "res://assets/unit_frames/deathcoaster/walk.webp",
+        "fps": 18.0,
+        "frames": 5.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 470.0,
+    "frame_w": 659.0,
+    "ss": 2.0
+  },
+  "drummer_skeleton": {
+    "aabb": {
+      "pos": [
+        -45.7938575744629,
+        -48.4691390991211,
+        -37.450309753418
+      ],
+      "size": [
+        98.6237640380859,
+        127.892761230469,
+        33.9739265441895
+      ]
+    },
+    "atlas": "res://assets/units/drummer_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/drummer_skeleton/attack_a.webp",
+        "fps": 18.0,
+        "frames": 30.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/drummer_skeleton/damage.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/drummer_skeleton/die.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/drummer_skeleton/idle.webp",
+        "fps": 18.0,
+        "frames": 30.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/drummer_skeleton/walk.webp",
+        "fps": 18.0,
+        "frames": 30.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/drummer_skeleton/win.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 268.0,
+    "frame_w": 210.0,
+    "ss": 2.0
+  },
+  "dryad": {
+    "aabb": {
+      "pos": [
+        -128.229049682617,
+        -171.499816894531,
+        -10.0703191757202
+      ],
+      "size": [
+        351.753540039063,
+        338.431030273438,
+        9.52202224731445
+      ]
+    },
+    "atlas": "res://assets/units/dryad.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/dryad/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "attack_b": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/dryad/attack_b.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "damage": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/dryad/damage.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "die": {
+        "cols": 22.0,
+        "file": "res://assets/unit_frames/dryad/die.webp",
+        "fps": 18.0,
+        "frames": 35.0
+      },
+      "idle": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/dryad/idle.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/dryad/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/dryad/win.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 689.0,
+    "frame_w": 716.0,
+    "ss": 2.0
+  },
+  "evil_ash": {
+    "aabb": {
+      "pos": [
+        -95.3402633666992,
+        -125.091232299805,
+        -59.889331817627
+      ],
+      "size": [
+        169.959915161133,
+        220.936141967773,
+        57.8351554870605
+      ]
+    },
+    "atlas": "res://assets/units/evil_ash.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 24.0,
+        "file": "res://assets/unit_frames/evil_ash/attack_a.webp",
+        "fps": 18.0,
+        "frames": 24.0
+      },
+      "attack_b": {
+        "cols": 21.0,
+        "file": "res://assets/unit_frames/evil_ash/attack_b.webp",
+        "fps": 18.0,
+        "frames": 21.0
+      },
+      "damage": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/evil_ash/damage.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "die": {
+        "cols": 45.0,
+        "file": "res://assets/unit_frames/evil_ash/die.webp",
+        "fps": 18.0,
+        "frames": 45.0
+      },
+      "idle": {
+        "cols": 25.0,
+        "file": "res://assets/unit_frames/evil_ash/idle.webp",
+        "fps": 18.0,
+        "frames": 25.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/evil_ash/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 13.0,
+        "file": "res://assets/unit_frames/evil_ash/win.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 454.0,
+    "frame_w": 352.0,
+    "ss": 2.0
+  },
+  "evil_sheila": {
+    "aabb": {
+      "pos": [
+        -180.238906860352,
+        -44.257381439209,
+        -150.055206298828
+      ],
+      "size": [
+        437.664916992188,
+        334.161743164063,
+        137.896713256836
+      ]
+    },
+    "atlas": "res://assets/units/evil_sheila.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/evil_sheila/attack_a.webp",
+        "fps": 18.0,
+        "frames": 22.0
+      },
+      "attack_b": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/evil_sheila/attack_b.webp",
+        "fps": 18.0,
+        "frames": 29.0
+      },
+      "damage": {
+        "cols": 14.0,
+        "file": "res://assets/unit_frames/evil_sheila/damage.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "die": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/evil_sheila/die.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "idle": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/evil_sheila/idle.webp",
+        "fps": 18.0,
+        "frames": 25.0
+      },
+      "walk": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/evil_sheila/walk.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "win": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/evil_sheila/win.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 681.0,
+    "frame_w": 888.0,
+    "ss": 2.0
+  },
+  "flute_skeleton": {
+    "aabb": {
+      "pos": [
+        -37.3070068359375,
+        -5.36866044998169,
+        -22.9995555877686
+      ],
+      "size": [
+        61.7808227539063,
+        83.8563003540039,
+        20.0293025970459
+      ]
+    },
+    "atlas": "res://assets/units/flute_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/flute_skeleton/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/flute_skeleton/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/flute_skeleton/die.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/flute_skeleton/idle.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/flute_skeleton/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/flute_skeleton/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 180.0,
+    "frame_w": 136.0,
+    "ss": 2.0
+  },
+  "flying_book": {
+    "aabb": {
+      "pos": [
+        -32.2722282409668,
+        -18.0956802368164,
+        -0.0500693619251251
+      ],
+      "size": [
+        122.35432434082,
+        164.377502441406,
+        0.100140817463398
+      ]
+    },
+    "atlas": "res://assets/units/flying_book.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/flying_book/attack_a.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/flying_book/attack_b.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "attackb": {
+        "file": "res://assets/unit_frames/flying_book/attackb.webp",
+        "fps": 18.0,
+        "frames": 4.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/flying_book/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/flying_book/die.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/flying_book/idle.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/flying_book/walk.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/flying_book/win.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 341.0,
+    "frame_w": 257.0,
+    "ss": 2.0
+  },
+  "flying_book__evil_book_02": {
+    "aabb": {
+      "pos": [
+        -32.2722282409668,
+        -18.0956802368164,
+        -0.0500693619251251
+      ],
+      "size": [
+        122.35432434082,
+        164.377502441406,
+        0.100140817463398
+      ]
+    },
+    "atlas": "res://assets/units/flying_book__evil_book_02.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/flying_book__evil_book_02/attack_a.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/flying_book__evil_book_02/attack_b.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "attackb": {
+        "file": "res://assets/unit_frames/flying_book__evil_book_02/attackb.webp",
+        "fps": 18.0,
+        "frames": 4.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/flying_book__evil_book_02/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/flying_book__evil_book_02/die.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/flying_book__evil_book_02/idle.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/flying_book__evil_book_02/walk.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/flying_book__evil_book_02/win.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 341.0,
+    "frame_w": 257.0,
+    "ss": 2.0
+  },
+  "henry": {
+    "aabb": {
+      "pos": [
+        -75.4102401733398,
+        -31.1773471832275,
+        -50.7260055541992
+      ],
+      "size": [
+        183.3974609375,
+        192.098571777344,
+        67.936149597168
+      ]
+    },
+    "atlas": "res://assets/units/henry.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/henry/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/henry/attack_b.webp",
+        "fps": 18.0,
+        "frames": 20.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/henry/damage.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/henry/die.webp",
+        "fps": 18.0,
+        "frames": 19.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/henry/idle.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/henry/walk.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/henry/win.webp",
+        "fps": 18.0,
+        "frames": 25.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 397.0,
+    "frame_w": 379.0,
+    "ss": 2.0
+  },
+  "horseback_skeleton": {
+    "aabb": {
+      "pos": [
+        -188.019515991211,
+        -223.592636108398,
+        -91.0351181030273
+      ],
+      "size": [
+        299.377716064453,
+        343.407318115234,
+        183.856979370117
+      ]
+    },
+    "atlas": "res://assets/units/horseback_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/horseback_skeleton/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/horseback_skeleton/attack_b.webp",
+        "fps": 18.0,
+        "frames": 20.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/horseback_skeleton/damage.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/horseback_skeleton/die.webp",
+        "fps": 18.0,
+        "frames": 24.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/horseback_skeleton/idle.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/horseback_skeleton/walk.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/horseback_skeleton/win.webp",
+        "fps": 18.0,
+        "frames": 25.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 699.0,
+    "frame_w": 611.0,
+    "ss": 2.0
+  },
+  "horseback_skeleton__skeleton_knight_02": {
+    "aabb": {
+      "pos": [
+        -188.019515991211,
+        -223.592636108398,
+        -91.0351181030273
+      ],
+      "size": [
+        299.377716064453,
+        343.407318115234,
+        183.856979370117
+      ]
+    },
+    "atlas": "res://assets/units/horseback_skeleton__skeleton_knight_02.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/horseback_skeleton__skeleton_knight_02/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/horseback_skeleton__skeleton_knight_02/attack_b.webp",
+        "fps": 18.0,
+        "frames": 20.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/horseback_skeleton__skeleton_knight_02/damage.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/horseback_skeleton__skeleton_knight_02/die.webp",
+        "fps": 18.0,
+        "frames": 24.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/horseback_skeleton__skeleton_knight_02/idle.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/horseback_skeleton__skeleton_knight_02/walk.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/horseback_skeleton__skeleton_knight_02/win.webp",
+        "fps": 18.0,
+        "frames": 25.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 699.0,
+    "frame_w": 611.0,
+    "ss": 2.0
+  },
+  "horseman": {
+    "aabb": {
+      "pos": [
+        -114.362915039063,
+        -44.8891067504883,
+        -94.1120758056641
+      ],
+      "size": [
+        305.377136230469,
+        271.472381591797,
+        197.078720092773
+      ]
+    },
+    "atlas": "res://assets/units/horseman.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/horseman/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/horseman/attack_b.webp",
+        "fps": 18.0,
+        "frames": 20.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/horseman/damage.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/horseman/die.webp",
+        "fps": 18.0,
+        "frames": 24.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/horseman/idle.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/horseman/walk.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/horseman/win.webp",
+        "fps": 18.0,
+        "frames": 25.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 555.0,
+    "frame_w": 623.0,
+    "ss": 2.0
+  },
+  "inner_wall_archer": {
+    "aabb": {
+      "pos": [
+        -119.120475769043,
+        -15.866491317749,
+        -18.616870880127
+      ],
+      "size": [
+        166.448425292969,
+        114.303382873535,
+        17.1979713439941
+      ]
+    },
+    "atlas": "res://assets/units/inner_wall_archer.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/inner_wall_archer/attack_a.webp",
+        "fps": 18.0,
+        "frames": 29.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/inner_wall_archer/damage.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/inner_wall_archer/die.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/inner_wall_archer/idle.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/inner_wall_archer/walk.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/inner_wall_archer/win.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 241.0,
+    "frame_w": 345.0,
+    "ss": 2.0
+  },
+  "mini_ash": {
+    "aabb": {
+      "pos": [
+        -118.063774108887,
+        -70.3780746459961,
+        -18.5751190185547
+      ],
+      "size": [
+        259.051208496094,
+        221.092651367188,
+        10.7070960998535
+      ]
+    },
+    "atlas": "res://assets/units/mini_ash.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 21.0,
+        "file": "res://assets/unit_frames/mini_ash/attack_a.webp",
+        "fps": 18.0,
+        "frames": 21.0
+      },
+      "attack_b": {
+        "cols": 21.0,
+        "file": "res://assets/unit_frames/mini_ash/attack_b.webp",
+        "fps": 18.0,
+        "frames": 21.0
+      },
+      "damage": {
+        "cols": 11.0,
+        "file": "res://assets/unit_frames/mini_ash/damage.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "die": {
+        "cols": 16.0,
+        "file": "res://assets/unit_frames/mini_ash/die.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "idle": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/mini_ash/idle.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "walk": {
+        "cols": 29.0,
+        "file": "res://assets/unit_frames/mini_ash/walk.webp",
+        "fps": 18.0,
+        "frames": 29.0
+      },
+      "win": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/mini_ash/win.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 455.0,
+    "frame_w": 531.0,
+    "ss": 2.0
+  },
+  "peasant": {
+    "aabb": {
+      "pos": [
+        -65.3517532348633,
+        -48.9022941589355,
+        -75.5662841796875
+      ],
+      "size": [
+        143.431976318359,
+        156.985809326172,
+        119.463996887207
+      ]
+    },
+    "atlas": "res://assets/units/peasant.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/peasant/attack_a.webp",
+        "fps": 18.0,
+        "frames": 10.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/peasant/attack_b.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/peasant/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/peasant/die.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/peasant/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/peasant/walk.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/peasant/win.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 326.0,
+    "frame_w": 299.0,
+    "ss": 2.0
+  },
+  "pit_monster": {
+    "aabb": {
+      "pos": [
+        -66.7814102172852,
+        -17.3093070983887,
+        -42.5035514831543
+      ],
+      "size": [
+        139.385040283203,
+        118.347763061523,
+        35.992862701416
+      ]
+    },
+    "atlas": "res://assets/units/pit_monster.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/pit_monster/attack_a.webp",
+        "fps": 18.0,
+        "frames": 19.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/pit_monster/attack_b.webp",
+        "fps": 18.0,
+        "frames": 19.0
+      },
+      "bind": {
+        "file": "res://assets/unit_frames/pit_monster/bind.webp",
+        "fps": 18.0,
+        "frames": 1.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/pit_monster/damage.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/pit_monster/die.webp",
+        "fps": 18.0,
+        "frames": 19.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/pit_monster/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/pit_monster/win.webp",
+        "fps": 18.0,
+        "frames": 22.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 249.0,
+    "frame_w": 291.0,
+    "ss": 2.0
+  },
+  "shield_skeleton": {
+    "aabb": {
+      "pos": [
+        -112.512451171875,
+        -14.7785415649414,
+        -24.293478012085
+      ],
+      "size": [
+        150.671340942383,
+        135.826751708984,
+        20.2583026885986
+      ]
+    },
+    "atlas": "res://assets/units/shield_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/shield_skeleton/attack_a.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/shield_skeleton/damage.webp",
+        "fps": 18.0,
+        "frames": 8.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/shield_skeleton/die.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/shield_skeleton/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/shield_skeleton/walk.webp",
+        "fps": 18.0,
+        "frames": 36.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 284.0,
+    "frame_w": 314.0,
+    "ss": 2.0
+  },
+  "shield_skeleton__skeleton_siege_shield_02": {
+    "aabb": {
+      "pos": [
+        -112.512451171875,
+        -14.7785415649414,
+        -24.293478012085
+      ],
+      "size": [
+        150.671340942383,
+        135.826751708984,
+        20.2583026885986
+      ]
+    },
+    "atlas": "res://assets/units/shield_skeleton__skeleton_siege_shield_02.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/shield_skeleton__skeleton_siege_shield_02/attack_a.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/shield_skeleton__skeleton_siege_shield_02/damage.webp",
+        "fps": 18.0,
+        "frames": 8.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/shield_skeleton__skeleton_siege_shield_02/die.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/shield_skeleton__skeleton_siege_shield_02/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/shield_skeleton__skeleton_siege_shield_02/walk.webp",
+        "fps": 18.0,
+        "frames": 36.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 284.0,
+    "frame_w": 314.0,
+    "ss": 2.0
+  },
+  "shield_skeleton__skeleton_siege_shield_03": {
+    "aabb": {
+      "pos": [
+        -112.512451171875,
+        -14.7785415649414,
+        -24.293478012085
+      ],
+      "size": [
+        150.671340942383,
+        135.826751708984,
+        20.2583026885986
+      ]
+    },
+    "atlas": "res://assets/units/shield_skeleton__skeleton_siege_shield_03.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/shield_skeleton__skeleton_siege_shield_03/attack_a.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/shield_skeleton__skeleton_siege_shield_03/damage.webp",
+        "fps": 18.0,
+        "frames": 8.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/shield_skeleton__skeleton_siege_shield_03/die.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/shield_skeleton__skeleton_siege_shield_03/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/shield_skeleton__skeleton_siege_shield_03/walk.webp",
+        "fps": 18.0,
+        "frames": 36.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 284.0,
+    "frame_w": 314.0,
+    "ss": 2.0
+  },
+  "smithy": {
+    "aabb": {
+      "pos": [
+        -60.4486961364746,
+        -6.06873750686646,
+        -7.40819501876831
+      ],
+      "size": [
+        136.483200073242,
+        108.865791320801,
+        7.01903629302979
+      ]
+    },
+    "atlas": "res://assets/units/smithy.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/smithy/attack_a.webp",
+        "fps": 18.0,
+        "frames": 21.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/smithy/damage.webp",
+        "fps": 18.0,
+        "frames": 10.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/smithy/die.webp",
+        "fps": 18.0,
+        "frames": 24.0
+      },
+      "hammertime": {
+        "file": "res://assets/unit_frames/smithy/hammertime.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/smithy/idle.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/smithy/walk.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/smithy/win.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 230.0,
+    "frame_w": 285.0,
+    "ss": 2.0
+  },
+  "spear_skeleton": {
+    "aabb": {
+      "pos": [
+        -53.9104232788086,
+        -7.63980770111084,
+        -25.9537220001221
+      ],
+      "size": [
+        87.2780838012695,
+        70.6177978515625,
+        21.4387302398682
+      ]
+    },
+    "atlas": "res://assets/units/spear_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 15.0,
+        "file": "res://assets/unit_frames/spear_skeleton/attack_a.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "attack_b": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/spear_skeleton/attack_b.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/spear_skeleton/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "cols": 12.0,
+        "file": "res://assets/unit_frames/spear_skeleton/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "cols": 2.0,
+        "file": "res://assets/unit_frames/spear_skeleton/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/spear_skeleton/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 12.0,
+        "file": "res://assets/unit_frames/spear_skeleton/win.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 154.0,
+    "frame_w": 187.0,
+    "ss": 2.0
+  },
+  "spear_skeleton__he1": {
+    "aabb": {
+      "pos": [
+        -127.51042175293,
+        -81.2398071289063,
+        -99.5537185668945
+      ],
+      "size": [
+        234.478088378906,
+        217.817794799805,
+        168.638732910156
+      ]
+    },
+    "atlas": "res://assets/units/spear_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/spear_skeleton__he1/attack_a.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/spear_skeleton__he1/attack_b.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/spear_skeleton__he1/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/spear_skeleton__he1/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/spear_skeleton__he1/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/spear_skeleton__he1/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/spear_skeleton__he1/win.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 448.0,
+    "frame_w": 481.0,
+    "ss": 2.0
+  },
+  "spear_skeleton__he1__nohead": {
+    "aabb": {
+      "pos": [
+        -127.51042175293,
+        -81.2398071289063,
+        -99.5537185668945
+      ],
+      "size": [
+        234.478088378906,
+        217.817794799805,
+        168.638732910156
+      ]
+    },
+    "atlas": "res://assets/units/spear_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 15.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he1__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "attack_b": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he1__nohead/attack_b.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he1__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 2.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he1__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he1__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 12.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he1__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 448.0,
+    "frame_w": 481.0,
+    "ss": 2.0
+  },
+  "spear_skeleton__he2": {
+    "aabb": {
+      "pos": [
+        -127.51042175293,
+        -81.2398071289063,
+        -99.5537185668945
+      ],
+      "size": [
+        234.478088378906,
+        217.817794799805,
+        168.638732910156
+      ]
+    },
+    "atlas": "res://assets/units/spear_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/spear_skeleton__he2/attack_a.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/spear_skeleton__he2/attack_b.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/spear_skeleton__he2/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/spear_skeleton__he2/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/spear_skeleton__he2/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/spear_skeleton__he2/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/spear_skeleton__he2/win.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 448.0,
+    "frame_w": 481.0,
+    "ss": 2.0
+  },
+  "spear_skeleton__he2__nohead": {
+    "aabb": {
+      "pos": [
+        -127.51042175293,
+        -81.2398071289063,
+        -99.5537185668945
+      ],
+      "size": [
+        234.478088378906,
+        217.817794799805,
+        168.638732910156
+      ]
+    },
+    "atlas": "res://assets/units/spear_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 15.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he2__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "attack_b": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he2__nohead/attack_b.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he2__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 2.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he2__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he2__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 12.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he2__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 448.0,
+    "frame_w": 481.0,
+    "ss": 2.0
+  },
+  "spear_skeleton__he3": {
+    "aabb": {
+      "pos": [
+        -127.51042175293,
+        -81.2398071289063,
+        -99.5537185668945
+      ],
+      "size": [
+        234.478088378906,
+        217.817794799805,
+        168.638732910156
+      ]
+    },
+    "atlas": "res://assets/units/spear_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/spear_skeleton__he3/attack_a.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/spear_skeleton__he3/attack_b.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/spear_skeleton__he3/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/spear_skeleton__he3/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/spear_skeleton__he3/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/spear_skeleton__he3/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/spear_skeleton__he3/win.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 448.0,
+    "frame_w": 481.0,
+    "ss": 2.0
+  },
+  "spear_skeleton__he3__nohead": {
+    "aabb": {
+      "pos": [
+        -127.51042175293,
+        -81.2398071289063,
+        -99.5537185668945
+      ],
+      "size": [
+        234.478088378906,
+        217.817794799805,
+        168.638732910156
+      ]
+    },
+    "atlas": "res://assets/units/spear_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 15.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he3__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "attack_b": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he3__nohead/attack_b.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he3__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 2.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he3__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he3__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 12.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he3__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 448.0,
+    "frame_w": 481.0,
+    "ss": 2.0
+  },
+  "spear_skeleton__he4": {
+    "aabb": {
+      "pos": [
+        -127.51042175293,
+        -81.2398071289063,
+        -99.5537185668945
+      ],
+      "size": [
+        234.478088378906,
+        217.817794799805,
+        168.638732910156
+      ]
+    },
+    "atlas": "res://assets/units/spear_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/spear_skeleton__he4/attack_a.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/spear_skeleton__he4/attack_b.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/spear_skeleton__he4/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/spear_skeleton__he4/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/spear_skeleton__he4/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/spear_skeleton__he4/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/spear_skeleton__he4/win.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 448.0,
+    "frame_w": 481.0,
+    "ss": 2.0
+  },
+  "spear_skeleton__he4__nohead": {
+    "aabb": {
+      "pos": [
+        -127.51042175293,
+        -81.2398071289063,
+        -99.5537185668945
+      ],
+      "size": [
+        234.478088378906,
+        217.817794799805,
+        168.638732910156
+      ]
+    },
+    "atlas": "res://assets/units/spear_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 15.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he4__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "attack_b": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he4__nohead/attack_b.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he4__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 2.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he4__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he4__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 12.0,
+        "file": "res://assets/unit_frames/spear_skeleton__he4__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 448.0,
+    "frame_w": 481.0,
+    "ss": 2.0
+  },
+  "spearman": {
+    "aabb": {
+      "pos": [
+        -158.472076416016,
+        -76.0214996337891,
+        -96.2780685424805
+      ],
+      "size": [
+        286.692138671875,
+        228.271850585938,
+        161.434326171875
+      ]
+    },
+    "atlas": "res://assets/units/spearman.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/spearman/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/spearman/attack_b.webp",
+        "fps": 18.0,
+        "frames": 21.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/spearman/damage.webp",
+        "fps": 18.0,
+        "frames": 13.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/spearman/die.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/spearman/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/spearman/walk.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/spearman/win.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 469.0,
+    "frame_w": 586.0,
+    "ss": 2.0
+  },
+  "sword_skeleton": {
+    "aabb": {
+      "pos": [
+        -34.7835159301758,
+        -4.67676067352295,
+        -25.7714786529541
+      ],
+      "size": [
+        59.1839447021484,
+        67.1303939819336,
+        19.8293323516846
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/sword_skeleton/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "cols": 16.0,
+        "file": "res://assets/unit_frames/sword_skeleton/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/sword_skeleton/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "cols": 12.0,
+        "file": "res://assets/unit_frames/sword_skeleton/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "cols": 23.0,
+        "file": "res://assets/unit_frames/sword_skeleton/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/sword_skeleton/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 11.0,
+        "file": "res://assets/unit_frames/sword_skeleton/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 147.0,
+    "frame_w": 131.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he1_sh1": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he1_sh1__nohead": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "cols": 16.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1__nohead/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 23.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 11.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he1_sh1__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he2_sh2": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he2_sh2__nohead": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "cols": 16.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2__nohead/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 23.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 11.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he2_sh2__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he3_sh3": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he3_sh3__nohead": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "cols": 16.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3__nohead/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 23.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 11.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he3_sh3__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he4_sh4": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he4_sh4__nohead": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "cols": 16.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4__nohead/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 23.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 11.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he4_sh4__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he5_sh5": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he5_sh5__nohead": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "cols": 16.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5__nohead/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 23.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 11.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he5_sh5__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he6_sh6": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6/die.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "sword_skeleton__he6_sh6__nohead": {
+    "aabb": {
+      "pos": [
+        -85.7835159301758,
+        -55.6767616271973,
+        -76.7714767456055
+      ],
+      "size": [
+        161.183944702148,
+        169.130401611328,
+        121.829330444336
+      ]
+    },
+    "atlas": "res://assets/units/sword_skeleton.webp",
+    "clips": {
+      "attack_a": {
+        "cols": 17.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6__nohead/attack_a.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "attack_b": {
+        "cols": 16.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6__nohead/attack_b.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "damage": {
+        "cols": 9.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6__nohead/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "idle": {
+        "cols": 23.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6__nohead/idle.webp",
+        "fps": 18.0,
+        "frames": 23.0
+      },
+      "walk": {
+        "cols": 18.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6__nohead/walk.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "win": {
+        "cols": 11.0,
+        "file": "res://assets/unit_frames/sword_skeleton__he6_sh6__nohead/win.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 351.0,
+    "frame_w": 335.0,
+    "ss": 2.0
+  },
+  "swordboy": {
+    "aabb": {
+      "pos": [
+        -44.1232948303223,
+        -5.13413572311401,
+        -21.7048168182373
+      ],
+      "size": [
+        83.2651443481445,
+        93.8012237548828,
+        19.3337078094482
+      ]
+    },
+    "atlas": "res://assets/units/swordboy.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/swordboy/attack_a.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/swordboy/attack_b.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/swordboy/damage.webp",
+        "fps": 18.0,
+        "frames": 10.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/swordboy/die.webp",
+        "fps": 18.0,
+        "frames": 14.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/swordboy/idle.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/swordboy/walk.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/swordboy/win.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 200.0,
+    "frame_w": 179.0,
+    "ss": 2.0
+  },
+  "swordsman": {
+    "aabb": {
+      "pos": [
+        -124.456558227539,
+        -98.1312103271484,
+        -94.5255584716797
+      ],
+      "size": [
+        276.441467285156,
+        281.035400390625,
+        188.288162231445
+      ]
+    },
+    "atlas": "res://assets/units/swordsman.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/swordsman/attack_a.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/swordsman/attack_b.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/swordsman/damage.webp",
+        "fps": 18.0,
+        "frames": 9.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/swordsman/die.webp",
+        "fps": 18.0,
+        "frames": 15.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/swordsman/idle.webp",
+        "fps": 18.0,
+        "frames": 2.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/swordsman/walk.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/swordsman/win.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 575.0,
+    "frame_w": 565.0,
+    "ss": 2.0
+  },
+  "torchboy": {
+    "aabb": {
+      "pos": [
+        -53.4071388244629,
+        -4.96460962295532,
+        -24.0244312286377
+      ],
+      "size": [
+        85.0823516845703,
+        92.6574630737305,
+        21.4605979919434
+      ]
+    },
+    "atlas": "res://assets/units/torchboy.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/torchboy/attack_a.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/torchboy/attack_b.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/torchboy/damage.webp",
+        "fps": 18.0,
+        "frames": 10.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/torchboy/die.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/torchboy/idle.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/torchboy/walk.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/torchboy/win.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 198.0,
+    "frame_w": 183.0,
+    "ss": 2.0
+  },
+  "vortex_book": {
+    "aabb": {
+      "pos": [
+        -151.874389648438,
+        61.9164848327637,
+        -71.0907516479492
+      ],
+      "size": [
+        78.2949523925781,
+        45.1479225158691,
+        71.0887680053711
+      ]
+    },
+    "atlas": "res://assets/units/vortex_book.webp",
+    "clips": {
+      "idle": {
+        "file": "res://assets/unit_frames/vortex_book/idle.webp",
+        "fps": 18.0,
+        "frames": 48.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 103.0,
+    "frame_w": 169.0,
+    "ss": 2.0
+  },
+  "wiseman": {
+    "aabb": {
+      "pos": [
+        -76.4571304321289,
+        -11.1925144195557,
+        -18.5436973571777
+      ],
+      "size": [
+        127.286277770996,
+        107.168601989746,
+        10.9984521865845
+      ]
+    },
+    "atlas": "res://assets/units/wiseman.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/wiseman/attack_a.webp",
+        "fps": 18.0,
+        "frames": 21.0
+      },
+      "attack_ab": {
+        "file": "res://assets/unit_frames/wiseman/attack_ab.webp",
+        "fps": 18.0,
+        "frames": 21.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/wiseman/attack_b.webp",
+        "fps": 18.0,
+        "frames": 21.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/wiseman/damage.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/wiseman/die.webp",
+        "fps": 18.0,
+        "frames": 24.0
+      },
+      "idle": {
+        "file": "res://assets/unit_frames/wiseman/idle.webp",
+        "fps": 18.0,
+        "frames": 11.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/wiseman/walk.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/wiseman/win.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 227.0,
+    "frame_w": 267.0,
+    "ss": 2.0
+  },
+  "witch": {
+    "aabb": {
+      "pos": [
+        -66.0681076049805,
+        -13.8081874847412,
+        -2.66139221191406
+      ],
+      "size": [
+        231.935455322266,
+        113.721878051758,
+        2.3286509513855
+      ]
+    },
+    "atlas": "res://assets/units/witch.webp",
+    "clips": {
+      "attack_a": {
+        "file": "res://assets/unit_frames/witch/attack_a.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "attack_b": {
+        "file": "res://assets/unit_frames/witch/attack_b.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      },
+      "bind": {
+        "file": "res://assets/unit_frames/witch/bind.webp",
+        "fps": 18.0,
+        "frames": 1.0
+      },
+      "damage": {
+        "file": "res://assets/unit_frames/witch/damage.webp",
+        "fps": 18.0,
+        "frames": 12.0
+      },
+      "die": {
+        "file": "res://assets/unit_frames/witch/die.webp",
+        "fps": 18.0,
+        "frames": 27.0
+      },
+      "idel": {
+        "file": "res://assets/unit_frames/witch/idel.webp",
+        "fps": 18.0,
+        "frames": 16.0
+      },
+      "walk": {
+        "file": "res://assets/unit_frames/witch/walk.webp",
+        "fps": 18.0,
+        "frames": 17.0
+      },
+      "win": {
+        "file": "res://assets/unit_frames/witch/win.webp",
+        "fps": 18.0,
+        "frames": 18.0
+      }
+    },
+    "fps": 18.0,
+    "frame_h": 240.0,
+    "frame_w": 476.0,
+    "ss": 2.0
+  }
+}

@@ -1,0 +1,54 @@
+{
+	"_how_to": "Written by the in-game bg editor (--bgeditor --sandbox). Each entry is a pixel offset ADDED to the piece's authored position in rebuild/scripts/main.gd — dx right, dy DOWN. Optional \"deleted\": true hides the piece (and the riders that copy its paint) at every boot; remove the key to bring it back. Optional top-level \"clones\" spawns copies: {\"source\": <piece>, \"dx\": n, \"dy\": n} — the copy seats at the source's authored position + dx/dy and is itself editable/deletable. Delete this file (or zero the values) to restore the shipped seats. Guide: work/tmp_final14/BG_EDITOR_HOWTO.md.",
+	"pieces": {
+		"backwall_mask_03": {
+			"dx": 63.0,
+			"dy": 0.0
+		},
+		"bg_part1_bottom": {
+			"dx": 66.0,
+			"dy": 0.0
+		},
+		"bg_part1_bottom_seam": {
+			"deleted": true,
+			"dx": 168.0,
+			"dy": 1.0
+		},
+		"bg_part2_bottom": {
+			"dx": 63.0,
+			"dy": 0.0
+		},
+		"bg_part2_middle": {
+			"dx": 63.0,
+			"dy": 0.0
+		},
+		"bg_part2_middle_alpha": {
+			"dx": 64.0,
+			"dy": 0.0
+		},
+		"bg_part2_top_left": {
+			"dx": 64.0,
+			"dy": 0.0
+		},
+		"bg_part2_top_middle": {
+			"dx": 67.22,
+			"dy": 13.71
+		},
+		"bg_part2_top_right": {
+			"dx": 64.0,
+			"dy": 0.0
+		},
+		"bg_part3": {
+			"dx": 100.73,
+			"dy": 0.36
+		},
+		"front_gate_mask": {
+			"dx": 102.4,
+			"dy": 0.07
+		},
+		"wall_mask_03": {
+			"dx": -0.29,
+			"dy": 0.07
+		}
+	}
+}

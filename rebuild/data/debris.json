@@ -1,0 +1,1746 @@
+{
+ "meta": {
+  "ss": 2.0,
+  "max_part_world": 34.0,
+  "weights": {
+   "head": 3.0,
+   "bicep": 2.0,
+   "forearm": 2.0,
+   "arm": 1.8,
+   "leg": 1.5,
+   "foot": 1.2
+  }
+ },
+ "units": {
+  "crossbow_skeleton": {
+   "parts": [
+    {
+     "name": "bicep_right01",
+     "file": "res://assets/debris/crossbow_skeleton/bicep_right01.webp",
+     "w": 6.69,
+     "h": 13.45,
+     "hy": 0.551
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/crossbow_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.29
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/crossbow_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.335
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/crossbow_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.198
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/crossbow_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.211
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/crossbow_skeleton/torso.webp",
+     "w": 21.58,
+     "h": 32.22,
+     "hy": 0.542
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/crossbow_skeleton/forearm_right.webp",
+     "w": 13.46,
+     "h": 11.94,
+     "hy": 0.48
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/crossbow_skeleton/bicep_right.webp",
+     "w": 13.58,
+     "h": 13.86,
+     "hy": 0.556
+    }
+   ]
+  },
+  "crossbow_skeleton__he1": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/crossbow_skeleton/head__he1.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.354
+    },
+    {
+     "name": "bicep_right01",
+     "file": "res://assets/debris/crossbow_skeleton/bicep_right01.webp",
+     "w": 6.69,
+     "h": 13.45,
+     "hy": 0.551
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/crossbow_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.29
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/crossbow_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.335
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/crossbow_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.198
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/crossbow_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.211
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/crossbow_skeleton/torso.webp",
+     "w": 21.58,
+     "h": 32.22,
+     "hy": 0.542
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/crossbow_skeleton/forearm_right.webp",
+     "w": 13.46,
+     "h": 11.94,
+     "hy": 0.48
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/crossbow_skeleton/bicep_right.webp",
+     "w": 13.58,
+     "h": 13.86,
+     "hy": 0.556
+    }
+   ]
+  },
+  "crossbow_skeleton__he2": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/crossbow_skeleton/head__he2.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.354
+    },
+    {
+     "name": "bicep_right01",
+     "file": "res://assets/debris/crossbow_skeleton/bicep_right01.webp",
+     "w": 6.69,
+     "h": 13.45,
+     "hy": 0.551
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/crossbow_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.29
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/crossbow_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.335
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/crossbow_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.198
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/crossbow_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.211
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/crossbow_skeleton/torso.webp",
+     "w": 21.58,
+     "h": 32.22,
+     "hy": 0.542
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/crossbow_skeleton/forearm_right.webp",
+     "w": 13.46,
+     "h": 11.94,
+     "hy": 0.48
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/crossbow_skeleton/bicep_right.webp",
+     "w": 13.58,
+     "h": 13.86,
+     "hy": 0.556
+    }
+   ]
+  },
+  "crossbow_skeleton__he3": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/crossbow_skeleton/head__he3.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.354
+    },
+    {
+     "name": "bicep_right01",
+     "file": "res://assets/debris/crossbow_skeleton/bicep_right01.webp",
+     "w": 6.69,
+     "h": 13.45,
+     "hy": 0.551
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/crossbow_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.29
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/crossbow_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.335
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/crossbow_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.198
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/crossbow_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.211
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/crossbow_skeleton/torso.webp",
+     "w": 21.58,
+     "h": 32.22,
+     "hy": 0.542
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/crossbow_skeleton/forearm_right.webp",
+     "w": 13.46,
+     "h": 11.94,
+     "hy": 0.48
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/crossbow_skeleton/bicep_right.webp",
+     "w": 13.58,
+     "h": 13.86,
+     "hy": 0.556
+    }
+   ]
+  },
+  "drummer_skeleton": {
+   "parts": [
+    {
+     "name": "hand_right",
+     "file": "res://assets/debris/drummer_skeleton/hand_right.webp",
+     "w": 15.81,
+     "h": 20.9,
+     "hy": 0.61
+    },
+    {
+     "name": "drum_stick_right",
+     "file": "res://assets/debris/drummer_skeleton/drum_stick_right.webp",
+     "w": 30.69,
+     "h": 22.88,
+     "hy": 0.622
+    },
+    {
+     "name": "hand_left",
+     "file": "res://assets/debris/drummer_skeleton/hand_left.webp",
+     "w": 16.92,
+     "h": 19.71,
+     "hy": 0.559
+    },
+    {
+     "name": "drum_stick_left",
+     "file": "res://assets/debris/drummer_skeleton/drum_stick_left.webp",
+     "w": 29.42,
+     "h": 19.14,
+     "hy": 0.554
+    },
+    {
+     "name": "head",
+     "file": "res://assets/debris/drummer_skeleton/head.webp",
+     "w": 20.93,
+     "h": 22.51,
+     "hy": 0.743
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/drummer_skeleton/bicep_right.webp",
+     "w": 12.64,
+     "h": 11.88,
+     "hy": 0.645
+    },
+    {
+     "name": "bicep_left",
+     "file": "res://assets/debris/drummer_skeleton/bicep_left.webp",
+     "w": 11.26,
+     "h": 12.62,
+     "hy": 0.618
+    },
+    {
+     "name": "shin_left",
+     "file": "res://assets/debris/drummer_skeleton/shin_left.webp",
+     "w": 9.94,
+     "h": 17.82,
+     "hy": 0.478
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/drummer_skeleton/foot_left.webp",
+     "w": 24.82,
+     "h": 7.84,
+     "hy": 0.404
+    },
+    {
+     "name": "shin_right",
+     "file": "res://assets/debris/drummer_skeleton/shin_right.webp",
+     "w": 9.94,
+     "h": 17.82,
+     "hy": 0.507
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/drummer_skeleton/foot_right.webp",
+     "w": 24.82,
+     "h": 7.84,
+     "hy": 0.433
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/drummer_skeleton/torso.webp",
+     "w": 38.39,
+     "h": 40.39,
+     "hy": 0.585
+    }
+   ]
+  },
+  "flute_skeleton": {
+   "parts": [
+    {
+     "name": "flute",
+     "file": "res://assets/debris/flute_skeleton/flute.webp",
+     "w": 38.04,
+     "h": 14.43,
+     "hy": 0.584
+    },
+    {
+     "name": "finger05",
+     "file": "res://assets/debris/flute_skeleton/finger05.webp",
+     "w": 4.56,
+     "h": 9.0,
+     "hy": 0.571
+    },
+    {
+     "name": "finger04",
+     "file": "res://assets/debris/flute_skeleton/finger04.webp",
+     "w": 5.81,
+     "h": 9.51,
+     "hy": 0.565
+    },
+    {
+     "name": "finger06",
+     "file": "res://assets/debris/flute_skeleton/finger06.webp",
+     "w": 5.1,
+     "h": 9.11,
+     "hy": 0.572
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/flute_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.22
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/flute_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.258
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/flute_skeleton/foot_left.webp",
+     "w": 28.66,
+     "h": 20.33,
+     "hy": 0.129
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/flute_skeleton/foot_right.webp",
+     "w": 28.64,
+     "h": 14.31,
+     "hy": 0.153
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/flute_skeleton/torso.webp",
+     "w": 17.7,
+     "h": 27.39,
+     "hy": 0.463
+    },
+    {
+     "name": "head",
+     "file": "res://assets/debris/flute_skeleton/head.webp",
+     "w": 21.61,
+     "h": 24.61,
+     "hy": 0.65
+    },
+    {
+     "name": "finger03",
+     "file": "res://assets/debris/flute_skeleton/finger03.webp",
+     "w": 4.98,
+     "h": 9.34,
+     "hy": 0.571
+    },
+    {
+     "name": "finger01",
+     "file": "res://assets/debris/flute_skeleton/finger01.webp",
+     "w": 6.6,
+     "h": 9.9,
+     "hy": 0.586
+    },
+    {
+     "name": "finger02",
+     "file": "res://assets/debris/flute_skeleton/finger02.webp",
+     "w": 5.91,
+     "h": 9.7,
+     "hy": 0.582
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/flute_skeleton/forearm_right.webp",
+     "w": 16.03,
+     "h": 16.84,
+     "hy": 0.501
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/flute_skeleton/bicep_right.webp",
+     "w": 14.81,
+     "h": 11.25,
+     "hy": 0.469
+    },
+    {
+     "name": "forearm_left",
+     "file": "res://assets/debris/flute_skeleton/forearm_left.webp",
+     "w": 15.5,
+     "h": 16.51,
+     "hy": 0.496
+    },
+    {
+     "name": "bicep_left",
+     "file": "res://assets/debris/flute_skeleton/bicep_left.webp",
+     "w": 14.63,
+     "h": 9.91,
+     "hy": 0.461
+    }
+   ]
+  },
+  "horseback_skeleton": {
+   "parts": [
+    {
+     "name": "Plane08",
+     "file": "res://assets/debris/horseback_skeleton/Plane08.webp",
+     "w": 20.59,
+     "h": 30.74,
+     "hy": 0.732
+    },
+    {
+     "name": "Plane16",
+     "file": "res://assets/debris/horseback_skeleton/Plane16.webp",
+     "w": 20.59,
+     "h": 30.74,
+     "hy": 0.746
+    },
+    {
+     "name": "Plane09",
+     "file": "res://assets/debris/horseback_skeleton/Plane09.webp",
+     "w": 16.46,
+     "h": 25.81,
+     "hy": 0.722
+    },
+    {
+     "name": "Plane17",
+     "file": "res://assets/debris/horseback_skeleton/Plane17.webp",
+     "w": 16.46,
+     "h": 25.81,
+     "hy": 0.737
+    },
+    {
+     "name": "Plane20",
+     "file": "res://assets/debris/horseback_skeleton/Plane20.webp",
+     "w": 24.17,
+     "h": 33.85,
+     "hy": 0.829
+    },
+    {
+     "name": "Plane04",
+     "file": "res://assets/debris/horseback_skeleton/Plane04.webp",
+     "w": 18.74,
+     "h": 18.05,
+     "hy": 0.859
+    },
+    {
+     "name": "Plane01",
+     "file": "res://assets/debris/horseback_skeleton/Plane01.webp",
+     "w": 137.16,
+     "h": 19.48,
+     "hy": 0.847
+    },
+    {
+     "name": "Plane15",
+     "file": "res://assets/debris/horseback_skeleton/Plane15.webp",
+     "w": 13.66,
+     "h": 20.65,
+     "hy": 0.9
+    },
+    {
+     "name": "Plane18",
+     "file": "res://assets/debris/horseback_skeleton/Plane18.webp",
+     "w": 24.87,
+     "h": 48.92,
+     "hy": 0.915
+    },
+    {
+     "name": "Plane19",
+     "file": "res://assets/debris/horseback_skeleton/Plane19.webp",
+     "w": 24.17,
+     "h": 33.85,
+     "hy": 0.814
+    },
+    {
+     "name": "Plane03",
+     "file": "res://assets/debris/horseback_skeleton/Plane03.webp",
+     "w": 22.59,
+     "h": 30.91,
+     "hy": 0.804
+    },
+    {
+     "name": "Plane21",
+     "file": "res://assets/debris/horseback_skeleton/Plane21.webp",
+     "w": 34.16,
+     "h": 13.12,
+     "hy": 0.823
+    },
+    {
+     "name": "Plane02",
+     "file": "res://assets/debris/horseback_skeleton/Plane02.webp",
+     "w": 38.65,
+     "h": 41.42,
+     "hy": 0.845
+    },
+    {
+     "name": "Plane05",
+     "file": "res://assets/debris/horseback_skeleton/Plane05.webp",
+     "w": 36.39,
+     "h": 21.26,
+     "hy": 0.822
+    },
+    {
+     "name": "Plane11",
+     "file": "res://assets/debris/horseback_skeleton/Plane11.webp",
+     "w": 61.17,
+     "h": 49.16,
+     "hy": 0.809
+    }
+   ]
+  },
+  "horseback_skeleton__skeleton_knight_02": {
+   "parts": [
+    {
+     "name": "Plane08",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane08.webp",
+     "w": 20.59,
+     "h": 30.74,
+     "hy": 0.732
+    },
+    {
+     "name": "Plane16",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane16.webp",
+     "w": 20.59,
+     "h": 30.74,
+     "hy": 0.746
+    },
+    {
+     "name": "Plane09",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane09.webp",
+     "w": 16.46,
+     "h": 25.81,
+     "hy": 0.722
+    },
+    {
+     "name": "Plane17",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane17.webp",
+     "w": 16.46,
+     "h": 25.81,
+     "hy": 0.737
+    },
+    {
+     "name": "Plane20",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane20.webp",
+     "w": 24.17,
+     "h": 33.85,
+     "hy": 0.829
+    },
+    {
+     "name": "Plane04",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane04.webp",
+     "w": 18.74,
+     "h": 18.05,
+     "hy": 0.859
+    },
+    {
+     "name": "Plane01",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane01.webp",
+     "w": 137.16,
+     "h": 19.48,
+     "hy": 0.847
+    },
+    {
+     "name": "Plane15",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane15.webp",
+     "w": 13.66,
+     "h": 20.65,
+     "hy": 0.9
+    },
+    {
+     "name": "Plane18",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane18.webp",
+     "w": 24.87,
+     "h": 48.92,
+     "hy": 0.915
+    },
+    {
+     "name": "Plane19",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane19.webp",
+     "w": 24.17,
+     "h": 33.85,
+     "hy": 0.814
+    },
+    {
+     "name": "Plane03",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane03.webp",
+     "w": 22.59,
+     "h": 30.91,
+     "hy": 0.804
+    },
+    {
+     "name": "Plane21",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane21.webp",
+     "w": 34.16,
+     "h": 13.12,
+     "hy": 0.823
+    },
+    {
+     "name": "Plane02",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane02.webp",
+     "w": 38.65,
+     "h": 41.42,
+     "hy": 0.845
+    },
+    {
+     "name": "Plane05",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane05.webp",
+     "w": 36.39,
+     "h": 21.26,
+     "hy": 0.822
+    },
+    {
+     "name": "Plane11",
+     "file": "res://assets/debris/horseback_skeleton__skeleton_knight_02/Plane11.webp",
+     "w": 61.17,
+     "h": 49.16,
+     "hy": 0.809
+    }
+   ]
+  },
+  "shield_skeleton": {
+   "parts": [
+    {
+     "name": "forearm_left",
+     "file": "res://assets/debris/shield_skeleton/forearm_left.webp",
+     "w": 13.93,
+     "h": 11.59,
+     "hy": 0.323
+    },
+    {
+     "name": "bicep_left",
+     "file": "res://assets/debris/shield_skeleton/bicep_left.webp",
+     "w": 13.84,
+     "h": 13.69,
+     "hy": 0.326
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/shield_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.205
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/shield_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.229
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/shield_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.156
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/shield_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.163
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/shield_skeleton/torso.webp",
+     "w": 17.7,
+     "h": 28.34,
+     "hy": 0.352
+    },
+    {
+     "name": "head",
+     "file": "res://assets/debris/shield_skeleton/head.webp",
+     "w": 24.53,
+     "h": 27.01,
+     "hy": 0.485
+    },
+    {
+     "name": "wheel_left",
+     "file": "res://assets/debris/shield_skeleton/wheel_left.webp",
+     "w": 40.15,
+     "h": 40.62,
+     "hy": 0.158
+    },
+    {
+     "name": "wheel_right",
+     "file": "res://assets/debris/shield_skeleton/wheel_right.webp",
+     "w": 34.77,
+     "h": 35.18,
+     "hy": 0.241
+    },
+    {
+     "name": "siege_shield_right",
+     "file": "res://assets/debris/shield_skeleton/siege_shield_right.webp",
+     "w": 45.64,
+     "h": 90.68,
+     "hy": 0.442
+    },
+    {
+     "name": "siege_shield_left",
+     "file": "res://assets/debris/shield_skeleton/siege_shield_left.webp",
+     "w": 57.06,
+     "h": 99.7,
+     "hy": 0.385
+    }
+   ]
+  },
+  "shield_skeleton__skeleton_siege_shield_02": {
+   "parts": [
+    {
+     "name": "forearm_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/forearm_left.webp",
+     "w": 13.93,
+     "h": 11.59,
+     "hy": 0.323
+    },
+    {
+     "name": "bicep_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/bicep_left.webp",
+     "w": 13.84,
+     "h": 13.69,
+     "hy": 0.326
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.205
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.229
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.156
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.163
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/torso.webp",
+     "w": 17.7,
+     "h": 28.34,
+     "hy": 0.352
+    },
+    {
+     "name": "head",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/head.webp",
+     "w": 24.53,
+     "h": 27.01,
+     "hy": 0.485
+    },
+    {
+     "name": "wheel_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/wheel_left.webp",
+     "w": 40.15,
+     "h": 40.62,
+     "hy": 0.158
+    },
+    {
+     "name": "wheel_right",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/wheel_right.webp",
+     "w": 34.77,
+     "h": 35.18,
+     "hy": 0.241
+    },
+    {
+     "name": "siege_shield_right",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/siege_shield_right.webp",
+     "w": 45.64,
+     "h": 90.68,
+     "hy": 0.442
+    },
+    {
+     "name": "siege_shield_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_02/siege_shield_left.webp",
+     "w": 57.06,
+     "h": 99.7,
+     "hy": 0.385
+    }
+   ]
+  },
+  "shield_skeleton__skeleton_siege_shield_03": {
+   "parts": [
+    {
+     "name": "forearm_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/forearm_left.webp",
+     "w": 13.93,
+     "h": 11.59,
+     "hy": 0.323
+    },
+    {
+     "name": "bicep_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/bicep_left.webp",
+     "w": 13.84,
+     "h": 13.69,
+     "hy": 0.326
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.205
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.229
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.156
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.163
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/torso.webp",
+     "w": 17.7,
+     "h": 28.34,
+     "hy": 0.352
+    },
+    {
+     "name": "head",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/head.webp",
+     "w": 24.53,
+     "h": 27.01,
+     "hy": 0.485
+    },
+    {
+     "name": "wheel_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/wheel_left.webp",
+     "w": 40.15,
+     "h": 40.62,
+     "hy": 0.158
+    },
+    {
+     "name": "wheel_right",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/wheel_right.webp",
+     "w": 34.77,
+     "h": 35.18,
+     "hy": 0.241
+    },
+    {
+     "name": "siege_shield_right",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/siege_shield_right.webp",
+     "w": 45.64,
+     "h": 90.68,
+     "hy": 0.442
+    },
+    {
+     "name": "siege_shield_left",
+     "file": "res://assets/debris/shield_skeleton__skeleton_siege_shield_03/siege_shield_left.webp",
+     "w": 57.06,
+     "h": 99.7,
+     "hy": 0.385
+    }
+   ]
+  },
+  "spear_skeleton": {
+   "parts": [
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/spear_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.293
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/spear_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.338
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/spear_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.2
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/spear_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.213
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/spear_skeleton/torso.webp",
+     "w": 24.74,
+     "h": 31.51,
+     "hy": 0.553
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/spear_skeleton/forearm_right.webp",
+     "w": 9.06,
+     "h": 12.66,
+     "hy": 0.583
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/spear_skeleton/bicep_right.webp",
+     "w": 14.34,
+     "h": 13.16,
+     "hy": 0.576
+    },
+    {
+     "name": "forearm_left",
+     "file": "res://assets/debris/spear_skeleton/forearm_left.webp",
+     "w": 12.65,
+     "h": 9.03,
+     "hy": 0.409
+    },
+    {
+     "name": "bicep_left",
+     "file": "res://assets/debris/spear_skeleton/bicep_left.webp",
+     "w": 6.69,
+     "h": 13.45,
+     "hy": 0.465
+    }
+   ]
+  },
+  "spear_skeleton__he1": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/spear_skeleton/head__he1.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.335
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/spear_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.293
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/spear_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.338
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/spear_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.2
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/spear_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.213
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/spear_skeleton/torso.webp",
+     "w": 24.74,
+     "h": 31.51,
+     "hy": 0.553
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/spear_skeleton/forearm_right.webp",
+     "w": 9.06,
+     "h": 12.66,
+     "hy": 0.583
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/spear_skeleton/bicep_right.webp",
+     "w": 14.34,
+     "h": 13.16,
+     "hy": 0.576
+    },
+    {
+     "name": "forearm_left",
+     "file": "res://assets/debris/spear_skeleton/forearm_left.webp",
+     "w": 12.65,
+     "h": 9.03,
+     "hy": 0.409
+    },
+    {
+     "name": "bicep_left",
+     "file": "res://assets/debris/spear_skeleton/bicep_left.webp",
+     "w": 6.69,
+     "h": 13.45,
+     "hy": 0.465
+    }
+   ]
+  },
+  "spear_skeleton__he2": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/spear_skeleton/head__he2.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.335
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/spear_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.293
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/spear_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.338
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/spear_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.2
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/spear_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.213
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/spear_skeleton/torso.webp",
+     "w": 24.74,
+     "h": 31.51,
+     "hy": 0.553
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/spear_skeleton/forearm_right.webp",
+     "w": 9.06,
+     "h": 12.66,
+     "hy": 0.583
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/spear_skeleton/bicep_right.webp",
+     "w": 14.34,
+     "h": 13.16,
+     "hy": 0.576
+    },
+    {
+     "name": "forearm_left",
+     "file": "res://assets/debris/spear_skeleton/forearm_left.webp",
+     "w": 12.65,
+     "h": 9.03,
+     "hy": 0.409
+    },
+    {
+     "name": "bicep_left",
+     "file": "res://assets/debris/spear_skeleton/bicep_left.webp",
+     "w": 6.69,
+     "h": 13.45,
+     "hy": 0.465
+    }
+   ]
+  },
+  "spear_skeleton__he3": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/spear_skeleton/head__he3.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.335
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/spear_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.293
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/spear_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.338
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/spear_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.2
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/spear_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.213
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/spear_skeleton/torso.webp",
+     "w": 24.74,
+     "h": 31.51,
+     "hy": 0.553
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/spear_skeleton/forearm_right.webp",
+     "w": 9.06,
+     "h": 12.66,
+     "hy": 0.583
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/spear_skeleton/bicep_right.webp",
+     "w": 14.34,
+     "h": 13.16,
+     "hy": 0.576
+    },
+    {
+     "name": "forearm_left",
+     "file": "res://assets/debris/spear_skeleton/forearm_left.webp",
+     "w": 12.65,
+     "h": 9.03,
+     "hy": 0.409
+    },
+    {
+     "name": "bicep_left",
+     "file": "res://assets/debris/spear_skeleton/bicep_left.webp",
+     "w": 6.69,
+     "h": 13.45,
+     "hy": 0.465
+    }
+   ]
+  },
+  "spear_skeleton__he4": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/spear_skeleton/head__he4.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.335
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/spear_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.293
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/spear_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.338
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/spear_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.2
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/spear_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.213
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/spear_skeleton/torso.webp",
+     "w": 24.74,
+     "h": 31.51,
+     "hy": 0.553
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/spear_skeleton/forearm_right.webp",
+     "w": 9.06,
+     "h": 12.66,
+     "hy": 0.583
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/spear_skeleton/bicep_right.webp",
+     "w": 14.34,
+     "h": 13.16,
+     "hy": 0.576
+    },
+    {
+     "name": "forearm_left",
+     "file": "res://assets/debris/spear_skeleton/forearm_left.webp",
+     "w": 12.65,
+     "h": 9.03,
+     "hy": 0.409
+    },
+    {
+     "name": "bicep_left",
+     "file": "res://assets/debris/spear_skeleton/bicep_left.webp",
+     "w": 6.69,
+     "h": 13.45,
+     "hy": 0.465
+    }
+   ]
+  },
+  "sword_skeleton": {
+   "parts": [
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/sword_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.264
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/sword_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.312
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/sword_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.166
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/sword_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.18
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/sword_skeleton/torso.webp",
+     "w": 17.7,
+     "h": 28.34,
+     "hy": 0.561
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/sword_skeleton/forearm_right.webp",
+     "w": 12.73,
+     "h": 7.99,
+     "hy": 0.501
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/sword_skeleton/bicep_right.webp",
+     "w": 10.74,
+     "h": 14.18,
+     "hy": 0.536
+    }
+   ]
+  },
+  "sword_skeleton__he1_sh1": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/sword_skeleton/head__he1_sh1.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.309
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/sword_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.264
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/sword_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.312
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/sword_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.166
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/sword_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.18
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/sword_skeleton/torso.webp",
+     "w": 17.7,
+     "h": 28.34,
+     "hy": 0.561
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/sword_skeleton/forearm_right.webp",
+     "w": 12.73,
+     "h": 7.99,
+     "hy": 0.501
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/sword_skeleton/bicep_right.webp",
+     "w": 10.74,
+     "h": 14.18,
+     "hy": 0.536
+    }
+   ]
+  },
+  "sword_skeleton__he2_sh2": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/sword_skeleton/head__he2_sh2.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.309
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/sword_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.264
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/sword_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.312
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/sword_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.166
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/sword_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.18
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/sword_skeleton/torso.webp",
+     "w": 17.7,
+     "h": 28.34,
+     "hy": 0.561
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/sword_skeleton/forearm_right.webp",
+     "w": 12.73,
+     "h": 7.99,
+     "hy": 0.501
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/sword_skeleton/bicep_right.webp",
+     "w": 10.74,
+     "h": 14.18,
+     "hy": 0.536
+    }
+   ]
+  },
+  "sword_skeleton__he3_sh3": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/sword_skeleton/head__he3_sh3.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.309
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/sword_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.264
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/sword_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.312
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/sword_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.166
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/sword_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.18
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/sword_skeleton/torso.webp",
+     "w": 17.7,
+     "h": 28.34,
+     "hy": 0.561
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/sword_skeleton/forearm_right.webp",
+     "w": 12.73,
+     "h": 7.99,
+     "hy": 0.501
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/sword_skeleton/bicep_right.webp",
+     "w": 10.74,
+     "h": 14.18,
+     "hy": 0.536
+    }
+   ]
+  },
+  "sword_skeleton__he4_sh4": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/sword_skeleton/head__he4_sh4.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.309
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/sword_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.264
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/sword_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.312
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/sword_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.166
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/sword_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.18
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/sword_skeleton/torso.webp",
+     "w": 17.7,
+     "h": 28.34,
+     "hy": 0.561
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/sword_skeleton/forearm_right.webp",
+     "w": 12.73,
+     "h": 7.99,
+     "hy": 0.501
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/sword_skeleton/bicep_right.webp",
+     "w": 10.74,
+     "h": 14.18,
+     "hy": 0.536
+    }
+   ]
+  },
+  "sword_skeleton__he5_sh5": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/sword_skeleton/head__he5_sh5.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.309
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/sword_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.264
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/sword_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.312
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/sword_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.166
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/sword_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.18
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/sword_skeleton/torso.webp",
+     "w": 17.7,
+     "h": 28.34,
+     "hy": 0.561
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/sword_skeleton/forearm_right.webp",
+     "w": 12.73,
+     "h": 7.99,
+     "hy": 0.501
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/sword_skeleton/bicep_right.webp",
+     "w": 10.74,
+     "h": 14.18,
+     "hy": 0.536
+    }
+   ]
+  },
+  "sword_skeleton__he6_sh6": {
+   "parts": [
+    {
+     "name": "head",
+     "file": "res://assets/debris/sword_skeleton/head__he6_sh6.webp",
+     "w": 28.2,
+     "h": 28.2,
+     "hy": 0.309
+    },
+    {
+     "name": "leg_left",
+     "file": "res://assets/debris/sword_skeleton/leg_left.webp",
+     "w": 18.92,
+     "h": 22.91,
+     "hy": 0.264
+    },
+    {
+     "name": "leg_right",
+     "file": "res://assets/debris/sword_skeleton/leg_right.webp",
+     "w": 20.42,
+     "h": 22.3,
+     "hy": 0.312
+    },
+    {
+     "name": "foot_left",
+     "file": "res://assets/debris/sword_skeleton/foot_left.webp",
+     "w": 25.75,
+     "h": 18.4,
+     "hy": 0.166
+    },
+    {
+     "name": "foot_right",
+     "file": "res://assets/debris/sword_skeleton/foot_right.webp",
+     "w": 26.22,
+     "h": 13.86,
+     "hy": 0.18
+    },
+    {
+     "name": "torso",
+     "file": "res://assets/debris/sword_skeleton/torso.webp",
+     "w": 17.7,
+     "h": 28.34,
+     "hy": 0.561
+    },
+    {
+     "name": "forearm_right",
+     "file": "res://assets/debris/sword_skeleton/forearm_right.webp",
+     "w": 12.73,
+     "h": 7.99,
+     "hy": 0.501
+    },
+    {
+     "name": "bicep_right",
+     "file": "res://assets/debris/sword_skeleton/bicep_right.webp",
+     "w": 10.74,
+     "h": 14.18,
+     "hy": 0.536
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,1159 @@
+{
+ "version": "1.2",
+ "paths": {
+  "human_path": [
+   [
+    62.33,
+    234.87,
+    500.0
+   ],
+   [
+    120.93,
+    235.06,
+    500.0
+   ],
+   [
+    163.26,
+    251.54,
+    500.0
+   ],
+   [
+    538.83,
+    248.87,
+    500.0
+   ],
+   [
+    583.36,
+    199.64,
+    500.0
+   ],
+   [
+    792.22,
+    195.86,
+    500.0
+   ],
+   [
+    841.6,
+    173.61,
+    500.0
+   ],
+   [
+    891.06,
+    174.87,
+    500.0
+   ],
+   [
+    912.18,
+    159.87,
+    500.0
+   ],
+   [
+    1030.92,
+    145.86,
+    500.0
+   ],
+   [
+    1074.28,
+    116.29,
+    500.0
+   ],
+   [
+    1782.1,
+    113.56,
+    500.0
+   ]
+  ],
+  "deadite_path": [
+   [
+    1818.6,
+    114.54,
+    500.0
+   ],
+   [
+    1074.5,
+    116.73,
+    500.0
+   ],
+   [
+    1031.58,
+    146.53,
+    500.0
+   ],
+   [
+    912.62,
+    160.76,
+    500.0
+   ],
+   [
+    892.17,
+    175.53,
+    500.0
+   ],
+   [
+    841.15,
+    174.95,
+    500.0
+   ],
+   [
+    791.55,
+    195.19,
+    500.0
+   ],
+   [
+    582.91,
+    198.3,
+    500.0
+   ],
+   [
+    539.27,
+    248.2,
+    500.0
+   ],
+   [
+    136.15,
+    250.87,
+    500.0
+   ]
+  ],
+  "camera_path": [
+   [
+    257.0,
+    282.31,
+    500.0
+   ],
+   [
+    546.41,
+    282.33,
+    500.0
+   ],
+   [
+    1077.55,
+    182.32,
+    500.0
+   ],
+   [
+    1755.85,
+    182.32,
+    500.0
+   ]
+  ]
+ },
+ "camera_path": [
+  [
+   257.0,
+   282.31,
+   500.0
+  ],
+  [
+   546.41,
+   282.33,
+   500.0
+  ],
+  [
+   1077.55,
+   182.32,
+   500.0
+  ],
+  [
+   1755.85,
+   182.32,
+   500.0
+  ]
+ ],
+ "objects": [
+  {
+   "attrs": {
+    "mesh": "objects/world/bg_part1",
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/bg_part1",
+   "location": [
+    479.82,
+    240.36,
+    -450.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "mesh": "objects/world/bg_part2",
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/bg_part2",
+   "location": [
+    1439.5,
+    240.0,
+    -450.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "mesh": "objects/world/bg_part2",
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/bg_part3",
+   "location": [
+    2010.0,
+    240.0,
+    -450.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "necronomicon"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/gate",
+   "location": [
+    131.0,
+    303.78,
+    -399.9
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "moon"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/moon",
+   "location": [
+    -171.67,
+    136.75,
+    -460.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "foreground"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/front_gate_mask",
+   "location": [
+    1904.1,
+    128.0,
+    400.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "foreground"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/wall_mask_01",
+   "location": [
+    896.0,
+    113.0,
+    400.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "foreground"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/wall_mask_02",
+   "location": [
+    805.0,
+    150.0,
+    410.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "foreground"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/wall_mask_03",
+   "location": [
+    668.0,
+    164.5,
+    405.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "foreground"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/wall_mask_04",
+   "location": [
+    523.0,
+    182.0,
+    401.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "foreground"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/wall_mask_05",
+   "location": [
+    245.0,
+    206.0,
+    400.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "bg_fill"
+   },
+   "paths": {},
+   "texture": "texture://UI/menu/upgrade/tab_inactive",
+   "location": [
+    932.49,
+    471.31,
+    -461.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "spawn_index": 2.0,
+    "type": "inner_wall_archer"
+   },
+   "paths": {},
+   "texture": "texture://UI/game/units/icon_archer",
+   "location": [
+    434.71,
+    423.83,
+    -397.0
+   ],
+   "size": [
+    0.75,
+    0.75,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "spawn_index": 6.0,
+    "type": "inner_wall_archer"
+   },
+   "paths": {},
+   "texture": "texture://UI/game/units/icon_archer",
+   "location": [
+    394.42,
+    424.64,
+    -399.0
+   ],
+   "size": [
+    0.75,
+    0.75,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "spawn_index": 4.0,
+    "type": "inner_wall_archer"
+   },
+   "paths": {},
+   "texture": "texture://UI/game/units/icon_archer",
+   "location": [
+    474.2,
+    424.78,
+    -398.0
+   ],
+   "size": [
+    0.75,
+    0.75,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "spawn_index": 5.0,
+    "type": "inner_wall_archer"
+   },
+   "paths": {},
+   "texture": "texture://UI/game/units/icon_archer",
+   "location": [
+    1000.92,
+    341.41,
+    -419.0
+   ],
+   "size": [
+    0.75,
+    0.75,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "spawn_index": 1.0,
+    "type": "inner_wall_archer"
+   },
+   "paths": {},
+   "texture": "texture://UI/game/units/icon_archer",
+   "location": [
+    1038.11,
+    334.58,
+    -417.0
+   ],
+   "size": [
+    0.75,
+    0.75,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "spawn_index": 3.0,
+    "type": "inner_wall_archer"
+   },
+   "paths": {},
+   "texture": "texture://UI/game/units/icon_archer",
+   "location": [
+    1076.99,
+    340.01,
+    -418.0
+   ],
+   "size": [
+    0.75,
+    0.75,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "spawn_index": 2.0,
+    "type": "catapults"
+   },
+   "paths": {},
+   "texture": "texture://UI/game/units/icon_generic",
+   "location": [
+    824.16,
+    305.2,
+    -409.0
+   ],
+   "size": [
+    0.75,
+    0.75,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "spawn_index": 1.0,
+    "type": "catapults"
+   },
+   "paths": {},
+   "texture": "texture://UI/game/units/icon_generic",
+   "location": [
+    672.42,
+    185.37,
+    449.0
+   ],
+   "size": [
+    0.9,
+    0.9,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "spawn_index": 3.0,
+    "type": "catapults"
+   },
+   "paths": {},
+   "texture": "texture://UI/game/units/icon_generic",
+   "location": [
+    583.78,
+    131.46,
+    450.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "the_pit"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/pit_overlay",
+   "location": [
+    1392.76,
+    49.93,
+    300.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "the_pit_closed"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/pit_closed",
+   "location": [
+    1394.37,
+    81.04,
+    290.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "the_pit_open"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/pit_open",
+   "location": [
+    1394.37,
+    81.04,
+    290.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "spawn_index": 1.0,
+    "type": "smithy"
+   },
+   "paths": {},
+   "texture": "texture://UI/game/units/icon_blacksmith_warrior",
+   "location": [
+    1258.08,
+    236.27,
+    -399.5
+   ],
+   "size": [
+    0.75,
+    0.75,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/backwall_mask_01",
+   "location": [
+    434.35,
+    358.0,
+    -395.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/backwall_mask_03",
+   "location": [
+    1040.5,
+    270.45,
+    -415.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/world/backwall_mask_02",
+   "location": [
+    786.5,
+    251.25,
+    -405.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    100.88,
+    339.47,
+    -398.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    143.8,
+    369.72,
+    -400.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    499.79,
+    366.45,
+    -394.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    569.28,
+    366.86,
+    -449.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    875.82,
+    265.9,
+    -404.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    1009.06,
+    249.96,
+    -414.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    1429.63,
+    238.93,
+    -449.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    1466.83,
+    240.15,
+    -449.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    1519.55,
+    298.19,
+    -449.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    1585.76,
+    244.65,
+    -449.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    1626.23,
+    327.62,
+    -449.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    1581.68,
+    328.85,
+    -449.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    1693.67,
+    327.62,
+    -449.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    1731.27,
+    299.01,
+    -449.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    1817.51,
+    242.61,
+    -449.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "attrs": {
+    "type": "background"
+   },
+   "paths": {},
+   "texture": "texture://objects/units/effects/fire_sprite",
+   "location": [
+    1857.56,
+    182.93,
+    401.0
+   ],
+   "size": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ ],
+ "textures": {
+  "texture://objects/world/bg_part3": {
+   "file": "bg_part3.webp",
+   "size": [
+    391,
+    1024
+   ]
+  },
+  "texture://objects/units/gate": {
+   "file": "gate.webp",
+   "size": [
+    92,
+    194
+   ]
+  },
+  "texture://objects/world/moon": {
+   "file": "moon.webp",
+   "size": [
+    395,
+    393
+   ]
+  },
+  "texture://objects/world/front_gate_mask": {
+   "file": "front_gate_mask.webp",
+   "size": [
+    846,
+    546
+   ]
+  },
+  "texture://objects/world/wall_mask_01": {
+   "file": "wall_mask_01.webp",
+   "size": [
+    238,
+    101
+   ]
+  },
+  "texture://objects/world/wall_mask_02": {
+   "file": "wall_mask_02.webp",
+   "size": [
+    156,
+    186
+   ]
+  },
+  "texture://objects/world/wall_mask_03": {
+   "file": "wall_mask_03.webp",
+   "size": [
+    487,
+    128
+   ]
+  },
+  "texture://objects/world/wall_mask_04": {
+   "file": "wall_mask_04.webp",
+   "size": [
+    165,
+    191
+   ]
+  },
+  "texture://objects/world/wall_mask_05": {
+   "file": "wall_mask_05.webp",
+   "size": [
+    1024,
+    128
+   ]
+  },
+  "texture://UI/menu/upgrade/tab_inactive": {
+   "file": "tab_inactive.webp",
+   "size": [
+    248,
+    150
+   ]
+  },
+  "texture://UI/game/units/icon_archer": {
+   "file": "icon_archer.webp",
+   "size": [
+    121,
+    121
+   ]
+  },
+  "texture://UI/game/units/icon_generic": {
+   "file": "icon_generic.webp",
+   "size": [
+    121,
+    121
+   ]
+  },
+  "texture://objects/units/pit_overlay": {
+   "file": "pit_overlay.webp",
+   "size": [
+    608,
+    220
+   ]
+  },
+  "texture://objects/units/pit_closed": {
+   "file": "pit_closed.webp",
+   "size": [
+    254,
+    85
+   ]
+  },
+  "texture://objects/units/pit_open": {
+   "file": "pit_open.webp",
+   "size": [
+    254,
+    85
+   ]
+  },
+  "texture://UI/game/units/icon_blacksmith_warrior": {
+   "file": "icon_blacksmith_warrior.webp",
+   "size": [
+    121,
+    121
+   ]
+  },
+  "texture://objects/world/backwall_mask_01": {
+   "file": "backwall_mask_01.webp",
+   "size": [
+    256,
+    121
+   ]
+  },
+  "texture://objects/world/backwall_mask_03": {
+   "file": "backwall_mask_03.webp",
+   "size": [
+    229,
+    100
+   ]
+  },
+  "texture://objects/world/backwall_mask_02": {
+   "file": "backwall_mask_02.webp",
+   "size": [
+    361,
+    60
+   ]
+  },
+  "texture://objects/units/effects/fire_sprite": {
+   "file": "fire_sprite.webp",
+   "size": [
+    128,
+    128
+   ]
+  },
+  "piece://bg_part1_bottom": {
+   "file": "bg_part1_bottom.jpg",
+   "size": [
+    0,
+    0
+   ]
+  },
+  "piece://bg_part1_middle": {
+   "file": "bg_part1_middle.webp",
+   "size": [
+    2048,
+    128
+   ]
+  },
+  "piece://bg_part1_middle_alpha": {
+   "file": "bg_part1_middle_alpha.webp",
+   "size": [
+    2048,
+    64
+   ]
+  },
+  "piece://bg_part1_topleft": {
+   "file": "bg_part1_topleft.webp",
+   "size": [
+    387,
+    320
+   ]
+  },
+  "piece://bg_part1_topright_left": {
+   "file": "bg_part1_topright_left.webp",
+   "size": [
+    138,
+    320
+   ]
+  },
+  "piece://bg_part1_topright_middle": {
+   "file": "bg_part1_topright_middle.webp",
+   "size": [
+    256,
+    320
+   ]
+  },
+  "piece://bg_part1_topright_right": {
+   "file": "bg_part1_topright_right.webp",
+   "size": [
+    135,
+    320
+   ]
+  },
+  "piece://bg_part2_bottom": {
+   "file": "bg_part2_bottom.jpg",
+   "size": [
+    0,
+    0
+   ]
+  },
+  "piece://bg_part2_middle": {
+   "file": "bg_part2_middle.webp",
+   "size": [
+    2048,
+    128
+   ]
+  },
+  "piece://bg_part2_middle_alpha": {
+   "file": "bg_part2_middle_alpha.webp",
+   "size": [
+    2048,
+    64
+   ]
+  },
+  "piece://bg_part2_top_left": {
+   "file": "bg_part2_top_left.webp",
+   "size": [
+    569,
+    68
+   ]
+  },
+  "piece://bg_part2_top_middle": {
+   "file": "bg_part2_top_middle.webp",
+   "size": [
+    256,
+    28
+   ]
+  },
+  "piece://bg_part2_top_right": {
+   "file": "bg_part2_top_right.webp",
+   "size": [
+    416,
+    232
+   ]
+  }
+ }
+}

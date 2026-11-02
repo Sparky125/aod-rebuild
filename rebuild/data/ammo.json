@@ -1,0 +1,587 @@
+{
+ "arrows": {
+  "explosive": false,
+  "knockback_multiplier": 0,
+  "level_stat": [
+   {
+    "damage": 16,
+    "speed": 400
+   },
+   {
+    "damage": 22,
+    "speed": 400
+   },
+   {
+    "damage": 31,
+    "speed": 400
+   },
+   {
+    "damage": 43,
+    "speed": 400
+   },
+   {
+    "damage": 60,
+    "speed": 400
+   },
+   {
+    "damage": 78,
+    "speed": 400
+   },
+   {
+    "damage": 101,
+    "speed": 400
+   },
+   {
+    "damage": 121,
+    "speed": 400
+   },
+   {
+    "damage": 145,
+    "speed": 400
+   },
+   {
+    "damage": 174,
+    "speed": 400
+   }
+  ],
+  "on_fired_sound": "sound/fx/shoot_arrow1;sound/fx/shoot_arrow2;sound/fx/shoot_arrow3",
+  "splash_range": 0,
+  "texture": "texture/objects/ammo/arrow",
+  "title": "Arrows",
+  "trajectory": "arching"
+ },
+ "bolts": {
+  "explosive": false,
+  "flaming": false,
+  "knockback_multiplier": 0,
+  "level_stat": [
+   {
+    "damage": 45,
+    "speed": 1000
+   },
+   {
+    "damage": 135,
+    "speed": 1000
+   },
+   {
+    "damage": 405,
+    "speed": 1000
+   }
+  ],
+  "on_fired_sound": "sound/fx/shoot_crossbow_1",
+  "splash_range": 0,
+  "texture": "texture/objects/ammo/bolt",
+  "title": "Bolt",
+  "trajectory": "straight"
+ },
+ "explosive_arrows": {
+  "explosive": true,
+  "flaming": false,
+  "knockback_multiplier": 0,
+  "level_stat": [
+   {
+    "damage": 10,
+    "speed": 250
+   },
+   {
+    "damage": 14,
+    "speed": 250
+   },
+   {
+    "damage": 20,
+    "speed": 250
+   },
+   {
+    "damage": 28,
+    "speed": 250
+   },
+   {
+    "damage": 39,
+    "speed": 250
+   },
+   {
+    "damage": 55,
+    "speed": 250
+   },
+   {
+    "damage": 77,
+    "speed": 250
+   },
+   {
+    "damage": 108,
+    "speed": 250
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/rock_crash_01;sound/fx/rock_crash_02;",
+  "on_fired_sound": "sound/fx/shoot_arrow1;sound/fx/shoot_arrow2;sound/fx/shoot_arrow3",
+  "script": "explosive_arrow_ammo",
+  "splash_range": 25,
+  "texture": "texture/objects/ammo/arrow",
+  "title": "Explosive Arrows",
+  "trajectory": "arching"
+ },
+ "explosive_rocks": {
+  "explosive": true,
+  "flaming": false,
+  "hit_ground": true,
+  "knockback_multiplier": 0,
+  "level_stat": [
+   {
+    "damage": 75,
+    "speed": 300
+   },
+   {
+    "damage": 105,
+    "speed": 300
+   },
+   {
+    "damage": 147,
+    "speed": 300
+   },
+   {
+    "damage": 206,
+    "speed": 300
+   },
+   {
+    "damage": 288,
+    "speed": 300
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/explosive_boulder_01;sound/fx/explosive_boulder_02;sound/fx/explosive_boulder_03",
+  "on_fired_sound": "sound/fx/shoot_arrow1;sound/fx/shoot_arrow2;sound/fx/shoot_arrow3",
+  "script": "catapult_ammo",
+  "splash_range": 25,
+  "texture": "texture/objects/ammo/rock",
+  "title": "Explosive Rocks",
+  "trajectory": "arching"
+ },
+ "flaming_arrows": {
+  "explosive": false,
+  "flaming": true,
+  "knockback_multiplier": 0,
+  "level_stat": [
+   {
+    "damage": 6,
+    "flame_dps": 5,
+    "speed": 350
+   },
+   {
+    "damage": 8,
+    "flame_dps": 7,
+    "speed": 350
+   },
+   {
+    "damage": 11,
+    "flame_dps": 10,
+    "speed": 350
+   },
+   {
+    "damage": 15,
+    "flame_dps": 14,
+    "speed": 350
+   },
+   {
+    "damage": 21,
+    "flame_dps": 20,
+    "speed": 350
+   },
+   {
+    "damage": 29,
+    "flame_dps": 28,
+    "speed": 350
+   },
+   {
+    "damage": 41,
+    "flame_dps": 39,
+    "speed": 350
+   },
+   {
+    "damage": 57,
+    "flame_dps": 55,
+    "speed": 350
+   },
+   {
+    "damage": 80,
+    "flame_dps": 77,
+    "speed": 350
+   },
+   {
+    "damage": 112,
+    "flame_dps": 108,
+    "speed": 350
+   }
+  ],
+  "on_fired_sound": "sound/fx/shoot_arrow1;sound/fx/shoot_arrow2;sound/fx/shoot_arrow3",
+  "splash_range": 0,
+  "texture": "texture/objects/ammo/flaming_arrow",
+  "title": "Flaming Arrows",
+  "trajectory": "arching"
+ },
+ "flaming_rocks": {
+  "explosive": false,
+  "flaming": true,
+  "hit_ground": true,
+  "knockback_multiplier": 5,
+  "level_stat": [
+   {
+    "damage": 65,
+    "flame_dps": 15,
+    "speed": 300
+   },
+   {
+    "damage": 91,
+    "flame_dps": 21,
+    "speed": 300
+   },
+   {
+    "damage": 127,
+    "flame_dps": 29,
+    "speed": 300
+   },
+   {
+    "damage": 178,
+    "flame_dps": 41,
+    "speed": 300
+   },
+   {
+    "damage": 249,
+    "flame_dps": 57,
+    "speed": 300
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/rock_crash_01;sound/fx/rock_crash_02",
+  "on_fired_sound": "sound/fx/shoot_arrow1;sound/fx/shoot_arrow2;sound/fx/shoot_arrow3",
+  "script": "catapult_ammo",
+  "splash_range": 0,
+  "texture": "texture/objects/ammo/flaming_rock",
+  "title": "Flaming Rocks",
+  "trajectory": "arching"
+ },
+ "heal_magic": {
+  "explosive": false,
+  "flaming": false,
+  "knockback_multiplier": 0,
+  "level_stat": [
+   {
+    "damage": -50,
+    "speed": 750
+   },
+   {
+    "damage": -55,
+    "speed": 750
+   },
+   {
+    "damage": -61,
+    "speed": 750
+   },
+   {
+    "damage": -73,
+    "speed": 750
+   },
+   {
+    "damage": -88,
+    "speed": 750
+   },
+   {
+    "damage": -106,
+    "speed": 750
+   },
+   {
+    "damage": -138,
+    "speed": 750
+   },
+   {
+    "damage": -179,
+    "speed": 750
+   },
+   {
+    "damage": -251,
+    "speed": 750
+   },
+   {
+    "damage": -351,
+    "speed": 750
+   }
+  ],
+  "on_fired_sound": "sound/fx/Magic_Heal_1",
+  "script": "heal_magic_ammo",
+  "splash_range": 45,
+  "texture": "texture/objects/ammo/heal_shot",
+  "title": "Heal Magic",
+  "trajectory": "straight"
+ },
+ "rocks": {
+  "explosive": false,
+  "flaming": false,
+  "hit_ground": true,
+  "knockback_multiplier": 5,
+  "level_stat": [
+   {
+    "damage": 65,
+    "speed": 300
+   },
+   {
+    "damage": 91,
+    "speed": 300
+   },
+   {
+    "damage": 127,
+    "speed": 300
+   },
+   {
+    "damage": 178,
+    "speed": 300
+   },
+   {
+    "damage": 249,
+    "speed": 300
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/rock_crash_01;sound/fx/rock_crash_02",
+  "on_fired_sound": "sound/fx/shoot_arrow1;sound/fx/shoot_arrow2;sound/fx/shoot_arrow3",
+  "script": "catapult_ammo",
+  "splash_range": 0,
+  "texture": "texture/objects/ammo/rock",
+  "title": "Rocks",
+  "trajectory": "arching"
+ },
+ "volley_arrows": {
+  "explosive": false,
+  "flaming": false,
+  "knockback_multiplier": 0,
+  "level_stat": [
+   {
+    "damage": 15,
+    "explosive": false,
+    "flame_dps": 5,
+    "flaming": true,
+    "speed": 1500
+   },
+   {
+    "damage": 21,
+    "explosive": false,
+    "flame_dps": 7,
+    "flaming": true,
+    "speed": 1500
+   },
+   {
+    "damage": 29,
+    "explosive": false,
+    "flame_dps": 10,
+    "flaming": true,
+    "speed": 1500
+   },
+   {
+    "damage": 41,
+    "explosive": false,
+    "flame_dps": 14,
+    "flaming": true,
+    "speed": 1500
+   },
+   {
+    "damage": 57,
+    "explosive": false,
+    "flame_dps": 20,
+    "flaming": true,
+    "speed": 1500
+   },
+   {
+    "damage": 80,
+    "explosive": false,
+    "flame_dps": 28,
+    "flaming": true,
+    "speed": 1500
+   },
+   {
+    "damage": 112,
+    "explosive": false,
+    "flame_dps": 39,
+    "flaming": true,
+    "speed": 1500
+   },
+   {
+    "damage": 157,
+    "explosive": false,
+    "flame_dps": 55,
+    "flaming": true,
+    "speed": 1500
+   },
+   {
+    "damage": 220,
+    "explosive": true,
+    "flame_dps": 77,
+    "flaming": true,
+    "speed": 1500
+   },
+   {
+    "damage": 308,
+    "explosive": true,
+    "flame_dps": 108,
+    "flaming": true,
+    "speed": 1500
+   }
+  ],
+  "script": "arrow_volley_ammo",
+  "splash_range": 10,
+  "texture": "texture/objects/ammo/blur_flaming_arrow",
+  "title": "Volley Arrows",
+  "trajectory": "straight"
+ },
+ "volley_rocks": {
+  "explosive": false,
+  "flaming": false,
+  "hit_ground": true,
+  "knockback_multiplier": 1,
+  "level_stat": [
+   {
+    "damage": 180,
+    "flame_dps": 0,
+    "flaming": false,
+    "speed": 1500,
+    "texture": "texture/objects/ammo/blur_rock"
+   },
+   {
+    "damage": 234,
+    "flame_dps": 0,
+    "flaming": false,
+    "speed": 1500,
+    "texture": "texture/objects/ammo/blur_rock"
+   },
+   {
+    "damage": 304,
+    "flame_dps": 0,
+    "flaming": false,
+    "speed": 1500,
+    "texture": "texture/objects/ammo/blur_rock"
+   },
+   {
+    "damage": 395,
+    "flame_dps": 0,
+    "flaming": false,
+    "speed": 1500,
+    "texture": "texture/objects/ammo/blur_rock"
+   },
+   {
+    "damage": 514,
+    "flame_dps": 0,
+    "flaming": false,
+    "speed": 1500,
+    "texture": "texture/objects/ammo/blur_rock"
+   },
+   {
+    "damage": 668,
+    "flame_dps": 0,
+    "flaming": false,
+    "speed": 1500,
+    "texture": "texture/objects/ammo/blur_rock"
+   },
+   {
+    "damage": 868,
+    "flame_dps": 40,
+    "flaming": true,
+    "speed": 1500,
+    "texture": "texture/objects/ammo/blur_flaming_rock"
+   },
+   {
+    "damage": 1128,
+    "flame_dps": 56,
+    "flaming": true,
+    "speed": 1500,
+    "texture": "texture/objects/ammo/blur_flaming_rock"
+   },
+   {
+    "damage": 1466,
+    "flame_dps": 78,
+    "flaming": true,
+    "speed": 1500,
+    "texture": "texture/objects/ammo/blur_flaming_rock"
+   },
+   {
+    "damage": 1906,
+    "flame_dps": 109,
+    "flaming": true,
+    "speed": 1500,
+    "texture": "texture/objects/ammo/blur_flaming_rock"
+   }
+  ],
+  "script": "catapult_ammo",
+  "splash_range": 10,
+  "texture": "texture/objects/ammo/blur_rock",
+  "title": "Volley Rocks",
+  "trajectory": "arching"
+ },
+ "wall_arrows": {
+  "knockback_multiplier": 0,
+  "level_stat": [
+   {
+    "damage": 15,
+    "explosive": false,
+    "flame_dps": 0,
+    "flaming": false,
+    "speed": 550,
+    "texture": "texture/objects/ammo/arrow"
+   },
+   {
+    "damage": 21,
+    "explosive": false,
+    "flame_dps": 0,
+    "flaming": false,
+    "speed": 550,
+    "texture": "texture/objects/ammo/arrow"
+   },
+   {
+    "damage": 29,
+    "explosive": false,
+    "flame_dps": 0,
+    "flaming": false,
+    "speed": 550,
+    "texture": "texture/objects/ammo/arrow"
+   },
+   {
+    "damage": 41,
+    "explosive": false,
+    "flame_dps": 10,
+    "flaming": true,
+    "speed": 550,
+    "texture": "texture/objects/ammo/flaming_arrow"
+   },
+   {
+    "damage": 57,
+    "explosive": false,
+    "flame_dps": 14,
+    "flaming": true,
+    "speed": 550,
+    "texture": "texture/objects/ammo/flaming_arrow"
+   },
+   {
+    "damage": 80,
+    "explosive": false,
+    "flame_dps": 20,
+    "flaming": true,
+    "speed": 550,
+    "texture": "texture/objects/ammo/flaming_arrow"
+   },
+   {
+    "damage": 112,
+    "explosive": false,
+    "flame_dps": 28,
+    "flaming": true,
+    "speed": 550,
+    "texture": "texture/objects/ammo/flaming_arrow"
+   },
+   {
+    "damage": 157,
+    "explosive": true,
+    "flame_dps": 39,
+    "flaming": true,
+    "speed": 550,
+    "texture": "texture/objects/ammo/flaming_arrow"
+   }
+  ],
+  "on_fired_sound": "sound/fx/shoot_arrow1;sound/fx/shoot_arrow2;sound/fx/shoot_arrow3",
+  "splash_range": 0,
+  "texture": "texture/objects/ammo/arrow",
+  "title": "Wall Arrows",
+  "trajectory": "arching"
+ }
+}

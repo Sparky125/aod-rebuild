@@ -1,0 +1,117 @@
+{
+ "ally_units": [
+  {
+   "name": "archer"
+  },
+  {
+   "name": "armored_guard"
+  },
+  {
+   "name": "arthur"
+  },
+  {
+   "name": "henry"
+  },
+  {
+   "name": "horseman"
+  },
+  {
+   "name": "peasant"
+  },
+  {
+   "name": "spearman"
+  },
+  {
+   "name": "swordboy"
+  },
+  {
+   "name": "swordsman"
+  },
+  {
+   "name": "torchboy"
+  },
+  {
+   "name": "wiseman"
+  }
+ ],
+ "ash_health_bar_show_percentage": 0.75,
+ "ash_low_health_knockback_data": {
+  "distance": 150.0,
+  "time": 0.75
+ },
+ "auto_select_max_wave": 9,
+ "continue_button_offset": "v3f(0.0, 4.0, 1.0)",
+ "downgrade_gold_return": 0.6,
+ "endless_mode_unlocked_id": "endless_mode_unlocked",
+ "endless_wave": "final_wave",
+ "final_wave": 50,
+ "iron_level_cap": [
+  50,
+  75,
+  100,
+  125
+ ],
+ "iron_level_cap_upgrade_price": [
+  30,
+  50,
+  75,
+  100
+ ],
+ "iron_rate_upgrade_factor": 1.5,
+ "max_selected_units": 5,
+ "max_units_in_wave_preview": 12,
+ "min_units_in_wave_preview": 5,
+ "min_wave_to_show_select_unit_menu": 4,
+ "non_user_targeted_spell_offset": "v3f(120.0, 0.0, 0.0)",
+ "purchases": [
+  {
+   "gold": 5000,
+   "id": "gold_tier1"
+  },
+  {
+   "gold": 15000,
+   "id": "gold_tier2"
+  },
+  {
+   "gold": 50000,
+   "id": "gold_tier3"
+  },
+  {
+   "gold": 150000,
+   "id": "gold_tier4"
+  },
+  {
+   "gold": 500000,
+   "id": "gold_tier5"
+  }
+ ],
+ "ratings_dialog_levels": [
+  14,
+  29,
+  44
+ ],
+ "selected_spells_id": "selected_spells",
+ "selected_units_id": "selected_units",
+ "selection_menu_selection_box_size_offset": "v2f(21.0, 0.0)",
+ "selection_screen_slide_time": 0.5,
+ "spell_slot_unlock_levels": [
+  1,
+  2
+ ],
+ "tutorial_interval": 0.333,
+ "wave_ended_state": {
+  "ASH_DIED": {
+   "flurry_info": "Died"
+  },
+  "BOOK_DIED": {
+   "flurry_info": "Lost"
+  },
+  "QUIT": {
+   "flurry_info": "Quit"
+  },
+  "WON": {
+   "flurry_info": "Completed"
+  }
+ },
+ "wave_play_count_id": "analytics_play_count_wave_"
+}

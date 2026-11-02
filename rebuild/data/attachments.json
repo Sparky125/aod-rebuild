@@ -1,0 +1,440 @@
+{
+ "ash": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "stump",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "stump",
+    "z": 4.0
+   }
+  ],
+  "grow": 65.2
+ },
+ "crossbow_skeleton__he1": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "crossbow",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "crossbow",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_crossbow_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head01",
+    "z": 5.0
+   }
+  ],
+  "grow": 48.4
+ },
+ "crossbow_skeleton__he2": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "crossbow",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "crossbow",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_crossbow_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head02",
+    "z": 5.0
+   }
+  ],
+  "grow": 48.4
+ },
+ "crossbow_skeleton__he3": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "crossbow",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "crossbow",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_crossbow_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head03",
+    "z": 5.0
+   }
+  ],
+  "grow": 48.4
+ },
+ "horseback_skeleton": {
+  "attach": [
+   {
+    "bone": "bone_shield",
+    "obj": "skeleton_warrior_shield",
+    "scale": 1.0,
+    "slot": "shield",
+    "tex": "skeleton_shield06",
+    "z": 6.0
+   }
+  ],
+  "grow": 27.5
+ },
+ "horseback_skeleton__skeleton_knight_02": {
+  "attach": [
+   {
+    "bone": "bone_shield",
+    "obj": "skeleton_warrior_shield",
+    "scale": 1.0,
+    "slot": "shield",
+    "tex": "skeleton_shield06",
+    "z": 6.0
+   }
+  ],
+  "grow": 27.5
+ },
+ "horseman": {
+  "attach": [
+   {
+    "bone": "bone_shield",
+    "obj": "knight_shield",
+    "scale": 1.0,
+    "slot": "shield",
+    "tex": "swordsman_shield",
+    "z": 6.0
+   }
+  ],
+  "grow": 30.5
+ },
+ "peasant": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "peasant_weapon",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "broom",
+    "z": 4.0
+   }
+  ],
+  "grow": 47.2
+ },
+ "spear_skeleton__he1": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "skeleton_spear",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "skeleton_spear",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head01",
+    "z": 5.0
+   }
+  ],
+  "grow": 73.6
+ },
+ "spear_skeleton__he2": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "skeleton_spear",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "skeleton_spear",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head02",
+    "z": 5.0
+   }
+  ],
+  "grow": 73.6
+ },
+ "spear_skeleton__he3": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "skeleton_spear",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "skeleton_spear",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head03",
+    "z": 5.0
+   }
+  ],
+  "grow": 73.6
+ },
+ "spear_skeleton__he4": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "skeleton_spear",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "skeleton_spear",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head04",
+    "z": 5.0
+   }
+  ],
+  "grow": 73.6
+ },
+ "spearman": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "standard_spear",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "standard_spear_a",
+    "z": 4.0
+   }
+  ],
+  "grow": 72.1
+ },
+ "sword_skeleton__he1_sh1": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "skeleton_warrior_weapon",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "skeleton_sword",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head01",
+    "z": 5.0
+   },
+   {
+    "bone": "bone_shield",
+    "obj": "skeleton_warrior_shield",
+    "scale": 1.0,
+    "slot": "shield",
+    "tex": "skeleton_shield01",
+    "z": 6.0
+   }
+  ],
+  "grow": 51.0
+ },
+ "sword_skeleton__he2_sh2": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "skeleton_warrior_weapon",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "skeleton_sword",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head02",
+    "z": 5.0
+   },
+   {
+    "bone": "bone_shield",
+    "obj": "skeleton_warrior_shield",
+    "scale": 1.0,
+    "slot": "shield",
+    "tex": "skeleton_shield02",
+    "z": 6.0
+   }
+  ],
+  "grow": 51.0
+ },
+ "sword_skeleton__he3_sh3": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "skeleton_warrior_weapon",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "skeleton_sword",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head03",
+    "z": 5.0
+   },
+   {
+    "bone": "bone_shield",
+    "obj": "skeleton_warrior_shield",
+    "scale": 1.0,
+    "slot": "shield",
+    "tex": "skeleton_shield03",
+    "z": 6.0
+   }
+  ],
+  "grow": 51.0
+ },
+ "sword_skeleton__he4_sh4": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "skeleton_warrior_weapon",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "skeleton_sword",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head04",
+    "z": 5.0
+   },
+   {
+    "bone": "bone_shield",
+    "obj": "skeleton_warrior_shield",
+    "scale": 1.0,
+    "slot": "shield",
+    "tex": "skeleton_shield04",
+    "z": 6.0
+   }
+  ],
+  "grow": 51.0
+ },
+ "sword_skeleton__he5_sh5": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "skeleton_warrior_weapon",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "skeleton_sword",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head05",
+    "z": 5.0
+   },
+   {
+    "bone": "bone_shield",
+    "obj": "skeleton_warrior_shield",
+    "scale": 1.0,
+    "slot": "shield",
+    "tex": "skeleton_shield05",
+    "z": 6.0
+   }
+  ],
+  "grow": 51.0
+ },
+ "sword_skeleton__he6_sh6": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "skeleton_warrior_weapon",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "skeleton_sword",
+    "z": 4.0
+   },
+   {
+    "bone": "bone_head",
+    "obj": "skeleton_warrior_head",
+    "scale": 1.0,
+    "slot": "helmet",
+    "tex": "skeleton_head06",
+    "z": 5.0
+   },
+   {
+    "bone": "bone_shield",
+    "obj": "skeleton_warrior_shield",
+    "scale": 1.0,
+    "slot": "shield",
+    "tex": "skeleton_shield06",
+    "z": 6.0
+   }
+  ],
+  "grow": 51.0
+ },
+ "swordsman": {
+  "attach": [
+   {
+    "bone": "bone_shield",
+    "obj": "swordsman_shield",
+    "scale": 1.0,
+    "slot": "shield",
+    "tex": "swordsman_shield",
+    "z": 6.0
+   }
+  ],
+  "grow": 88.0
+ },
+ "ash__saw": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "saw",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "saw",
+    "z": 4.0
+   }
+  ],
+  "grow": 65.2
+ },
+ "ash__fist": {
+  "attach": [
+   {
+    "bone": "bone_weapon",
+    "obj": "iron_fist",
+    "scale": 1.0,
+    "slot": "weapon",
+    "tex": "iron_fist",
+    "z": 4.0
+   }
+  ],
+  "grow": 65.2
+ }
+}

@@ -1,0 +1,35 @@
+# Godot 4 generated files (editor cache, imports regenerate on open)
+.godot/
+*.translation
+
+# Export artifacts
+export.cfg
+export_credentials.cfg
+builds/
+
+# Local dev runtimes kept for convenience (the Godot editor binary) —
+# not part of the game source
+work/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# dev artifact logs from the webp asset pipeline
+rebuild/tools/webp_rewrite_log.txt
+# never commit keys/certs
+*.pem
+
+# local-only launchers and notes
+*.bat
+/CONTROLS.md
+
+# local-only dev tool: the graphical bg-piece editor (used for map fixes)
+rebuild/scripts/bg_editor.gd
+rebuild/scripts/bg_editor.gd.uid
+
+# local-only dev tool: the title-menu layout editor (--menueditor)
+rebuild/scripts/menu_editor.gd
+rebuild/scripts/menu_editor.gd.uid

@@ -1,0 +1,1316 @@
+{
+ "archer_bow": {
+  "ammo": "arrows",
+  "level_stat": [
+   {
+    "dps": 13,
+    "reload_delay": 1.25
+   },
+   {
+    "dps": 18,
+    "reload_delay": 1.25
+   },
+   {
+    "dps": 25,
+    "reload_delay": 1.25
+   },
+   {
+    "dps": 34,
+    "reload_delay": 1.25
+   },
+   {
+    "dps": 48,
+    "reload_delay": 1.25
+   },
+   {
+    "dps": 62,
+    "reload_delay": 1.25
+   },
+   {
+    "dps": 81,
+    "reload_delay": 1.25
+   },
+   {
+    "dps": 97,
+    "reload_delay": 1.25
+   },
+   {
+    "dps": 116,
+    "reload_delay": 1.25
+   },
+   {
+    "dps": 139,
+    "reload_delay": 1.25
+   }
+  ],
+  "range": 300,
+  "splash_range": 0,
+  "target_ally": false,
+  "title": "Archer Bow"
+ },
+ "arthur_sword": {
+  "level_stat": [
+   {
+    "damage": 150,
+    "dps": 150,
+    "reload_delay": 1
+   },
+   {
+    "damage": 180,
+    "dps": 180,
+    "reload_delay": 1
+   },
+   {
+    "damage": 216,
+    "dps": 216,
+    "reload_delay": 1
+   },
+   {
+    "damage": 259,
+    "dps": 259,
+    "reload_delay": 1
+   },
+   {
+    "damage": 285,
+    "dps": 285,
+    "reload_delay": 1
+   },
+   {
+    "damage": 314,
+    "dps": 314,
+    "reload_delay": 1
+   },
+   {
+    "damage": 345,
+    "dps": 345,
+    "reload_delay": 1
+   },
+   {
+    "damage": 380,
+    "dps": 380,
+    "reload_delay": 1
+   },
+   {
+    "damage": 418,
+    "dps": 418,
+    "reload_delay": 1
+   },
+   {
+    "damage": 460,
+    "dps": 460,
+    "reload_delay": 1
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/hit_cannonball_1;sound/fx/hit_cannonball_2;sound/fx/hit_cannonball_3",
+  "range": 50,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Arthur's Sword"
+ },
+ "ash_stump": {
+  "knockback_multiplier": 0,
+  "level_stat": [
+   {
+    "damage": 0,
+    "reload_delay": 1
+   },
+   {
+    "damage": 0,
+    "reload_delay": 1
+   },
+   {
+    "damage": 0,
+    "reload_delay": 1
+   },
+   {
+    "damage": 0,
+    "reload_delay": 1
+   },
+   {
+    "damage": 0,
+    "reload_delay": 1
+   },
+   {
+    "damage": 0,
+    "reload_delay": 1
+   },
+   {
+    "damage": 0,
+    "reload_delay": 1
+   },
+   {
+    "damage": 0,
+    "reload_delay": 1
+   },
+   {
+    "damage": 0,
+    "reload_delay": 1
+   },
+   {
+    "damage": 0,
+    "reload_delay": 1
+   }
+  ],
+  "model": "mesh/objects/weapons/stump.obj",
+  "range": 0,
+  "splash_range": 0,
+  "target_ally": false,
+  "texture": "texture/objects/weapons/stump",
+  "title": "Ash Stump"
+ },
+ "boomstick": {
+  "knockback_multiplier": 0,
+  "level_stat": [
+   {
+    "damage": 7,
+    "dps": 7,
+    "reload_delay": 1
+   },
+   {
+    "damage": 11,
+    "dps": 11,
+    "reload_delay": 1
+   },
+   {
+    "damage": 17,
+    "dps": 17,
+    "reload_delay": 1
+   },
+   {
+    "damage": 24,
+    "dps": 24,
+    "reload_delay": 1
+   },
+   {
+    "damage": 34,
+    "dps": 34,
+    "reload_delay": 1
+   },
+   {
+    "damage": 44,
+    "dps": 44,
+    "reload_delay": 1
+   },
+   {
+    "damage": 57,
+    "dps": 57,
+    "reload_delay": 1
+   },
+   {
+    "damage": 74,
+    "dps": 74,
+    "reload_delay": 1
+   },
+   {
+    "damage": 89,
+    "dps": 89,
+    "reload_delay": 1
+   },
+   {
+    "damage": 107,
+    "dps": 107,
+    "reload_delay": 1
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/shotgun_normal_blast_01;",
+  "on_fire_effect_scale": 0.6,
+  "range": 230,
+  "script": "boomstick_weapon",
+  "splash_range": 45,
+  "target_ally": false,
+  "title": "Boomstick"
+ },
+ "catapults_weapon": {
+  "ammo": "rocks",
+  "level_stat": [
+   {
+    "ammo": "rocks",
+    "reload_delay": 3
+   },
+   {
+    "ammo": "rocks",
+    "reload_delay": 3.2
+   },
+   {
+    "ammo": "rocks",
+    "reload_delay": 3.5
+   },
+   {
+    "ammo": "flaming_rocks",
+    "reload_delay": 4
+   },
+   {
+    "ammo": "flaming_rocks",
+    "reload_delay": 4
+   }
+  ],
+  "min_range": 100,
+  "range": 400,
+  "target_ally": false,
+  "title": "Catapults Weapon"
+ },
+ "chainsaw": {
+  "cell_description": "Replaces Iron Fist",
+  "cost": 4000,
+  "description": "Medium range weapon: replaces Iron Fist",
+  "flavor_text": "The same chainsaw that was used to remove Ash's hand, now his most lethal weapon",
+  "icon_texture": "texture/UI/menu/upgrade/chainsaw_upgrade",
+  "info_icon": "texture/UI/menu/upgrade/chainsaw_icon",
+  "knockback_multiplier": 10,
+  "level_stat": [
+   {
+    "damage": 19,
+    "dps": 13,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 29,
+    "dps": 19,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 44,
+    "dps": 29,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 62,
+    "dps": 41,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 87,
+    "dps": 58,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 113,
+    "dps": 75,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 147,
+    "dps": 98,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 191,
+    "dps": 127,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 229,
+    "dps": 153,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 275,
+    "dps": 183,
+    "reload_delay": 1.5
+   }
+  ],
+  "model": "mesh/objects/weapons/saw.obj",
+  "on_deal_damage_sound": "sound/fx/chainsaw_cut_very_short_01;sound/fx/chainsaw_cut_very_short_02;sound/fx/chainsaw_cut_very_short_03;sound/fx/chainsaw_cut_very_short_04;sound/fx/chainsaw_cut_very_short_05;sound/fx/chainsaw_cut_very_short_06;sound/fx/chainsaw_cut_very_short_07;sound/fx/chainsaw_cut_very_short_08",
+  "range": 100,
+  "script": "chainsaw_weapon",
+  "splash_range": 25,
+  "target_ally": false,
+  "texture": "texture/objects/weapons/saw",
+  "title": "Chainsaw",
+  "unit_type": "Weapon"
+ },
+ "crossbow": {
+  "ammo": "bolts",
+  "level_stat": [
+   {
+    "reload_delay": 1.5,
+    "texture": "texture/objects/weapons/crossbow"
+   },
+   {
+    "reload_delay": 1.5,
+    "texture": "texture/objects/weapons/crossbow"
+   },
+   {
+    "reload_delay": 1.5,
+    "texture": "texture/objects/weapons/crossbow_heavy"
+   }
+  ],
+  "model": "mesh/objects/weapons/crossbow.obj",
+  "range": 200,
+  "target_ally": false,
+  "texture": "texture/objects/weapons/crossbow",
+  "title": "Crossbow"
+ },
+ "dryad_claws": {
+  "level_stat": [
+   {
+    "damage": 200,
+    "reload_delay": 1.5
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/Generic_Hit_1;sound/fx/Generic_Hit_2;sound/fx/Generic_Hit_3;sound/fx/Generic_Hit_4",
+  "range": 80,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Dryad Claws"
+ },
+ "evilash_sword": {
+  "knockback_multiplier": 1,
+  "level_stat": [
+   {
+    "damage": 1200,
+    "reload_delay": 1.3
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/hit_cannonball_1;sound/fx/hit_cannonball_2;sound/fx/hit_cannonball_3",
+  "range": 80,
+  "splash_range": 35,
+  "target_ally": false,
+  "title": "Evil Ash's Sword"
+ },
+ "explosive_bow": {
+  "ammo": "explosive_arrows",
+  "level_stat": [
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   }
+  ],
+  "range": 300,
+  "target_ally": false,
+  "title": "Explosive Bow"
+ },
+ "flaming_archer_bow": {
+  "ammo": "flaming_arrows",
+  "level_stat": [
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   },
+   {
+    "reload_delay": 1.25
+   }
+  ],
+  "range": 300,
+  "target_ally": false,
+  "title": "Flaming Bow"
+ },
+ "flute": {
+  "level_stat": [
+   {
+    "damage": 10,
+    "reload_delay": 1
+   }
+  ],
+  "range": 150,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Flute"
+ },
+ "fork": {
+  "level_stat": [
+   {
+    "damage": 24,
+    "reload_delay": 1
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/hit_dart_1;sound/fx/hit_dart_2;sound/fx/hit_dart_3",
+  "range": 70,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Fork"
+ },
+ "heavy_spear": {
+  "level_stat": [
+   {
+    "damage": 75,
+    "dps": 83,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 98,
+    "dps": 109,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 127,
+    "dps": 141,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 165,
+    "dps": 183,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 215,
+    "dps": 239,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 280,
+    "dps": 311,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 392,
+    "dps": 436,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 549,
+    "dps": 610,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 769,
+    "dps": 854,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 1154,
+    "dps": 1282,
+    "reload_delay": 0.9
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/hit_star_1;sound/fx/hit_star_2;sound/fx/hit_star_3",
+  "range": 135,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Heavy Spear"
+ },
+ "heavy_sword": {
+  "level_stat": [
+   {
+    "damage": 50,
+    "dps": 14,
+    "reload_delay": 3.5
+   },
+   {
+    "damage": 65,
+    "dps": 19,
+    "reload_delay": 3.5
+   },
+   {
+    "damage": 85,
+    "dps": 24,
+    "reload_delay": 3.5
+   },
+   {
+    "damage": 111,
+    "dps": 32,
+    "reload_delay": 3.5
+   },
+   {
+    "damage": 144,
+    "dps": 41,
+    "reload_delay": 3.5
+   },
+   {
+    "damage": 173,
+    "dps": 49,
+    "reload_delay": 3.5
+   },
+   {
+    "damage": 208,
+    "dps": 59,
+    "reload_delay": 3.5
+   },
+   {
+    "damage": 250,
+    "dps": 71,
+    "reload_delay": 3.5
+   },
+   {
+    "damage": 300,
+    "dps": 86,
+    "reload_delay": 3.5
+   },
+   {
+    "damage": 360,
+    "dps": 103,
+    "reload_delay": 3.5
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/hit_cannonball_1;sound/fx/hit_cannonball_2;sound/fx/hit_cannonball_3",
+  "range": 45,
+  "splash_range": 35,
+  "target_ally": false,
+  "title": "Heavy Sword"
+ },
+ "henry_mace": {
+  "level_stat": [
+   {
+    "damage": 450,
+    "dps": 409,
+    "reload_delay": 1.1
+   },
+   {
+    "damage": 491,
+    "dps": 446,
+    "reload_delay": 1.1
+   },
+   {
+    "damage": 535,
+    "dps": 486,
+    "reload_delay": 1.1
+   },
+   {
+    "damage": 583,
+    "dps": 530,
+    "reload_delay": 1.1
+   },
+   {
+    "damage": 635,
+    "dps": 577,
+    "reload_delay": 1.1
+   },
+   {
+    "damage": 692,
+    "dps": 629,
+    "reload_delay": 1.1
+   },
+   {
+    "damage": 754,
+    "dps": 685,
+    "reload_delay": 1.1
+   },
+   {
+    "damage": 822,
+    "dps": 747,
+    "reload_delay": 1.1
+   },
+   {
+    "damage": 896,
+    "dps": 815,
+    "reload_delay": 1.1
+   },
+   {
+    "damage": 977,
+    "dps": 888,
+    "reload_delay": 1.1
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/hit_cannonball_1;sound/fx/hit_cannonball_2;sound/fx/hit_cannonball_3",
+  "range": 100,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Henry's Mace"
+ },
+ "iron_fist": {
+  "cell_description": "Punch attack",
+  "cost": 50,
+  "description": "Short range weapon: punch enemies close to Ash",
+  "flavor_text": "This fine piece of medievil engineering makes modern prosthetics look frail by comparison",
+  "icon_texture": "texture/UI/menu/upgrade/metal_fist_upgrade",
+  "info_icon": "texture/UI/menu/upgrade/iron_fist_icon",
+  "knockback_multiplier": 20,
+  "level_stat": [
+   {
+    "damage": 13,
+    "dps": 13,
+    "reload_delay": 1
+   },
+   {
+    "damage": 20,
+    "dps": 20,
+    "reload_delay": 1
+   },
+   {
+    "damage": 30,
+    "dps": 30,
+    "reload_delay": 1
+   },
+   {
+    "damage": 42,
+    "dps": 42,
+    "reload_delay": 1
+   },
+   {
+    "damage": 59,
+    "dps": 59,
+    "reload_delay": 1
+   },
+   {
+    "damage": 77,
+    "dps": 77,
+    "reload_delay": 1
+   },
+   {
+    "damage": 100,
+    "dps": 100,
+    "reload_delay": 1
+   },
+   {
+    "damage": 130,
+    "dps": 130,
+    "reload_delay": 1
+   },
+   {
+    "damage": 156,
+    "dps": 156,
+    "reload_delay": 1
+   },
+   {
+    "damage": 187,
+    "dps": 187,
+    "reload_delay": 1
+   }
+  ],
+  "model": "mesh/objects/weapons/iron_fist.obj",
+  "on_deal_damage_sound": "sound/fx/Generic_Hit_1;sound/fx/Generic_Hit_2;sound/fx/Generic_Hit_3;sound/fx/Generic_Hit_4",
+  "range": 65,
+  "script": "iron_fist_weapon",
+  "splash_range": 45,
+  "target_ally": false,
+  "texture": "texture/objects/weapons/iron_fist",
+  "title": "Iron Fist",
+  "unit_type": "Weapon",
+  "unlock": 1
+ },
+ "magic_staff": {
+  "ammo": "heal_magic",
+  "level_stat": [
+   {
+    "reload_delay": 0.7
+   },
+   {
+    "reload_delay": 0.7
+   },
+   {
+    "reload_delay": 0.7
+   },
+   {
+    "reload_delay": 0.7
+   },
+   {
+    "reload_delay": 0.7
+   },
+   {
+    "reload_delay": 0.7
+   },
+   {
+    "reload_delay": 0.7
+   },
+   {
+    "reload_delay": 0.7
+   },
+   {
+    "reload_delay": 0.7
+   },
+   {
+    "reload_delay": 0.7
+   }
+  ],
+  "range": 200,
+  "splash_range": 35,
+  "target_ally": true,
+  "title": "Magic Staff"
+ },
+ "monster_claws": {
+  "level_stat": [
+   {
+    "damage": 15,
+    "reload_delay": 2
+   },
+   {
+    "damage": 40,
+    "reload_delay": 2
+   },
+   {
+    "damage": 100,
+    "reload_delay": 2
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/Generic_Hit_1;sound/fx/Generic_Hit_2;sound/fx/Generic_Hit_3;sound/fx/Generic_Hit_4",
+  "range": 40,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Monster Claws"
+ },
+ "pages": {
+  "knockback_multiplier": 0,
+  "level_stat": [
+   {
+    "damage": 2,
+    "reload_delay": 0.2
+   },
+   {
+    "damage": 6,
+    "reload_delay": 0.2
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/Generic_Hit_1;sound/fx/Generic_Hit_2;sound/fx/Generic_Hit_3;sound/fx/Generic_Hit_4",
+  "range": 50,
+  "splash_range": 25,
+  "target_ally": true,
+  "title": "Necronomicon Pages"
+ },
+ "peasant_sword": {
+  "level_stat": [
+   {
+    "damage": 11,
+    "dps": 16,
+    "reload_delay": 0.7,
+    "splash_range": 25
+   },
+   {
+    "damage": 15,
+    "dps": 21,
+    "reload_delay": 0.7,
+    "splash_range": 25
+   },
+   {
+    "damage": 21,
+    "dps": 30,
+    "reload_delay": 0.7,
+    "splash_range": 25
+   },
+   {
+    "damage": 29,
+    "dps": 41,
+    "reload_delay": 0.7,
+    "splash_range": 25
+   },
+   {
+    "damage": 41,
+    "dps": 59,
+    "reload_delay": 0.7,
+    "splash_range": 25
+   },
+   {
+    "damage": 57,
+    "dps": 81,
+    "reload_delay": 0.7,
+    "splash_range": 25
+   },
+   {
+    "damage": 80,
+    "dps": 114,
+    "reload_delay": 0.7,
+    "splash_range": 25
+   },
+   {
+    "damage": 112,
+    "dps": 160,
+    "reload_delay": 0.7,
+    "splash_range": 25
+   },
+   {
+    "damage": 157,
+    "dps": 224,
+    "reload_delay": 0.7,
+    "splash_range": 25
+   },
+   {
+    "damage": 220,
+    "dps": 314,
+    "reload_delay": 0.7,
+    "splash_range": 25
+   },
+   {
+    "damage": 308,
+    "dps": 440,
+    "reload_delay": 0.7,
+    "splash_range": 25
+   }
+  ],
+  "model": "mesh/objects/weapons/peasant_weapon.obj",
+  "on_deal_damage_sound": "sound/fx/hit_star_1;sound/fx/hit_star_2;sound/fx/hit_star_3",
+  "range": 85,
+  "splash_range": 25,
+  "target_ally": false,
+  "texture": "texture/objects/weapons/peasant_sword",
+  "title": "Peasant Sword"
+ },
+ "peasant_weapon": {
+  "level_stat": [
+   {
+    "damage": 7,
+    "dps": 10,
+    "reload_delay": 0.7,
+    "texture": "texture/objects/weapons/broom;texture/objects/weapons/hoe;texture/objects/weapons/broom;texture/objects/weapons/broom;texture/objects/weapons/broom;texture/objects/weapons/pitch_fork"
+   },
+   {
+    "damage": 10,
+    "dps": 14,
+    "reload_delay": 0.7,
+    "texture": "texture/objects/weapons/broom;texture/objects/weapons/hoe;texture/objects/weapons/hoe;texture/objects/weapons/broom;texture/objects/weapons/broom;texture/objects/weapons/pitch_fork"
+   },
+   {
+    "damage": 14,
+    "dps": 20,
+    "reload_delay": 0.7,
+    "texture": "texture/objects/weapons/broom;texture/objects/weapons/hoe;texture/objects/weapons/hoe;texture/objects/weapons/hoe;texture/objects/weapons/broom;texture/objects/weapons/pitch_fork"
+   },
+   {
+    "damage": 20,
+    "dps": 29,
+    "reload_delay": 0.7,
+    "texture": "texture/objects/weapons/broom;texture/objects/weapons/hoe;texture/objects/weapons/hoe;texture/objects/weapons/hoe;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork"
+   },
+   {
+    "damage": 28,
+    "dps": 40,
+    "reload_delay": 0.7,
+    "texture": "texture/objects/weapons/broom;texture/objects/weapons/hoe;texture/objects/weapons/hoe;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork"
+   },
+   {
+    "damage": 39,
+    "dps": 56,
+    "reload_delay": 0.7,
+    "texture": "texture/objects/weapons/broom;texture/objects/weapons/hoe;texture/objects/weapons/hoe;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork"
+   },
+   {
+    "damage": 55,
+    "dps": 79,
+    "reload_delay": 0.7,
+    "texture": "texture/objects/weapons/broom;texture/objects/weapons/hoe;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork"
+   },
+   {
+    "damage": 77,
+    "dps": 110,
+    "reload_delay": 0.7,
+    "texture": "texture/objects/weapons/hoe;texture/objects/weapons/hoe;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork"
+   },
+   {
+    "damage": 108,
+    "dps": 154,
+    "reload_delay": 0.7,
+    "texture": "texture/objects/weapons/hoe;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork"
+   },
+   {
+    "damage": 151,
+    "dps": 216,
+    "reload_delay": 0.7,
+    "texture": "texture/objects/weapons/hoe;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork"
+   },
+   {
+    "damage": 211,
+    "dps": 301,
+    "reload_delay": 0.7,
+    "texture": "texture/objects/weapons/hoe;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork;texture/objects/weapons/pitch_fork"
+   }
+  ],
+  "model": "mesh/objects/weapons/peasant_weapon.obj",
+  "on_deal_damage_sound": "sound/fx/hit_dart_1;sound/fx/hit_dart_2;sound/fx/hit_dart_3",
+  "range": 75,
+  "splash_range": 10,
+  "target_ally": false,
+  "texture": "texture/objects/weapons/broom",
+  "title": "Farm Equipment"
+ },
+ "rolling_shield": {
+  "level_stat": [
+   {
+    "damage": 0,
+    "reload_delay": 1
+   },
+   {
+    "damage": 0,
+    "reload_delay": 1
+   }
+  ],
+  "range": 50,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Rolling Shield"
+ },
+ "sheila_spear": {
+  "level_stat": [
+   {
+    "damage": 500,
+    "reload_delay": 1
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/hit_star_1;sound/fx/hit_star_2;sound/fx/hit_star_3",
+  "range": 100,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Sheila's Spear"
+ },
+ "skeleton_spear": {
+  "knockback_multiplier": 0.25,
+  "level_stat": [
+   {
+    "damage": 25,
+    "range": 110,
+    "reload_delay": 1,
+    "texture": "texture/objects/weapons/skeleton_spear"
+   },
+   {
+    "damage": 50,
+    "range": 127,
+    "reload_delay": 1,
+    "texture": "texture/objects/weapons/skeleton_pike"
+   },
+   {
+    "damage": 125,
+    "range": 132,
+    "reload_delay": 1,
+    "texture": "texture/objects/weapons/skeleton_glaive"
+   },
+   {
+    "damage": 375,
+    "range": 135,
+    "reload_delay": 1,
+    "texture": "texture/objects/weapons/skeleton_mega_glaive"
+   }
+  ],
+  "model": "mesh/objects/weapons/skeleton_spear.obj",
+  "on_deal_damage_sound": "sound/fx/hit_star_1;sound/fx/hit_star_2;sound/fx/hit_star_3",
+  "range": 110,
+  "splash_range": 12,
+  "target_ally": false,
+  "texture": "texture/objects/weapons/skeleton_spear",
+  "title": "Skeleton Spear"
+ },
+ "skeleton_sword_weapon": {
+  "knockback_multiplier": 0.65,
+  "level_stat": [
+   {
+    "damage": 6,
+    "on_deal_damage_sound": "sound/fx/Generic_Hit_1;sound/fx/Generic_Hit_2;sound/fx/Generic_Hit_3;sound/fx/Generic_Hit_4",
+    "range": 54,
+    "reload_delay": 1.5,
+    "texture": "texture/objects/weapons/skeleton_club"
+   },
+   {
+    "damage": 12,
+    "on_deal_damage_sound": "sound/fx/hit_dart_1;sound/fx/hit_dart_2;sound/fx/hit_dart_3",
+    "range": 63,
+    "reload_delay": 1.5,
+    "texture": "texture/objects/weapons/skeleton_hatchet"
+   },
+   {
+    "damage": 24,
+    "on_deal_damage_sound": "sound/fx/hit_cannonball_1;sound/fx/hit_cannonball_2;sound/fx/hit_cannonball_3",
+    "range": 69,
+    "reload_delay": 1.5,
+    "texture": "texture/objects/weapons/skeleton_sword"
+   },
+   {
+    "damage": 48,
+    "on_deal_damage_sound": "sound/fx/hit_cannonball_1;sound/fx/hit_cannonball_2;sound/fx/hit_cannonball_3",
+    "range": 72,
+    "reload_delay": 1.5,
+    "texture": "texture/objects/weapons/skeleton_mace"
+   },
+   {
+    "damage": 96,
+    "on_deal_damage_sound": "sound/fx/hit_dart_1;sound/fx/hit_dart_2;sound/fx/hit_dart_3",
+    "range": 74,
+    "reload_delay": 1.5,
+    "texture": "texture/objects/weapons/skeleton_axe"
+   },
+   {
+    "damage": 192,
+    "on_deal_damage_sound": "sound/fx/hit_cannonball_1;sound/fx/hit_cannonball_2;sound/fx/hit_cannonball_3",
+    "range": 76,
+    "reload_delay": 1.5,
+    "texture": "texture/objects/weapons/skeleton_maul"
+   },
+   {
+    "damage": 8,
+    "on_deal_damage_sound": "sound/fx/Generic_Hit_1;sound/fx/Generic_Hit_2;sound/fx/Generic_Hit_3;sound/fx/Generic_Hit_4",
+    "range": 59,
+    "reload_delay": 1.5,
+    "texture": "texture/objects/weapons/skeleton_club"
+   }
+  ],
+  "model": "mesh/objects/weapons/skeleton_warrior_weapon.obj",
+  "range": 60,
+  "splash_range": 25,
+  "target_ally": false,
+  "texture": "texture/objects/weapons/skeleton_sword",
+  "title": "Skeleton Sword"
+ },
+ "standard_spear": {
+  "level_stat": [
+   {
+    "damage": 20,
+    "dps": 22,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 28,
+    "dps": 31,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 39,
+    "dps": 43,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 55,
+    "dps": 61,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 77,
+    "dps": 86,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 108,
+    "dps": 120,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 151,
+    "dps": 168,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 211,
+    "dps": 234,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 295,
+    "dps": 328,
+    "reload_delay": 0.9
+   },
+   {
+    "damage": 413,
+    "dps": 459,
+    "reload_delay": 0.9
+   }
+  ],
+  "model": "mesh/objects/weapons/standard_spear.obj",
+  "on_deal_damage_sound": "sound/fx/hit_star_1;sound/fx/hit_star_2;sound/fx/hit_star_3",
+  "range": 130,
+  "splash_range": 25,
+  "texture": "texture/objects/weapons/standard_spear_a",
+  "title": "Standard Spear"
+ },
+ "standard_sword": {
+  "level_stat": [
+   {
+    "damage": 12,
+    "dps": 8,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 17,
+    "dps": 11,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 24,
+    "dps": 16,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 31,
+    "dps": 21,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 40,
+    "dps": 27,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 52,
+    "dps": 35,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 68,
+    "dps": 45,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 88,
+    "dps": 59,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 106,
+    "dps": 71,
+    "reload_delay": 1.5
+   },
+   {
+    "damage": 127,
+    "dps": 85,
+    "reload_delay": 1.5
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/hit_cannonball_1;sound/fx/hit_cannonball_2;sound/fx/hit_cannonball_3",
+  "range": 55,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Standard Sword"
+ },
+ "super_boomstick": {
+  "knockback_multiplier": 20,
+  "level_stat": [
+   {
+    "damage": 35,
+    "reload_delay": 0
+   },
+   {
+    "damage": 53,
+    "reload_delay": 0
+   },
+   {
+    "damage": 80,
+    "reload_delay": 0
+   },
+   {
+    "damage": 112,
+    "reload_delay": 0
+   },
+   {
+    "damage": 157,
+    "reload_delay": 0
+   },
+   {
+    "damage": 204,
+    "reload_delay": 0
+   },
+   {
+    "damage": 265,
+    "reload_delay": 0
+   },
+   {
+    "damage": 345,
+    "reload_delay": 0
+   },
+   {
+    "damage": 414,
+    "reload_delay": 0
+   },
+   {
+    "damage": 497,
+    "reload_delay": 0
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/shotgun_blast_01",
+  "range": 220,
+  "script": "super_boomstick_weapon",
+  "splash_range": 100,
+  "target_ally": false,
+  "title": "Super Boomstick"
+ },
+ "sword_boy_weapon": {
+  "level_stat": [
+   {
+    "damage": 0,
+    "reload_delay": 1
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/hit_dart_1;sound/fx/hit_dart_2;sound/fx/hit_dart_3",
+  "range": 200,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Sword Boy Weapon"
+ },
+ "torch": {
+  "level_stat": [
+   {
+    "damage": 10,
+    "enflamed": true,
+    "reload_delay": 1
+   }
+  ],
+  "on_deal_damage_sound": "sound/fx/Generic_Hit_1;sound/fx/Generic_Hit_2;sound/fx/Generic_Hit_3;sound/fx/Generic_Hit_4",
+  "range": 275,
+  "splash_range": 25,
+  "target_ally": false,
+  "title": "Torch"
+ },
+ "wall_bow": {
+  "ammo": "wall_arrows",
+  "level_stat": [
+   {
+    "dps": 7,
+    "reload_delay": 2.2
+   },
+   {
+    "dps": 10,
+    "reload_delay": 2.2
+   },
+   {
+    "dps": 13,
+    "reload_delay": 2.2
+   },
+   {
+    "dps": 19,
+    "reload_delay": 2.2
+   },
+   {
+    "dps": 26,
+    "reload_delay": 2.2
+   },
+   {
+    "dps": 36,
+    "reload_delay": 2.2
+   },
+   {
+    "dps": 51,
+    "reload_delay": 2.2
+   },
+   {
+    "dps": 71,
+    "reload_delay": 2.2
+   }
+  ],
+  "min_range": 100,
+  "range": 500,
+  "splash_range": 0,
+  "target_ally": false,
+  "title": "Archer Bow"
+ }
+}

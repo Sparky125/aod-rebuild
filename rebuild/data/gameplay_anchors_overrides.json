@@ -1,0 +1,12 @@
+{
+	"_how_to": "Written by the in-game bg editor (--bgeditor --sandbox), R14-22. Each dx (world px, right positive) is ADDED to the mapdata path end: \"ally_walk_end\" moves Ash's right walk bound (human_path[-1].x — the R14-21 getFirst/LastPoint rule reads these ends), \"enemy_spawn\" moves the enemy entrance mouth (deadite_path right end + the spawn sx + walk-in targets stay on the rail). Vertical drags are ignored: walk/spawn y follows the path. Missing file/keys = the mapdata ends. Guide: work/tmp_final14/BG_EDITOR_HOWTO.md.",
+	"ally_spawn": {
+		"dx": -62.02
+	},
+	"ally_walk_end": {
+		"dx": 95.51
+	},
+	"enemy_spawn": {
+		"dx": 104.49
+	}
+}
