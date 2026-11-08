@@ -19,8 +19,18 @@ desktop.ini
 
 # dev artifact logs from the webp asset pipeline
 rebuild/tools/webp_rewrite_log.txt
-# never commit keys/certs
+# never commit keys/certs/secrets (hardened after v1.0.0 audit — key.pem/cert.pem
+# were found inside the itch upload zip)
 *.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+*.jks
+.env
+.env.*
+serve_https.js
 
 # local-only launchers and notes
 *.bat

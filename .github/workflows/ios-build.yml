@@ -1,0 +1,149 @@
+name: iOS Build
+
+# Builds the Godot iOS export into an .ipa on GitHub's macOS runners.
+# Without signing secrets in the repo it produces an UNSIGNED ipa; with
+# APPLE_DIST_P12_BASE64 / APPLE_DIST_P12_PASSWORD / ADHOC_PROFILE_BASE64
+# present it produces an ad-hoc SIGNED ipa installable on registered devices.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "rebuild/**"
+      - ".github/workflows/ios-build.yml"
+
+jobs:
+  build-ipa:
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Godot 4.7.2 and export templates
+        run: |
+          set -e
+          TPL_DIR="$HOME/Library/Application Support/Godot/export_templates/4.7.2.stable"
+          curl -sL -o /tmp/godot.zip https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_macos.universal.zip
+          curl -sL -o /tmp/templates.tpz https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz
+          unzip -q -o /tmp/godot.zip -d /tmp/godot
+          mkdir -p "$TPL_DIR"
+          unzip -q -o /tmp/templates.tpz -d /tmp/tpl
+          mv /tmp/tpl/templates/* "$TPL_DIR/"
+          # Keep Godot inside its .app bundle: copying the bare binary out
+          # breaks its code signature and macOS kills it on launch (exit 137).
+          GODOT_BIN=/tmp/godot/Godot.app/Contents/MacOS/Godot
+          "$GODOT_BIN" --version
+          echo "GODOT_BIN=$GODOT_BIN" >> "$GITHUB_ENV"
+          ls "$TPL_DIR" | head -4
+
+      - name: Select newest Xcode
+        run: |
+          ls -d /Applications/Xcode*.app | sort -V
+          NEWEST=$(ls -d /Applications/Xcode*.app | sort -V | tail -1)
+          echo "Selecting $NEWEST"
+          sudo xcode-select -s "$NEWEST"
+          xcodebuild -version
+
+      - name: Export iOS Xcode project
+        run: |
+          set -e
+          mkdir -p builds
+          "$GODOT_BIN" --headless --path rebuild --import
+          "$GODOT_BIN" --headless --path rebuild --export-release "iOS" ../builds/ios
+          ls builds/
+          test -d builds/ios.xcodeproj
+
+      - name: Install signing certificate
+        env:
+          P12_BASE64: ${{ secrets.APPLE_DIST_P12_BASE64 }}
+          P12_PASSWORD: ${{ secrets.APPLE_DIST_P12_PASSWORD }}
+        run: |
+          if [ -z "$P12_BASE64" ]; then
+            echo "No signing secrets present - will build an UNSIGNED ipa."
+            echo "SIGNED=false" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          echo "SIGNED=true" >> "$GITHUB_ENV"
+          CERT_PATH="$RUNNER_TEMP/dist.p12"
+          KEYCHAIN_PATH="$RUNNER_TEMP/aod-signing.keychain-db"
+          echo -n "$P12_BASE64" | base64 --decode -o "$CERT_PATH"
+          security create-keychain -p aodci-pass "$KEYCHAIN_PATH"
+          security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
+          security unlock-keychain -p aodci-pass "$KEYCHAIN_PATH"
+          security import "$CERT_PATH" -P "$P12_PASSWORD" -A -t cert -f pkcs12 -k "$KEYCHAIN_PATH"
+          security set-key-partition-list -S apple-tool:,apple-sign: -k aodci-pass "$KEYCHAIN_PATH"
+          security list-keychain -d user -s "$KEYCHAIN_PATH" $(security list-keychains | tr -d '"' | tr '\n' ' ')
+
+      - name: Install provisioning profile
+        if: env.SIGNED == 'true'
+        env:
+          PROFILE_BASE64: ${{ secrets.ADHOC_PROFILE_BASE64 }}
+        run: |
+          set -e
+          PP_DIR="$HOME/Library/MobileDevice/Provisioning Profiles"
+          mkdir -p "$PP_DIR"
+          echo -n "$PROFILE_BASE64" | base64 --decode -o "$PP_DIR/AODDefenseAdHoc.mobileprovision"
+          UUID=$(security cms -D -i "$PP_DIR/AODDefenseAdHoc.mobileprovision" | plutil -extract UUID raw -)
+          echo "Profile UUID: $UUID"
+          echo "PROFILE_UUID=$UUID" >> "$GITHUB_ENV"
+
+      - name: Patch signing settings in generated project
+        run: |
+          set -e
+          cd builds
+          if [ "$SIGNED" = "true" ]; then
+            sed -i '' \
+              -e 's/CODE_SIGN_STYLE = "Automatic"/CODE_SIGN_STYLE = Manual/' \
+              -e 's/CODE_SIGN_IDENTITY = "Apple Development"/CODE_SIGN_IDENTITY = "Apple Distribution"/' \
+              -e 's/DEVELOPMENT_TEAM = [A-Z0-9]*;/DEVELOPMENT_TEAM = UZRV53XPM9;/' \
+              -e 's/PROVISIONING_PROFILE_SPECIFIER = "";/PROVISIONING_PROFILE_SPECIFIER = "'"$PROFILE_UUID"'";/' \
+              ios.xcodeproj/project.pbxproj
+          else
+            sed -i '' \
+              -e 's/CODE_SIGN_STYLE = "Automatic"/CODE_SIGN_STYLE = Manual/' \
+              -e 's/CODE_SIGN_IDENTITY = "Apple Distribution"/CODE_SIGN_IDENTITY = ""/' \
+              -e 's/CODE_SIGN_IDENTITY = "Apple Development"/CODE_SIGN_IDENTITY = ""/' \
+              -e 's/DEVELOPMENT_TEAM = [A-Z0-9]*;/DEVELOPMENT_TEAM = "";/' \
+              ios.xcodeproj/project.pbxproj
+          fi
+          grep -E "CODE_SIGN_STYLE|CODE_SIGN_IDENTITY|DEVELOPMENT_TEAM|PROVISIONING_PROFILE_SPECIFIER" ios.xcodeproj/project.pbxproj | sort -u
+
+      - name: Build ipa
+        run: |
+          set -e
+          cd builds
+          if [ "$SIGNED" = "true" ]; then
+            xcodebuild -project ios.xcodeproj -scheme ios \
+              -configuration Release \
+              -destination "generic/platform=iOS" \
+              -archivePath build/AOD.xcarchive \
+              archive \
+              CODE_SIGN_STYLE=Manual \
+              CODE_SIGN_IDENTITY="Apple Distribution" \
+              DEVELOPMENT_TEAM=UZRV53XPM9 \
+              PROVISIONING_PROFILE_SPECIFIER="$PROFILE_UUID"
+          else
+            xcodebuild -project ios.xcodeproj -scheme ios \
+              -configuration Release \
+              -destination "generic/platform=iOS" \
+              -archivePath build/AOD.xcarchive \
+              archive \
+              CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" CODE_SIGN_STYLE=Manual \
+              DEVELOPMENT_TEAM="" PROVISIONING_PROFILE_SPECIFIER=""
+          fi
+          mkdir -p Payload
+          cp -r build/AOD.xcarchive/Products/Applications/*.app Payload/
+          OUT=AODDefense-unsigned.ipa
+          if [ "$SIGNED" = "true" ]; then OUT=AODDefense-adhoc.ipa; fi
+          zip -q -r "$OUT" Payload
+          echo "IPA=$OUT" >> "$GITHUB_ENV"
+          ls -lh "$OUT"
+
+      - name: Upload ipa artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AODDefense-ipa
+          path: builds/${{ env.IPA }}
+          retention-days: 30
